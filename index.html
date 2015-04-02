@@ -46,12 +46,12 @@
 <script src="static/waterman.js"></script>
 <script>
 
-var width = 960,
+var width = 900,
     height = 600;
 
 var rotate = [20, 0],
     projection = d3.geo.polyhedron.waterman()
-      .scale(118)
+      .scale(80)
       .translate([width / 2, height / 2])
       .rotate(rotate),
     rotation = d3.geo.rotation(rotate),
