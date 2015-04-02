@@ -14,19 +14,19 @@
 .graticule {
   fill: none;
   stroke: #000;
-  stroke-opacity: .3;
+  stroke-opacity: 0;
   stroke-width: .5px;
 }
 
 .graticule.outline {
-  stroke: #333;
+  stroke: #ff7f0e;
   stroke-opacity: 1;
   stroke-width: 1.5px;
 }
 
 .graticule.mesh {
   stroke: #f00;
-  stroke-opacity: 1;
+  stroke-opacity: 0;
   stroke-dasharray: 5,2;
   stroke-width: .5px;
 }
@@ -92,7 +92,7 @@ d3.json("static/world-110m.json", function(error, world) {
       .attr("class", "country")
       .attr("d", path)
       .style("fill", function(d, i) { 
-              //Hack to find Colombia and style it differently.
+              // Hack to find Colombia and style it differently.
               if((neighbors[i][0] === 22) && (neighbors[i][1]===46)){
                       console.log(color);
                       return color(2);
@@ -101,6 +101,8 @@ d3.json("static/world-110m.json", function(error, world) {
               };
       });
 });
+
+// Butterfly map in d3 taken from jasondavies.com on April 2015 -> https://www.jasondavies.com/maps/waterman-butterfly/
 
 </script>
 
