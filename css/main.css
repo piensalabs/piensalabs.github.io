@@ -261,7 +261,7 @@ ul.nostyle i {
     color: #000;
   }
   #home-page #intro {
-    top: 300px;
+    top: 250px;
     padding: 0px 0 60px 0;
     font-size: 1.313em;
     font-family: 'Abel', sans-serif;
@@ -277,14 +277,16 @@ ul.nostyle i {
   #home-page .btn-primary {
     text-align: center;
     line-height: 46px;
+    width: auto;
+    padding: 0 20px;
   }
   #home-page #left-pic {
     background-color: #FFF;
     height: auto;
   }
   #home-page #left-pic img {
-    margin-top: 135px;
-    margin-bottom: 70px;
+    margin-top: 115px;
+    margin-bottom: 80px;
   }
   #home-page #cta {
     margin-top: 10px;
@@ -318,7 +320,7 @@ ul.nostyle i {
     color: #000;
   }
   #home-page #intro {
-    top: 300px;
+    top: 280px;
     padding: 0px 0 60px 0;
     font-size: 1.000em;
     font-family: 'Abel', sans-serif;
@@ -329,18 +331,20 @@ ul.nostyle i {
     color: #404040;
   }
   #home-page p {
+    font-size: 1.500em;
     padding-left: 0;
   }
   #home-page .btn-primary {
     line-height: 26px;
     text-align: center;
+    width: auto;
   }
   #home-page #left-pic {
     background-color: #FFF;
     height: auto;
   }
   #home-page #left-pic img {
-    margin-top: 200px;
+    margin-top: 210px;
     margin-bottom: 0px;
   }
   #home-page #cta {
@@ -375,8 +379,9 @@ ul.nostyle i {
     color: #000;
   }
   #home-page #intro {
+    margin-left: 120px;
     top: 0px;
-    padding: 0px 0 60px 0;
+    /*padding: 0px 0 60px 0;*/
     font-size: 1.250em;
     font-family: 'Abel', sans-serif;
     text-transform: initial;
@@ -390,14 +395,16 @@ ul.nostyle i {
   }
   #home-page .btn-primary {
     line-height: 26px;
+    text-align: center;
   }
   #home-page #left-pic {
     background-color: #FFF;
-    height: auto;
+    width: auto;
+    margin-left: 90px;
   }
   #home-page #left-pic img {
-    margin-top: 270px;
-    margin-bottom: 0px;
+    margin-top: 170px;
+    margin-bottom: 30px;
   }
   #home-page #cta {
     margin-top: 10px;
@@ -491,11 +498,12 @@ ul.nostyle i {
     color: #000;
   }
   #home-page #intro {
-    margin-left: 0;
-    margin-top: 150px;
+    margin-left: 300px;
+    margin-top: -200px;
+    max-width: 330px;
     top: 0px;
     padding: 0px 0 60px 0;
-    font-size: 1.250em;
+    font-size: 1.050em;
     font-family: 'Abel', sans-serif;
     text-transform: initial;
     text-align: left;
@@ -503,20 +511,20 @@ ul.nostyle i {
     font-weight: 700;
     color: #404040;
   }
-  #home-page p {
-    padding-left: 0;
-  }
   #home-page .btn-primary {
-    line-height: 56px;
+    width: auto;
+    line-height: 36px;
+    padding: 0 10px;
+    margin-left: 10px;
   }
   #home-page #left-pic {
     background-color: #FFF;
     height: auto;
   }
   #home-page #left-pic img {
-    max-width: 310px;
-    margin-top: 100px;
-    margin-bottom: 0px;
+    max-width: 280px;
+    margin-top: 80px;
+    margin-bottom: 20px;
   }
   #home-page #cta {
     margin-top: 10px;
@@ -550,7 +558,7 @@ ul.nostyle i {
     color: #000;
   }
   #home-page #intro {
-    top: 0px;
+    top: 10px;
     padding: 0px 0 60px 0;
     font-size: 1.000em;
     font-family: 'Abel', sans-serif;
@@ -560,11 +568,8 @@ ul.nostyle i {
     font-weight: 700;
     color: #404040;
   }
-  #home-page p {
-    padding-left: 0;
-  }
   #home-page .btn-primary {
-    line-height: 56px;
+    line-height: 26px;
   }
   #home-page #left-pic {
     background-color: #FFF;
@@ -711,7 +716,7 @@ ul.nostyle i {
   }
 }
 
-/* XSmall Mobiles */
+/* Small Mobiles */
 @media (max-width: 375px) {
   #about {
     color: #8C8C8C;
@@ -835,7 +840,7 @@ ul.nostyle i {
   }
 }
 
-/* XSmall devices */
+/* Mobile */
 @media (min-width: 481px) and (max-width: 768px) {
   #principles {
     background-image: url(../img/open-background-bn.jpg);
@@ -866,7 +871,7 @@ ul.nostyle i {
   }
 }
 
-/* XXSmall devices */
+/* Small mobile */
 @media (max-width: 480px) {
   #principles {
     background-image: url(../img/open-background-bn.jpg);
@@ -910,11 +915,24 @@ ul.nostyle i {
       background-color: #FFF;
       text-align: left;
     }
+    #team #team-pitch {
+      text-align: center;
+      font-size: 1.250em;
+      margin-bottom: 30px;
+    }
+    #team #team-pitch li {
+      padding: 4px 7px;
+      color: #404040;
+      display: inline-block;
+      background-color: #FEE2CC;
+      border-radius: 3px;
+    }
     #team #profile {
       margin-bottom: 30px;
     }
     #team #profile img {
       margin-bottom: 30px;
+      border-radius: 3px;
     }
     #team h4 {
       color: #404040;
@@ -966,11 +984,24 @@ ul.nostyle i {
     background-color: #FFF;
     text-align: left;
   }
+  #team #team-pitch {
+    text-align: center;
+    font-size: 1.080em;
+    margin-bottom: 30px;
+  }
+  #team #team-pitch li {
+    padding: 4px 7px;
+    color: #404040;
+    display: inline-block;
+    background-color: #FEE2CC;
+    border-radius: 3px;
+  }
   #team #profile {
     margin-bottom: 30px;
   }
   #team #profile img {
     margin-bottom: 30px;
+    border-radius: 3px;
   }
   #team h4 {
     color: #404040;
@@ -996,49 +1027,28 @@ ul.nostyle i {
     color: #8c8c8c;
     height: auto;
     padding-top: 100px;
-    padding-bottom: 50px;
+    padding-bottom: 0px;
     background-color: #FFF;
     text-align: left;
+  }
+  #team #team-pitch {
+    text-align: center;
+    font-size: 1.080em;
+    margin-bottom: 30px;
+  }
+  #team #team-pitch li {
+    padding: 4px 7px;
+    color: #404040;
+    display: inline-block;
+    background-color: #FEE2CC;
+    border-radius: 3px;
   }
   #team #profile {
     margin-bottom: 30px;
   }
   #team #profile img {
     margin-bottom: 30px;
-  }
-  #team h4 {
-    color: #404040;
-    font-family: 'Montserrat', sans-serif;
-  }
-  #team p {
-    font-size: 1.000em;
-    font-family: 'Abel',sans-serif;
-    line-height: normal;
-    color: #404040;
-  }
-  #pre-team #center-pic img {
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 5px;
-    margin-top: 80px;
-  }
-}
-
-/* XSmall devices */
-@media (min-width: 375px) and (max-width: 768px) {
-  #team {
-    color: #8c8c8c;
-    height: auto;
-    padding-top: 100px;
-    padding-bottom: 50px;
-    background-color: #FFF;
-    text-align: left;
-  }
-  #team #profile {
-    margin-bottom: 30px;
-  }
-  #team #profile img {
-    margin-bottom: 30px;
+    border-radius: 3px;
   }
   #team h4 {
     color: #404040;
@@ -1059,6 +1069,64 @@ ul.nostyle i {
 }
 
 /* Mobile */
+@media (min-width: 376px) and (max-width: 767px) {
+  #team {
+    color: #8c8c8c;
+    height: auto;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    background-color: #FFF;
+    text-align: left;
+  }
+  #team #team-pitch {
+    text-align: center;
+    font-size: 1.000em;
+    margin-bottom: 30px;
+  }
+  #team #team-pitch p {
+    margin-left: 0px;
+  }
+  #team #team-pitch ul {
+    margin-left: -40px;
+  }
+  #team #team-pitch li {
+    padding: 4px 7px;
+    margin: 0 3px 6px 0;
+    color: #404040;
+    display: inline-block;
+    background-color: #FEE2CC;
+    border-radius: 3px;
+  }
+  #team #profile {
+    margin-bottom: 30px;
+  }
+  #team #profile img {
+    max-width: 280px;
+    margin-bottom: 30px;
+    border-radius: 3px;
+  }
+  #team h4 {
+    margin-top: -210px;
+    margin-left: 300px;
+    color: #404040;
+    font-family: 'Montserrat', sans-serif;
+  }
+  #team p {
+    margin-left: 300px;
+    font-size: 1.000em;
+    font-family: 'Abel',sans-serif;
+    line-height: normal;
+    color: #404040;
+  }
+  #pre-team #center-pic img {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    margin-top: 80px;
+  }
+}
+
+/* SMobile */
 @media (max-width: 375px) {
   #team {
     color: #8c8c8c;
@@ -1068,11 +1136,28 @@ ul.nostyle i {
     background-color: #FFF;
     text-align: left;
   }
+  #team #team-pitch {
+    text-align: center;
+    font-size: 1.000em;
+    margin-bottom: 30px;
+  }
+  #team #team-pitch ul {
+    margin-left: -40px;
+  }
+  #team #team-pitch li {
+    padding: 4px 7px;
+    margin: 0 3px 6px 0;
+    color: #404040;
+    display: inline-block;
+    background-color: #FEE2CC;
+    border-radius: 3px;
+  }
   #team #profile {
     margin-bottom: 30px;
   }
   #team #profile img {
     margin-bottom: 30px;
+    border-radius: 3px;
   }
   #team h4 {
     color: #404040;
@@ -1496,6 +1581,11 @@ ul.nostyle i {
   font-size: 1.250em;
   font-style: normal;
   }
+  .ss-form-container {
+    width: 480px;
+    margin-top: 43px;
+    margin-left: -90px;
+  }
   .ss-confirmation {
   font-family: "Montserrat";
   color: rgb(80,80,80);
@@ -1578,9 +1668,9 @@ ul.nostyle i {
 /* Small devices */
 @media (min-width: 768px) and (max-width: 992px){
   #get-in-touch {
-    padding-top: 70px;
+    padding-top: 200px;
     padding-bottom: 0px;
-    height: 768px;
+    height: 1050px;
     background: url(../img/but-piensa-05.jpg);
     background-repeat: no-repeat;
     background-position: center center;
@@ -1739,10 +1829,11 @@ ul.nostyle i {
   #get-in-touch {
     padding-top: 70px;
     padding-bottom: 0px;
-    height: 767px;
+    height: 620px;
     background: url(../img/but-piensa-05.jpg);
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center bottom;
+    background-size: contain;
     color: #404040;
   }
   #get-in-touch p {
@@ -1751,7 +1842,7 @@ ul.nostyle i {
     font-family: 'Abel', sans-serif;
     text-align: left;
     font-weight: 600;
-    font-size: 1.313em;
+    font-size: 1.000em;
     line-height: normal;
   }
   #get-in-touch #contact {
@@ -1767,6 +1858,7 @@ ul.nostyle i {
     margin-top: 0px;
   }
   #contact-form h1 {
+    font-size: 1.500em;
     font-family: 'Montserrat', sans-serif;
     color: #404040;
     margin-bottom: 10px;
@@ -1820,9 +1912,9 @@ ul.nostyle i {
   font-style: normal;
   }
   .ss-form-container {
-    max-width: 500px;
+    max-width: 380px;
     margin-top: 90px;
-    margin-left: 50px;
+    margin-left: 120px;
   }
   .ss-page-title, .ss-section-title {
   font-family: "Monstserrat";
