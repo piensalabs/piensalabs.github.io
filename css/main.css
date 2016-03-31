@@ -920,12 +920,10 @@ ul.nostyle i {
       font-size: 1.250em;
       margin-bottom: 30px;
     }
-    #team #team-pitch li {
-      padding: 4px 7px;
+    #team h1 {
+      font-family: 'Montserrat', sans-serif;
+      text-transform: capitalize;
       color: #404040;
-      display: inline-block;
-      background-color: #FEE2CC;
-      border-radius: 3px;
     }
     #team #profile {
       margin-bottom: 30px;
@@ -989,12 +987,10 @@ ul.nostyle i {
     font-size: 1.080em;
     margin-bottom: 30px;
   }
-  #team #team-pitch li {
-    padding: 4px 7px;
+  #team h1 {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: capitalize;
     color: #404040;
-    display: inline-block;
-    background-color: #FEE2CC;
-    border-radius: 3px;
   }
   #team #profile {
     margin-bottom: 30px;
@@ -1033,15 +1029,13 @@ ul.nostyle i {
   }
   #team #team-pitch {
     text-align: center;
-    font-size: 1.080em;
+    font-size: 1.150em;
     margin-bottom: 30px;
   }
-  #team #team-pitch li {
-    padding: 4px 7px;
+  #team h1 {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: capitalize;
     color: #404040;
-    display: inline-block;
-    background-color: #FEE2CC;
-    border-radius: 3px;
   }
   #team #profile {
     margin-bottom: 30px;
@@ -1141,16 +1135,10 @@ ul.nostyle i {
     font-size: 1.000em;
     margin-bottom: 30px;
   }
-  #team #team-pitch ul {
-    margin-left: -40px;
-  }
-  #team #team-pitch li {
-    padding: 4px 7px;
-    margin: 0 3px 6px 0;
+  #team h1 {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: capitalize;
     color: #404040;
-    display: inline-block;
-    background-color: #FEE2CC;
-    border-radius: 3px;
   }
   #team #profile {
     margin-bottom: 30px;
