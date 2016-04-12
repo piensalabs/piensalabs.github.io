@@ -926,6 +926,7 @@ ul.nostyle i {
       color: #404040;
     }
     #team #profile {
+      height: 450px;
       margin-bottom: 30px;
     }
     #team #profile img {
@@ -1038,6 +1039,7 @@ ul.nostyle i {
     color: #404040;
   }
   #team #profile {
+    height: 450px;
     margin-bottom: 30px;
   }
   #team #profile img {
