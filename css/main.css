@@ -176,11 +176,11 @@ ul.nostyle i {
 
 @media (max-width: 767px) {
   #main-menu.navbar-default {
-    background: rgba(255, 255, 255, 0);
+    background: rgba(255, 255, 255, 0.7);
     -webkit-box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.1);
   }
   #main-menu.navbar-default .navbar-nav > li > a {
-    text-align: right;
+    text-align: center;
     padding-top: 7px;
     padding-bottom: 7px;
     color: #5e5e5e;
@@ -188,7 +188,8 @@ ul.nostyle i {
   #main-menu.navbar-default .navbar-nav > li.active > a,
   #main-menu.navbar-default .navbar-nav > li.open > a,
   #main-menu.navbar-default .navbar-nav > li:hover > a {
-    background: rgba(93,90,90,.0);
+
+    background:rgba(255, 255, 255, 0);
     /*border-top: 3px solid rgba(0,0,0,0);*/
     color: #FF6D00; /*#B4CC35*/
   }
@@ -214,7 +215,7 @@ ul.nostyle i {
     height: 50px;
   }
   #main-menu.navbar-default {
-    background: rgba(255, 255, 255, 0);
+    background: rgba(255, 255, 255, 0.7);
     -webkit-box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.1);
     box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0);
   }
