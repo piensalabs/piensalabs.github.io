@@ -176,11 +176,13 @@ ul.nostyle i {
 
 @media (max-width: 767px) {
   #main-menu.navbar-default {
-    background: rgba(255, 255, 255, 0.7);
+    background: rgba(255, 255, 255, 0.8);
     -webkit-box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.1);
   }
   #main-menu.navbar-default .navbar-nav > li > a {
     text-align: center;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
     padding-top: 7px;
     padding-bottom: 7px;
     color: #5e5e5e;
