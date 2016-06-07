@@ -1324,25 +1324,47 @@ ul.nostyle i {
 /* Large devices */
 @media (min-width: 1200px) {
   #get-in-touch {
-    padding-top: 70px;
+    padding-top: 210px;
     padding-bottom: 0px;
-    padding-left: 80px;
-    height: 650px;
-    background: url(../img/but-piensa-05.jpg);
+    height: 750px;
+    background: url(../img/but-piensa-05.png);
     background-repeat: no-repeat;
     background-position: center center;
-    color: #404040;
   }
   #get-in-touch p {
-    color: #404040;
-    padding-left: 0px;
-    font-family: 'Abel', sans-serif;
-    text-align: left;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
     font-weight: 600;
-    font-size: 1.313em;
+    font-size: 2.150em;
     line-height: normal;
   }
-  #get-in-touch #contact {
+  #get-in-touch h1 {
+   color: #404040;
+   font-family: 'Montserrat', sans-serif;
+   text-align: center;
+   font-weight: 600;
+   font-size: 1.750em;
+ }
+  #get-in-touch #contact-mail a {
+   color: #404040;
+   font-family: 'Montserrat', sans-serif;
+   text-align: center;
+   font-weight: 600;
+   font-size: 1.750em;
+   line-height: normal;
+   text-decoration: underline;
+  }
+  #get-in-touch #contact-mail a:hover {
+   color: #fff;
+   font-family: 'Montserrat', sans-serif;
+   text-align: center;
+   font-weight: 600;
+   font-size: 1.750em;
+   line-height: normal;
+   text-decoration: underline;
+  }
+  /*#get-in-touch #contact {
     top:150px;
   }
   #get-in-touch #contact .btn-primary {
@@ -1352,9 +1374,9 @@ ul.nostyle i {
     margin-bottom: 80px;
   }
   #contact-form {
-    margin-top: 0px;
+    margin-top: 0px;*/
   }
-  #contact-form h1 {
+  /*#contact-form h1 {
     font-family: 'Montserrat', sans-serif;
     color: #404040;
     margin-bottom: 10px;
@@ -1368,7 +1390,7 @@ ul.nostyle i {
     background-color: #FFF;
     color: #404040;
     transition: color 400ms, background-color 400ms;
-  }
+  }*/
 
   /* ---- FORM ---- */
 
