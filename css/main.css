@@ -249,7 +249,7 @@ ul.nostyle i {
 
 /* ------- HOME PAGE ------- */
 
-/* Large devices */
+/* Large screens */
 @media (min-width: 1200px) {
   #home-page {
     overflow: hidden;
@@ -308,7 +308,7 @@ ul.nostyle i {
   }
 }
 
-/* Medium devices */
+/* Medium screens - standard */
 @media (min-width: 992px) and (max-width: 1200px){
   #home-page {
     overflow: hidden;
@@ -367,8 +367,68 @@ ul.nostyle i {
   }
 }
 
-/* Small devices */
-@media (min-width: 768px) and (max-width: 992px){
+/* Small screens - landscape mode */
+@media (min-width: 771px) and (max-width: 992px){
+  #home-page {
+    overflow: hidden;
+    width: 100%;
+    height: 450px;
+    left: 0;
+    background-color: #FFF;
+    margin-top: 0px;
+  }
+  #home-page .home-inner {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    color: #000;
+  }
+  #home-page #intro {
+    margin-left: 290px;
+    top: -150px;
+    font-size: 1.125em;
+    font-family: 'Abel', sans-serif;
+    text-transform: initial;
+    text-align: left;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #404040;
+  }
+  #home-page p {
+    padding-left: 0;
+  }
+  #home-page .btn-primary {
+    line-height: 26px;
+    text-align: center;
+    margin-left: 50px;
+  }
+  #home-page #left-pic {
+    background-color: #FFF;
+    width: auto;
+    margin-left: 70px;
+  }
+  #home-page #left-pic img {
+    margin-top: 90px;
+    max-width: 50%;
+    margin-bottom: 0px;
+  }
+  #home-page #cta {
+    margin-top: 10px;
+  }
+  #home-page .home-content p {
+    margin-top: 0px;
+    margin-bottom: 30px;
+    font-size: 1.188em;
+    font-style: italic;
+    line-height: 1.3;
+    color: #fff;
+  }
+}
+
+/* Ipad - Portrait */
+@media (min-width: 767px) and (max-width: 770px){
   #home-page {
     overflow: hidden;
     width: 100%;
@@ -388,7 +448,6 @@ ul.nostyle i {
   #home-page #intro {
     margin-left: 120px;
     top: 0px;
-    /*padding: 0px 0 60px 0;*/
     font-size: 1.250em;
     font-family: 'Abel', sans-serif;
     text-transform: initial;
@@ -426,12 +485,12 @@ ul.nostyle i {
   }
 }
 
-/* XSmall devices */
-@media (min-width:669px) and (max-width: 767px) {
+/* Iphone 6 plus - landscape mode */
+@media (min-width: 735px) and (max-width: 766px){
   #home-page {
     overflow: hidden;
     width: 100%;
-    height: 1024px;
+    height: 420px;
     left: 0;
     background-color: #FFF;
     margin-top: 0px;
@@ -445,12 +504,13 @@ ul.nostyle i {
     color: #000;
   }
   #home-page #intro {
-    top: 0px;
-    padding: 0px 0 60px 0;
-    font-size: 1.250em;
+    width: 380px;
+    margin-left: 330px;
+    top: -190px;
+    font-size: 1.125em;
     font-family: 'Abel', sans-serif;
     text-transform: initial;
-    text-align: center;
+    text-align: left;
     line-height: 1.2;
     font-weight: 700;
     color: #404040;
@@ -459,16 +519,19 @@ ul.nostyle i {
     padding-left: 0;
   }
   #home-page .btn-primary {
-    line-height: 36px;
+    line-height: 26px;
+    text-align: center;
+    margin-left: 0px;
   }
   #home-page #left-pic {
     background-color: #FFF;
-    height: auto;
+    width: auto;
+    margin-left: 40px;
   }
   #home-page #left-pic img {
-    min-width: 300px;
     margin-top: 100px;
-    margin-bottom: 30px;
+    max-width: 50%;
+    margin-bottom: 0px;
   }
   #home-page #cta {
     margin-top: 10px;
@@ -481,17 +544,74 @@ ul.nostyle i {
     line-height: 1.3;
     color: #fff;
   }
-  #home-page #intro {
-
-  }
 }
 
-/* Mobile */
-@media (min-width:376px) and (max-width: 668px) {
+/* Iphone 6 - Landscape mode */
+@media (min-width: 666px) and (max-width: 734px) {
   #home-page {
     overflow: hidden;
     width: 100%;
+    height: 380px;
+    left: 0;
+    background-color: #FFF;
+    margin-top: 0px;
+}
+  #home-page .home-inner {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
     height: auto;
+    color: #000;
+}
+  #home-page #intro {
+    margin-left: 300px;
+    margin-top: -200px;
+    max-width: 330px;
+    top: 0px;
+    padding: 0px 0 60px 0;
+    font-size: 1.050em;
+    font-family: 'Abel', sans-serif;
+    text-transform: initial;
+    text-align: left;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #404040;
+}
+  #home-page .btn-primary {
+    width: auto;
+    line-height: 36px;
+    padding: 0 10px;
+    margin-left: 10px;
+}
+  #home-page #left-pic {
+    background-color: #FFF;
+    height: auto;
+}
+  #home-page #left-pic img {
+    max-width: 280px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+  #home-page #cta {
+    margin-top: 10px;
+}
+  #home-page .home-content p {
+    margin-top: 0px;
+    margin-bottom: 30px;
+    font-size: 1.188em;
+    font-style: italic;
+    line-height: 1.3;
+    color: #fff;
+  }
+}
+
+/* Iphone 5 - Landscape mode */
+@media (min-width:440px) and (max-width: 665px) {
+  #home-page {
+    overflow: hidden;
+    width: 100%;
+    height: 330px;
     left: 0;
     background-color: #FFF;
     margin-top: 0px;
@@ -505,8 +625,8 @@ ul.nostyle i {
     color: #000;
   }
   #home-page #intro {
-    margin-left: 300px;
-    margin-top: -200px;
+    margin-left: 230px;
+    margin-top: -180px;
     max-width: 330px;
     top: 0px;
     padding: 0px 0 60px 0;
@@ -529,8 +649,8 @@ ul.nostyle i {
     height: auto;
   }
   #home-page #left-pic img {
-    max-width: 280px;
-    margin-top: 80px;
+    max-width: 230px;
+    margin-top: 90px;
     margin-bottom: 20px;
   }
   #home-page #cta {
@@ -546,12 +666,12 @@ ul.nostyle i {
   }
 }
 
-/* Small Mobile */
-@media (max-width: 375px) {
+/* Large Phones - Portrait */
+@media (min-width: 380px) and (max-width: 440px) {
   #home-page {
     overflow: hidden;
     width: 100%;
-    height: 627px;
+    height: 775px;
     left: 0;
     background-color: #FFF;
     margin-top: 0px;
@@ -566,7 +686,7 @@ ul.nostyle i {
   }
   #home-page #intro {
     top: 10px;
-    padding: 0px 0 60px 0;
+    padding: 0px 20px 60px 20px;
     font-size: 1.000em;
     font-family: 'Abel', sans-serif;
     text-transform: initial;
@@ -583,7 +703,7 @@ ul.nostyle i {
     height: auto;
   }
   #home-page #left-pic img {
-    margin-top: 100px;
+    margin-top: 140px;
     margin-bottom: 0px;
   }
   #home-page #cta {
@@ -599,6 +719,111 @@ ul.nostyle i {
   }
 }
 
+/* Medium Phones - Portrait */
+@media (min-width: 350px) and (max-width: 379px) {
+  #home-page {
+    overflow: hidden;
+    width: 100%;
+    height: 775px;
+    left: 0;
+    background-color: #FFF;
+    margin-top: 0px;
+  }
+  #home-page .home-inner {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    color: #000;
+  }
+  #home-page #intro {
+    top: 10px;
+    padding: 0px 20px 60px 20px;
+    font-size: 1.000em;
+    font-family: 'Abel', sans-serif;
+    text-transform: initial;
+    text-align: center;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #404040;
+  }
+  #home-page .btn-primary {
+    line-height: 26px;
+  }
+  #home-page #left-pic {
+    background-color: #FFF;
+    height: auto;
+  }
+  #home-page #left-pic img {
+    margin-top: 140px;
+    margin-bottom: 0px;
+  }
+  #home-page #cta {
+    margin-top: 10px;
+  }
+  #home-page .home-content p {
+    margin-top: 0px;
+    margin-bottom: 30px;
+    font-size: 1.188em;
+    font-style: italic;
+    line-height: 1.3;
+    color: #fff;
+  }
+}
+
+/* Small Phones - Portrait */
+@media (max-width: 350px) {
+  #home-page {
+    overflow: hidden;
+    width: 100%;
+    height: 570px;
+    left: 0;
+    background-color: #FFF;
+    margin-top: 0px;
+  }
+  #home-page .home-inner {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    color: #000;
+  }
+  #home-page #intro {
+    top: 10px;
+    padding: 0px 20px 60px 20px;
+    font-size: 1.000em;
+    font-family: 'Abel', sans-serif;
+    text-transform: initial;
+    text-align: center;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #404040;
+  }
+  #home-page .btn-primary {
+    line-height: 26px;
+  }
+  #home-page #left-pic {
+    background-color: #FFF;
+    height: auto;
+  }
+  #home-page #left-pic img {
+    margin-top: 90px;
+    margin-bottom: 0px;
+  }
+  #home-page #cta {
+    margin-top: 10px;
+  }
+  #home-page .home-content p {
+    margin-top: 0px;
+    margin-bottom: 30px;
+    font-size: 1.188em;
+    font-style: italic;
+    line-height: 1.3;
+    color: #fff;
+  }
+}
 
 /* ------- ABOUT ------- */
 
@@ -695,7 +920,7 @@ ul.nostyle i {
 }
 
 /* Mobile */
-@media (min-width: 375px) and (max-width: 768px) {
+@media (min-width: 440px) and (max-width: 768px) {
   #about {
     color: #8C8C8C;
     padding: 0;
@@ -724,7 +949,7 @@ ul.nostyle i {
 }
 
 /* Small Mobiles */
-@media (max-width: 375px) {
+@media (max-width: 440px) {
   #about {
     color: #8C8C8C;
     padding: 0;
@@ -1130,7 +1355,7 @@ ul.nostyle i {
 }
 
 /* SMobile */
-@media (max-width: 375px) {
+@media (max-width: 440px) {
   #team {
     color: #8c8c8c;
     height: auto;
@@ -1364,142 +1589,6 @@ ul.nostyle i {
    line-height: normal;
    text-decoration: underline;
   }
-  /*#get-in-touch #contact {
-    top:150px;
-  }
-  #get-in-touch #contact .btn-primary {
-    line-height: 56px;
-  }
-  #get-in-touch #right-pic {
-    margin-bottom: 80px;
-  }
-  #contact-form {
-    margin-top: 0px;*/
-  }
-  /*#contact-form h1 {
-    font-family: 'Montserrat', sans-serif;
-    color: #404040;
-    margin-bottom: 10px;
-  }
-  #contact-form .btn-primary {
-    margin-top: 10px;
-    background-color: #404040;
-    transition: color 400ms, background-color 400ms;
-  }
-  #contact-form .btn-primary:hover {
-    background-color: #FFF;
-    color: #404040;
-    transition: color 400ms, background-color 400ms;
-  }*/
-
-  /* ---- FORM ---- */
-
-  .ss-grid-row-odd {
-  background-color: rgb(242,242,242);
-  }
-  .ss-form-entry {
-  text-align: left;
-  }
-  .ss-form-title[dir="rtl"] {
-  text-align: right;
-  }
-  .ss-form-desc {
-  text-align: left;
-  }
-  .ss-form-desc[dir="rtl"] {
-  text-align: right;
-  }
-  .ss-item {
-  font-size: 1.080rem;
-  }
-  .ss-choices {
-  font-size: 1.000rem;
-  }
-  .ss-record-username-message {
-  font-family: "Abel";
-  color: rgb(119,119,119);
-  font-weight: 400;
-  font-size: 1.250em;
-  font-style: normal;
-  }
-  .ss-confirmation {
-  font-family: "Montserrat";
-  color: rgb(80,80,80);
-  font-weight: 400;
-  font-size: 2.460rem;
-  font-style: normal;
-  }
-  .ss-page-title, .ss-section-title {
-  font-family: "Monstserrat";
-  color: rgb(80,80,80);
-  font-weight: 400;
-  font-size: 1.845rem;
-  font-style: normal;
-  }
-  .ss-q-title {
-  font-family: "Montserrat";
-  color: #404040;
-  font-weight: 700;
-  font-size: 1.250em;
-  font-style: normal;
-  }
-  .ss-embeddable-object-container .ss-q-title {
-  font-family: "Roboto";
-  color: rgb(80,80,80);
-  font-weight: 700;
-  font-size: 1.845rem;
-  font-style: normal;
-  }
-  .ss-q-help, .ss-q-time-hint {
-  font-family: "Roboto";
-  color: rgb(140,140,140);
-  font-weight: 400;
-  font-size: 1.000rem;
-  font-style: normal;
-  }
-  .ss-choice-label, .video-secondary-text, .ss-gridrow-leftlabel, .ss-gridnumber, .ss-scalenumber, .ss-leftlabel, .ss-rightlabel {
-  font-family: "Roboto";
-  color: rgb(80,80,80);
-  font-weight: 400;
-  font-size: 1.000rem;
-  font-style: normal;
-  }
-  .error-message, .required-message, .ss-required-asterisk {
-  font-family: "Roboto";
-  color: rgb(196,59,29);
-  font-weight: 400;
-  font-size: 1.000rem;
-  font-style: normal;
-  }
-  .ss-send-email-receipt {
-  font-family: "Roboto";
-  color: rgb(80,80,80);
-  font-weight: 400;
-  font-size: 1.000rem;
-  font-style: normal;
-  }
-  .progress-label {
-  font-family: "Roboto";
-  color: rgb(140,140,140);
-  font-weight: 400;
-  font-size: 1.000rem;
-  font-style: normal;
-  }
-  input[type='text'], input:not([type]), textarea {
-  font-size: inherit;
-  border: none;
-  border-radius: 2px;
-  font-size: 1.313em;
-  }
-  .error, .required, .errorbox-bad {
-  border-color: rgb(196,59,29);
-  }
-  @media screen and (-webkit-device-pixel-ratio: 2) {
-  .ss-logo-image {
-  background-image: url('//ssl.gstatic.com/docs/forms/forms_logo_2_small_dark_2x.png');
-  }
-}
-
     /*  #get-in-touch #icons a {
     margin: 10px;
     font-size: 4em;
@@ -1525,6 +1614,7 @@ ul.nostyle i {
 
 /* Medium devices */
 @media (min-width: 992px) and (max-width: 1200px){
+
   #get-in-touch {
     padding-top: 115px;
     padding-bottom: 0px;
@@ -1535,153 +1625,37 @@ ul.nostyle i {
     color: #404040;
   }
   #get-in-touch p {
-    color: #404040;
-    padding-left: 0px;
-    font-family: 'Abel', sans-serif;
-    text-align: left;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
     font-weight: 600;
-    font-size: 1.313em;
+    font-size: 2.150em;
     line-height: normal;
   }
-  #get-in-touch #contact {
-    top:150px;
+  #get-in-touch h1 {
+   color: #404040;
+   font-family: 'Montserrat', sans-serif;
+   text-align: center;
+   font-weight: 600;
+   font-size: 1.750em;
+ }
+  #get-in-touch #contact-mail a {
+   color: #404040;
+   font-family: 'Montserrat', sans-serif;
+   text-align: center;
+   font-weight: 600;
+   font-size: 1.750em;
+   line-height: normal;
+   text-decoration: underline;
   }
-  #get-in-touch #contact .btn-primary {
-    line-height: 56px;
-  }
-  #get-in-touch #right-pic {
-    margin-bottom: 80px;
-  }
-  #contact-form {
-    margin-top: 0px;
-  }
-  #contact-form h1 {
-    font-family: 'Montserrat', sans-serif;
-    color: #404040;
-    margin-bottom: 10px;
-  }
-  #contact-form .btn-primary {
-    margin-top: 10px;
-    background-color: #404040;
-    transition: color 400ms, background-color 400ms;
-  }
-  #contact-form .btn-primary:hover {
-    background-color: #FFF;
-    color: #404040;
-    transition: color 400ms, background-color 400ms;
-  }
-
-  /* ---- FORM ---- */
-
-  .ss-grid-row-odd {
-  background-color: rgb(242,242,242);
-  }
-  .ss-form-entry {
-  text-align: left;
-  }
-  .ss-form-title[dir="rtl"] {
-  text-align: right;
-  }
-  .ss-form-desc {
-  text-align: left;
-  }
-  .ss-form-desc[dir="rtl"] {
-  text-align: right;
-  }
-  .ss-item {
-  font-size: 1.080rem;
-  }
-  .ss-choices {
-  font-size: 1.000rem;
-  }
-  .ss-record-username-message {
-  font-family: "Abel";
-  color: rgb(119,119,119);
-  font-weight: 400;
-  font-size: 1.250em;
-  font-style: normal;
-  }
-  .ss-form-container {
-    width: 480px;
-    margin-top: 43px;
-    margin-left: -90px;
-  }
-  .ss-confirmation {
-  font-family: "Montserrat";
-  color: rgb(80,80,80);
-  font-weight: 400;
-  font-size: 2.460rem;
-  font-style: normal;
-  }
-  .ss-page-title, .ss-section-title {
-  font-family: "Monstserrat";
-  color: rgb(80,80,80);
-  font-weight: 400;
-  font-size: 1.845rem;
-  font-style: normal;
-  }
-  .ss-q-title {
-  font-family: "Montserrat";
-  color: #404040;
-  font-weight: 700;
-  font-size: 1.250em;
-  font-style: normal;
-  }
-  .ss-embeddable-object-container .ss-q-title {
-  font-family: "Roboto";
-  color: rgb(80,80,80);
-  font-weight: 700;
-  font-size: 1.845rem;
-  font-style: normal;
-  }
-  .ss-q-help, .ss-q-time-hint {
-  font-family: "Roboto";
-  color: rgb(140,140,140);
-  font-weight: 400;
-  font-size: 1.000rem;
-  font-style: normal;
-  }
-  .ss-choice-label, .video-secondary-text, .ss-gridrow-leftlabel, .ss-gridnumber, .ss-scalenumber, .ss-leftlabel, .ss-rightlabel {
-  font-family: "Roboto";
-  color: rgb(80,80,80);
-  font-weight: 400;
-  font-size: 1.000rem;
-  font-style: normal;
-  }
-  .error-message, .required-message, .ss-required-asterisk {
-  font-family: "Roboto";
-  color: rgb(196,59,29);
-  font-weight: 400;
-  font-size: 1.000rem;
-  font-style: normal;
-  }
-  .ss-send-email-receipt {
-  font-family: "Roboto";
-  color: rgb(80,80,80);
-  font-weight: 400;
-  font-size: 1.000rem;
-  font-style: normal;
-  }
-  .progress-label {
-  font-family: "Roboto";
-  color: rgb(140,140,140);
-  font-weight: 400;
-  font-size: 1.000rem;
-  font-style: normal;
-  }
-  input[type='text'], input:not([type]), textarea {
-  font-size: inherit;
-  border: none;
-  border-radius: 2px;
-  font-size: 1.313em;
-  }
-  .error, .required, .errorbox-bad {
-  border-color: rgb(196,59,29);
-  }
-  @media screen and (-webkit-device-pixel-ratio: 2) {
-  .ss-logo-image {
-  background-image: url('//ssl.gstatic.com/docs/forms/forms_logo_2_small_dark_2x.png');
-  }
+  #get-in-touch #contact-mail a:hover {
+   color: #fff;
+   font-family: 'Montserrat', sans-serif;
+   text-align: center;
+   font-weight: 600;
+   font-size: 1.750em;
+   line-height: normal;
+   text-decoration: underline;
   }
 }
 
@@ -1707,140 +1681,6 @@ ul.nostyle i {
   }
   #get-in-touch #contact {
     top:150px;
-  }
-  #get-in-touch #contact .btn-primary {
-    line-height: 56px;
-  }
-  #get-in-touch #right-pic {
-    margin-bottom: 80px;
-  }
-  #contact-form {
-    margin-top: 0px;
-  }
-  #contact-form h1 {
-    font-family: 'Montserrat', sans-serif;
-    color: #404040;
-    margin-bottom: 10px;
-  }
-  #contact-form .btn-primary {
-    margin-top: 10px;
-    background-color: #404040;
-    transition: color 400ms, background-color 400ms;
-  }
-  #contact-form .btn-primary:hover {
-    background-color: #FFF;
-    color: #404040;
-    transition: color 400ms, background-color 400ms;
-  }
-  #get-in-touch .ss-form-container {
-    margin-top: 80px;
-  }
-  /* ---- FORM ---- */
-
-  .ss-grid-row-odd {
-  background-color: rgb(242,242,242);
-  }
-  .ss-form-entry {
-  text-align: left;
-  }
-  .ss-form-title[dir="rtl"] {
-  text-align: right;
-  }
-  .ss-form-desc {
-  text-align: left;
-  }
-  .ss-form-desc[dir="rtl"] {
-  text-align: right;
-  }
-  .ss-item {
-  font-size: 1.080rem;
-  }
-  .ss-choices {
-  font-size: 1.000rem;
-  }
-  .ss-record-username-message {
-  font-family: "Abel";
-  color: rgb(119,119,119);
-  font-weight: 400;
-  font-size: 1.250em;
-  font-style: normal;
-  }
-  .ss-confirmation {
-  font-family: "Montserrat";
-  color: rgb(80,80,80);
-  font-weight: 400;
-  font-size: 2.460rem;
-  font-style: normal;
-  }
-  .ss-page-title, .ss-section-title {
-  font-family: "Monstserrat";
-  color: rgb(80,80,80);
-  font-weight: 400;
-  font-size: 1.845rem;
-  font-style: normal;
-  }
-  .ss-q-title {
-  font-family: "Montserrat";
-  color: #404040;
-  font-weight: 700;
-  font-size: 1.250em;
-  font-style: normal;
-  }
-  .ss-embeddable-object-container .ss-q-title {
-  font-family: "Roboto";
-  color: rgb(80,80,80);
-  font-weight: 700;
-  font-size: 1.845rem;
-  font-style: normal;
-  }
-  .ss-q-help, .ss-q-time-hint {
-  font-family: "Roboto";
-  color: rgb(140,140,140);
-  font-weight: 400;
-  font-size: 1.000rem;
-  font-style: normal;
-  }
-  .ss-choice-label, .video-secondary-text, .ss-gridrow-leftlabel, .ss-gridnumber, .ss-scalenumber, .ss-leftlabel, .ss-rightlabel {
-  font-family: "Roboto";
-  color: rgb(80,80,80);
-  font-weight: 400;
-  font-size: 1.000rem;
-  font-style: normal;
-  }
-  .error-message, .required-message, .ss-required-asterisk {
-  font-family: "Roboto";
-  color: rgb(196,59,29);
-  font-weight: 400;
-  font-size: 1.000rem;
-  font-style: normal;
-  }
-  .ss-send-email-receipt {
-  font-family: "Roboto";
-  color: rgb(80,80,80);
-  font-weight: 400;
-  font-size: 1.000rem;
-  font-style: normal;
-  }
-  .progress-label {
-  font-family: "Roboto";
-  color: rgb(140,140,140);
-  font-weight: 400;
-  font-size: 1.000rem;
-  font-style: normal;
-  }
-  input[type='text'], input:not([type]), textarea {
-  font-size: inherit;
-  border: none;
-  border-radius: 2px;
-  font-size: 1.313em;
-  }
-  .error, .required, .errorbox-bad {
-  border-color: rgb(196,59,29);
-  }
-  @media screen and (-webkit-device-pixel-ratio: 2) {
-  .ss-logo-image {
-  background-image: url('//ssl.gstatic.com/docs/forms/forms_logo_2_small_dark_2x.png');
-  }
   }
 }
 
@@ -1883,133 +1723,10 @@ ul.nostyle i {
     color: #404040;
     margin-bottom: 10px;
   }
-  #contact-form .btn-primary {
-    margin-top: 10px;
-    background-color: #404040;
-    transition: color 400ms, background-color 400ms;
-  }
-  #contact-form .btn-primary:hover {
-    background-color: #FFF;
-    color: #404040;
-    transition: color 400ms, background-color 400ms;
-  }
-
-  /* ---- FORM ---- */
-
-  .ss-grid-row-odd {
-  background-color: rgb(242,242,242);
-  }
-  .ss-form-entry {
-  text-align: left;
-  }
-  .ss-form-title[dir="rtl"] {
-  text-align: right;
-  }
-  .ss-form-desc {
-  text-align: left;
-  }
-  .ss-form-desc[dir="rtl"] {
-  text-align: right;
-  }
-  .ss-item {
-  font-size: 1.080rem;
-  }
-  .ss-choices {
-  font-size: 1.000rem;
-  }
-  .ss-record-username-message {
-  font-family: "Abel";
-  color: rgb(119,119,119);
-  font-weight: 400;
-  font-size: 1.250em;
-  font-style: normal;
-  }
-  .ss-confirmation {
-  font-family: "Montserrat";
-  color: rgb(80,80,80);
-  font-weight: 400;
-  font-size: 2.460rem;
-  font-style: normal;
-  }
-  .ss-form-container {
-    max-width: 380px;
-    margin-top: 90px;
-    margin-left: 120px;
-  }
-  .ss-page-title, .ss-section-title {
-  font-family: "Monstserrat";
-  color: rgb(80,80,80);
-  font-weight: 400;
-  font-size: 1.845rem;
-  font-style: normal;
-  }
-  .ss-q-title {
-  font-family: "Montserrat";
-  color: #404040;
-  font-weight: 700;
-  font-size: 1.250em;
-  font-style: normal;
-  }
-  .ss-embeddable-object-container .ss-q-title {
-  font-family: "Roboto";
-  color: rgb(80,80,80);
-  font-weight: 700;
-  font-size: 1.845rem;
-  font-style: normal;
-  }
-  .ss-q-help, .ss-q-time-hint {
-  font-family: "Roboto";
-  color: rgb(140,140,140);
-  font-weight: 400;
-  font-size: 1.000rem;
-  font-style: normal;
-  }
-  .ss-choice-label, .video-secondary-text, .ss-gridrow-leftlabel, .ss-gridnumber, .ss-scalenumber, .ss-leftlabel, .ss-rightlabel {
-  font-family: "Roboto";
-  color: rgb(80,80,80);
-  font-weight: 400;
-  font-size: 1.000rem;
-  font-style: normal;
-  }
-  .error-message, .required-message, .ss-required-asterisk {
-  font-family: "Roboto";
-  color: rgb(196,59,29);
-  font-weight: 400;
-  font-size: 1.000rem;
-  font-style: normal;
-  }
-  .ss-send-email-receipt {
-  font-family: "Roboto";
-  color: rgb(80,80,80);
-  font-weight: 400;
-  font-size: 1.000rem;
-  font-style: normal;
-  }
-  .progress-label {
-  font-family: "Roboto";
-  color: rgb(140,140,140);
-  font-weight: 400;
-  font-size: 1.000rem;
-  font-style: normal;
-  }
-  input[type='text'], input:not([type]), textarea {
-  font-size: inherit;
-  border: none;
-  border-radius: 2px;
-  font-size: 1.313em;
-  }
-  .error, .required, .errorbox-bad {
-  border-color: rgb(196,59,29);
-  }
-  @media screen and (-webkit-device-pixel-ratio: 2) {
-  .ss-logo-image {
-  background-image: url('//ssl.gstatic.com/docs/forms/forms_logo_2_small_dark_2x.png');
-  }
-  }
 }
 
 /* Small Mobile */
-@media (max-width:375px) {
+@media (max-width:440px) {
   #get-in-touch {
     padding-top: 0px;
     padding-bottom: 0px;
@@ -2031,139 +1748,5 @@ ul.nostyle i {
   }
   #get-in-touch #contact {
     top:150px;
-  }
-  #get-in-touch #contact .btn-primary {
-    line-height: 56px;
-  }
-  #get-in-touch #right-pic {
-    margin-bottom: 80px;
-  }
-  #contact-form {
-    margin-top: 90px;
-  }
-  #contact-form h1 {
-    font-family: 'Montserrat', sans-serif;
-    color: #404040;
-    text-align: left;
-    font-size: 24px;
-    margin-bottom: 20px;
-  }
-  #contact-form .btn-primary {
-    margin-top: 60px;
-    background-color: #404040;
-    transition: color 400ms, background-color 400ms;
-  }
-  #contact-form .btn-primary:hover {
-    background-color: #FFF;
-    color: #404040;
-    transition: color 400ms, background-color 400ms;
-  }
-
-  /* ---- FORM ---- */
-
-  .ss-grid-row-odd {
-  background-color: rgb(242,242,242);
-  }
-  .ss-form-entry {
-  text-align: left;
-  }
-  .ss-form-title[dir="rtl"] {
-  text-align: right;
-  }
-  .ss-form-desc {
-  text-align: left;
-  }
-  .ss-form-desc[dir="rtl"] {
-  text-align: right;
-  }
-  .ss-item {
-  font-size: 1.080rem;
-  }
-  .ss-choices {
-  font-size: 1.000rem;
-  }
-  .ss-record-username-message {
-  font-family: "Abel";
-  color: rgb(119,119,119);
-  font-weight: 400;
-  font-size: 1.250em;
-  font-style: normal;
-  }
-  .ss-confirmation {
-  font-family: "Montserrat";
-  color: rgb(80,80,80);
-  font-weight: 400;
-  font-size: 2.460rem;
-  font-style: normal;
-  }
-  .ss-page-title, .ss-section-title {
-  font-family: "Monstserrat";
-  color: rgb(80,80,80);
-  font-weight: 400;
-  font-size: 1.845rem;
-  font-style: normal;
-  }
-  .ss-q-title {
-  font-family: "Montserrat";
-  color: #404040;
-  font-weight: 700;
-  font-size: 1.250em;
-  font-style: normal;
-  }
-  .ss-embeddable-object-container .ss-q-title {
-  font-family: "Roboto";
-  color: rgb(80,80,80);
-  font-weight: 700;
-  font-size: 1.845rem;
-  font-style: normal;
-  }
-  .ss-q-help, .ss-q-time-hint {
-  font-family: "Roboto";
-  color: rgb(140,140,140);
-  font-weight: 400;
-  font-size: 1.000rem;
-  font-style: normal;
-  }
-  .ss-choice-label, .video-secondary-text, .ss-gridrow-leftlabel, .ss-gridnumber, .ss-scalenumber, .ss-leftlabel, .ss-rightlabel {
-  font-family: "Roboto";
-  color: rgb(80,80,80);
-  font-weight: 400;
-  font-size: 1.000rem;
-  font-style: normal;
-  }
-  .error-message, .required-message, .ss-required-asterisk {
-  font-family: "Roboto";
-  color: rgb(196,59,29);
-  font-weight: 400;
-  font-size: 1.000rem;
-  font-style: normal;
-  }
-  .ss-send-email-receipt {
-  font-family: "Roboto";
-  color: rgb(80,80,80);
-  font-weight: 400;
-  font-size: 1.000rem;
-  font-style: normal;
-  }
-  .progress-label {
-  font-family: "Roboto";
-  color: rgb(140,140,140);
-  font-weight: 400;
-  font-size: 1.000rem;
-  font-style: normal;
-  }
-  input[type='text'], input:not([type]), textarea {
-  font-size: inherit;
-  border: none;
-  border-radius: 2px;
-  font-size: 1.313em;
-  }
-  .error, .required, .errorbox-bad {
-  border-color: rgb(196,59,29);
-  }
-  @media screen and (-webkit-device-pixel-ratio: 2) {
-  .ss-logo-image {
-  background-image: url('//ssl.gstatic.com/docs/forms/forms_logo_2_small_dark_2x.png');
-  }
   }
 }
