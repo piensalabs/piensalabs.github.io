@@ -1,0 +1,26 @@
+# Site settings
+title: Piensa Labs
+email: hello@piensa.co
+description: We are Piensa, we become part of your team to tackle difficult challenges through the use of solid engineering, strong communication and usable design.
+#baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://piensa.co" # the base hostname & protocol for your site
+paginate: 9
+paginate_path: "/blog/page:num/"
+
+# Gems
+gems: [jekyll-paginate]
+
+# Build settings
+markdown: kramdown
+permalink: blog/:title
+
+#Default settings
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts" # previously `post` in Jekyll 2.2.
+    values:
+      author: Javier Daza
+      layout: "post"
+      #comments: true
