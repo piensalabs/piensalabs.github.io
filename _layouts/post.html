@@ -1,0 +1,31 @@
+---
+layout: default
+---
+
+<div id="white">
+    <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2">
+        </br></br></br></br>
+        <h4>{{ page.title }}</h4>
+        {% if page.image %}
+          <p><img class="img-responsive" src="/img/posts/{{ page.image }}" alt=""></p>
+        {% endif %}
+        <p><img src="/img/javier.jpg" width="50px" height="50px"> <ba>{% if page.author %}{{ page.author }}{% endif %}</ba></p>
+        <p><bd>{{ page.date | date: "%b %-d, %Y" }}</bd></p>
+        {{ content }}
+        <!-- <br>
+        <p><bt>CATEGORÍAS: <a href="#">Wordpress</a> - <a href="#">Web Design</a></bt></p> -->
+        <hr>
+        <p><a href="/blog/"># Back</a></p>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2">
+            {% include disqus.html disqus_identifier=page.disqus_identifier %}
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+</div>

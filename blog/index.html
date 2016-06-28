@@ -1,0 +1,72 @@
+---
+layout: default
+title: Blog
+---
+<section id="blog" >
+    <div class="container">
+		<div class="row">
+		{% for post in paginator.posts %}
+					<div class="col-md-3 col-sm-4 col-xs-12 wow fadeInUp" id="entrie">
+		            	{% if post.image %}
+		                <img src="/img/posts/{{ post.image }}" class="img-responsive"></>
+		                {% endif %}
+		                <h4>{{ post.title }}</h4>
+		                {{ post.excerpt }}
+		                <a href="{{ post.url | prepend: site.baseurl }}" class="btn">Read more</a>
+		                <a href="{{ post.url | prepend: site.baseurl }}" class="btn">{{ post.date | date: "%b %-d, %Y" }}</a>
+		            </div>
+		{% endfor %}
+		</div>
+    </div> 
+</section>
+
+<!-- <div id="grey">
+    <div class="container">
+		<div class="row">
+			<div class="col-lg-8 col-lg-offset-2">
+				<p><img src="/img/javier.jpg" width="50px" height="50px"> <ba>{{ post.author }}</ba></p>
+				<p><bd>{{ post.date | date: "%b %-d, %Y" }}</bd></p>
+				<h4>{{ post.title }}</h4>
+				{% if post.image %}
+				<p><img class="img-responsive" src="/img/posts/{{ post.image }}" alt=""></p>
+				{% endif %}
+				{{ post.excerpt }}
+				<p><a href="{{ post.url | prepend: site.baseurl }}">Seguir leyendo...</a></p>
+			</div>
+
+		</div>
+    </div> 
+</div> -->
+
+
+{% if paginator.total_pages > 1 %}
+<div class="container">
+	<div class="row">
+		<div class="col-lg-8 col-lg-offset-2">
+			<div class="pagination">
+			  {% if paginator.previous_page %}
+			    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Previo</a>
+			  {% else %}
+			    <span>&laquo; Previo</span>
+			  {% endif %}
+
+			  {% for page in (1..paginator.total_pages) %}
+			    {% if page == paginator.page %}
+			      <em>{{ page }}</em>
+			    {% elsif page == 1 %}
+			      <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
+			    {% else %}
+			      <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+			    {% endif %}
+			  {% endfor %}
+
+			  {% if paginator.next_page %}
+			    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Siguiente &raquo;</a>
+			  {% else %}
+			    <span>Siguiente &raquo;</span>
+			  {% endif %}
+			</div>
+		</div>
+	</div>
+</div>
+{% endif %}
