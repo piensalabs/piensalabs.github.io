@@ -1152,7 +1152,6 @@ ul.nostyle i {
       padding-top: 120px;
       padding-bottom: 50px;
       background-color: #FFF;
-      text-align: left;
     }
     #team #team-pitch {
       text-align: center;
@@ -1165,7 +1164,7 @@ ul.nostyle i {
       color: #404040;
     }
     #team #profile {
-      height: 450px;
+      height: 500px;
       margin-bottom: 30px;
     }
     #team #profile img {
@@ -1182,34 +1181,6 @@ ul.nostyle i {
       line-height: normal;
       color: #404040;
     }
-    #pre-team #center-pic img {
-      margin-left: auto;
-      margin-right: auto;
-      margin-bottom: 5px;
-      margin-top: 50px;
-    }
-    /*    #team i {
-      font-size: 2em;
-      height: 30px;
-      width: 30px;
-      line-height: 30px;
-      text-align: center;
-      color: #1A1A1A;
-      background-color: #FFF;
-      transition: background-color 400ms, background-color 400ms;
-      position: relative;
-      -webkit-transition: all 0.5s ease;
-      -moz-transition: all 0.5s ease;
-      -o-transition: all 0.5s ease;
-      transition: all 0.5s ease;
-    }
-    #team i:hover {
-      color: #B4CC35;
-      -webkit-transition: all 0.5s ease;
-      -moz-transition: all 0.5s ease;
-      -o-transition: all 0.5s ease;
-      transition: all 0.5s ease;
-    }*/
 }
 
 /* Medium screens - standard */
@@ -1334,7 +1305,7 @@ ul.nostyle i {
     border-radius: 3px;
   }
   #team #profile {
-    height: 450px;
+    height: 420px;
     margin-bottom: 30px;
   }
   #team #profile img {
@@ -1389,7 +1360,7 @@ ul.nostyle i {
     border-radius: 3px;
   }
   #team #profile {
-    height: 450px;
+    height: 410px;
     margin-bottom: 30px;
   }
   #team #profile img {
@@ -1444,7 +1415,7 @@ ul.nostyle i {
     border-radius: 3px;
   }
   #team #profile {
-    height: 450px;
+    height: 410px;
     margin-bottom: 30px;
   }
   #team #profile img {
@@ -1499,7 +1470,7 @@ ul.nostyle i {
     border-radius: 3px;
   }
   #team #profile {
-    height: 450px;
+    height: 400px;
     margin-bottom: 30px;
   }
   #team #profile img {
@@ -1902,10 +1873,7 @@ ul.nostyle i {
     padding-top: 140px;
     padding-bottom: 0px;
     height: 435px;
-    background: url(../img/but-piensa-05.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center center;
+    background-color: #f68b39;
     color: #404040;
   }
   #get-in-touch p {
