@@ -606,12 +606,12 @@ ul.nostyle i {
   }
 }
 
-/* Iphone 5 - Landscape mode */
-@media (min-width:440px) and (max-width: 665px) {
+/* S5 - Landscape mode */
+@media (min-width: 570px) and (max-width: 665px) {
   #home-page {
     overflow: hidden;
     width: 100%;
-    height: 330px;
+    height: 360px;
     left: 0;
     background-color: #FFF;
     margin-top: 0px;
@@ -625,7 +625,7 @@ ul.nostyle i {
     color: #000;
   }
   #home-page #intro {
-    margin-left: 230px;
+    margin-left: 270px;
     margin-top: -180px;
     max-width: 330px;
     top: 0px;
@@ -652,6 +652,68 @@ ul.nostyle i {
     max-width: 230px;
     margin-top: 90px;
     margin-bottom: 20px;
+    margin-left: 45px;
+  }
+  #home-page #cta {
+    margin-top: 10px;
+  }
+  #home-page .home-content p {
+    margin-top: 0px;
+    margin-bottom: 30px;
+    font-size: 1.188em;
+    font-style: italic;
+    line-height: 1.3;
+    color: #fff;
+  }
+}
+
+/* Iphone 5 - Landscape mode */
+@media (min-width: 440px) and (max-width: 570px) {
+  #home-page {
+    overflow: hidden;
+    width: 100%;
+    height: 360px;
+    left: 0;
+    background-color: #FFF;
+    margin-top: 0px;
+  }
+  #home-page .home-inner {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    color: #000;
+  }
+  #home-page #intro {
+    margin-left: 240px;
+    margin-top: -180px;
+    max-width: 300px;
+    top: 0px;
+    padding: 0px 0 60px 0;
+    font-size: 1.000em;
+    font-family: 'Abel', sans-serif;
+    text-transform: initial;
+    text-align: left;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #404040;
+  }
+  #home-page .btn-primary {
+    width: auto;
+    line-height: 36px;
+    padding: 0 10px;
+    margin-left: 15px;
+  }
+  #home-page #left-pic {
+    background-color: #FFF;
+    height: auto;
+  }
+  #home-page #left-pic img {
+    max-width: 230px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    margin-left: 20px;
   }
   #home-page #cta {
     margin-top: 10px;
@@ -825,160 +887,6 @@ ul.nostyle i {
   }
 }
 
-/* ------- ABOUT ------- this section is not displayed */
-
-/* Large devices */
-@media (min-width: 1200px) {
-  #about {
-    color: #404040;
-    padding: 0;
-    background-color: #FFF;
-    background-attachment: fixed;
-    background-position: top center;
-    background-repeat: repeat;
-    font-weight: 400;
-    line-height: 1.3;
-    margin-bottom: 0px;
-  }
-  #about #left-pic {
-    height: auto;
-    background-color: #FFF;
-    padding-bottom: 90px;
-  }
-  #about #left-pic img {
-    margin-top: 105px;
-  }
-  #about #jobs-done p {
-    padding-left: 0;
-    font-size: 1.063em;
-    top: 100px;
-  }
-}
-
-/* Medium devices */
-@media (min-width: 992px) and (max-width: 1200px){
-  #about {
-    color: #8C8C8C;
-    padding: 0;
-    background-color: #FFF;
-    background-attachment: fixed;
-    background-position: top center;
-    background-repeat: repeat;
-    font-weight: 400;
-    line-height: 1.3;
-    margin-bottom: 0px;
-    height: auto;
-  }
-  #about #left-pic {
-    height: auto;
-    background-color: #FFF;
-    padding-bottom: 90px;
-  }
-  #about #left-pic img {
-    margin-top: 105px;
-  }
-  #about #jobs-done {
-    height: 628px;
-  }
-  #about #jobs-done p {
-    padding-left: 0;
-    font-size: 1.000em;
-    top: 100px;
-  }
-}
-
-/* Small devices */
-@media (min-width: 769px) and (max-width: 992px){
-  #about {
-    color: #8C8C8C;
-    padding: 0;
-    background-color: #FFF;
-    background-attachment: fixed;
-    background-position: top center;
-    background-repeat: repeat;
-    font-weight: 400;
-    line-height: 1.3;
-    margin-bottom: 0px;
-    height: auto;
-  }
-  #about #left-pic {
-    height: auto;
-    background-color: #FFF;
-    padding-bottom: 90px;
-  }
-  #about #left-pic img {
-    margin-top: 105px;
-  }
-  #about #jobs-done {
-    height: 598px;
-  }
-  #about #jobs-done p {
-    padding-left: 0;
-    font-size: 0.875em;
-    top: 100px;
-  }
-}
-
-/* Mobile */
-@media (min-width: 440px) and (max-width: 768px) {
-  #about {
-    color: #8C8C8C;
-    padding: 0;
-    background-color: #FFF;
-    background-attachment: fixed;
-    background-position: top center;
-    background-repeat: repeat;
-    font-weight: 400;
-    line-height: 1.3;
-    margin-bottom: 0px;
-    height: auto;
-  }
-  #about #left-pic {
-    height: auto;
-    background-color: #FFF;
-    padding-bottom: 0px;
-  }
-  #about #left-pic img {
-    margin-top: 0;
-  }
-  #about #jobs-done p {
-    padding-left: 0;
-    font-size: 1.000em;
-    top: 100px;
-  }
-}
-
-/* Small Mobiles */
-@media (max-width: 440px) {
-  #about {
-    color: #8C8C8C;
-    padding: 0;
-    background-color: #FFF;
-    background-attachment: fixed;
-    background-position: top center;
-    background-repeat: repeat;
-    font-weight: 400;
-    line-height: 1.3;
-    margin-bottom: 0px;
-  }
-  #about #left-pic {
-    height: auto;
-    background-color: #FFF;
-    padding-bottom: 0px;
-  }
-  #about #left-pic img {
-    margin-top: 0px;
-  }
-  #about #jobs-done {
-    height: 657px;
-  }
-  #about #jobs-done p {
-    padding-left: 0;
-    font-size: 1.000em;
-    top: 120px;
-  }
-}
-
 /* ------- PRINCIPLES ------- */
 
 /* Large devices */
@@ -1018,8 +926,8 @@ ul.nostyle i {
     background-attachment: fixed;
     background-color: #404040;
     color: #FFF;
-    padding-top: 20px;
-    padding-bottom: 30px;
+    padding-top: 60px;
+    padding-bottom: 80px;
   }
   #principles h3 {
     font-size: 1.188em;
@@ -1072,16 +980,16 @@ ul.nostyle i {
   }
 }
 
-/* Mobile */
-@media (min-width: 481px) and (max-width: 768px) {
+/* Ipad Portrait */
+@media (min-width: 767px) and (max-width: 770px) {
   #principles {
     background-image: url(../img/open-background-bn.jpg);
     background-position: center center;
     background-attachment: fixed;
     background-color: #404040;
     color: #FFF;
-    padding-top: 20px;
-    padding-bottom: 30px;
+    padding-top: 60px;
+    padding-bottom: 80px;
   }
   #principles h3 {
     font-size: 1.125em;
@@ -1095,6 +1003,105 @@ ul.nostyle i {
     color: #FFF;
     font-size: 0.750em;
     line-height: normal;
+  }
+  #principles img {
+    display: none;
+    max-width: 70px;
+    padding: 25px 8px 20px 20px;
+  }
+}
+
+/* Iphone 6 plus - landscape mode */
+@media (min-width: 735px) and (max-width: 767px) {
+  #principles {
+    background-image: url(../img/open-background-bn.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-color: #404040;
+    color: #FFF;
+    padding-top: 40px;
+    padding-bottom: 60px;
+  }
+  #principles h3 {
+    font-size: 1.125em;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFF;
+    text-align: center;
+  }
+  #principles p {
+    font-family: 'Abel', sans-serif;
+    font-weight: 400;
+    color: #FFF;
+    font-size: 0.750em;
+    line-height: normal;
+    text-shadow: 2px 4px 4px #000;
+  }
+  #principles img {
+    display: none;
+    max-width: 70px;
+    padding: 25px 8px 20px 20px;
+  }
+}
+
+/* Iphone 6 - Landscape mode */
+@media (min-width: 665px) and (max-width: 734px) {
+  #principles {
+    background-image: url(../img/open-background-bn.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-color: #404040;
+    color: #FFF;
+    padding-top: 40px;
+    padding-bottom: 60px;
+  }
+  #principles h3 {
+    font-size: 1.125em;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFF;
+    text-align: center;
+  }
+  #principles p {
+    font-family: 'Abel', sans-serif;
+    font-weight: 400;
+    color: #FFF;
+    font-size: 0.750em;
+    line-height: normal;
+    text-shadow: 2px 4px 4px #000;
+  }
+  #principles img {
+    display: none;
+    max-width: 70px;
+    padding: 25px 8px 20px 20px;
+  }
+}
+
+/* Iphone 5 - Landscape mode */
+@media (min-width:440px) and (max-width: 665px) {
+  #principles {
+    background-image: url(../img/open-background-bn.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-color: #404040;
+    color: #FFF;
+    padding-top: 40px;
+    padding-bottom: 60px;
+  }
+  #principles h3 {
+    font-size: 1.125em;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFF;
+    text-align: center;
+  }
+  #principles p {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Abel', sans-serif;
+    font-weight: 400;
+    color: #FFF;
+    font-size: 0.750em;
+    line-height: normal;
+    text-shadow: 2px 4px 4px #000;
   }
   #principles img {
     display: none;
@@ -1135,7 +1142,7 @@ ul.nostyle i {
   }
 }
 
-/* ------- TEAM ------- need some fixes */
+/* ------- TEAM ------- */
 
 /* Large devices */
 @media (min-width: 1200px) {
@@ -1205,7 +1212,7 @@ ul.nostyle i {
     }*/
 }
 
-/* Medium devices */
+/* Medium screens - standard */
 @media (min-width: 992px) and (max-width: 1200px){
   #team {
     color: #8c8c8c;
@@ -1226,6 +1233,7 @@ ul.nostyle i {
     color: #404040;
   }
   #team #profile {
+    height: 450px;
     margin-bottom: 30px;
   }
   #team #profile img {
@@ -1250,8 +1258,8 @@ ul.nostyle i {
   }
 }
 
-/* Small devices */
-@media (min-width: 768px) and (max-width: 992px){
+/* Small screens - landscape mode */
+@media (min-width: 771px) and (max-width: 992px){
   #team {
     color: #8c8c8c;
     height: auto;
@@ -1296,8 +1304,8 @@ ul.nostyle i {
   }
 }
 
-/* Mobile */
-@media (min-width: 376px) and (max-width: 767px) {
+/* Ipad Portrait */
+@media (min-width: 767px) and (max-width: 770px) {
   #team {
     color: #8c8c8c;
     height: auto;
@@ -1326,22 +1334,19 @@ ul.nostyle i {
     border-radius: 3px;
   }
   #team #profile {
+    height: 450px;
     margin-bottom: 30px;
   }
   #team #profile img {
-    max-width: 280px;
     margin-bottom: 30px;
     border-radius: 3px;
   }
   #team h4 {
-    margin-top: -210px;
-    margin-left: 300px;
     color: #404040;
     font-family: 'Montserrat', sans-serif;
   }
   #team p {
-    margin-left: 300px;
-    font-size: 1.000em;
+    font-size: 0.950em;
     font-family: 'Abel',sans-serif;
     line-height: normal;
     color: #404040;
@@ -1354,8 +1359,8 @@ ul.nostyle i {
   }
 }
 
-/* SMobile */
-@media (max-width: 440px) {
+/* Iphone 6 plus - landscape mode */
+@media (min-width: 735px) and (max-width: 767px) {
   #team {
     color: #8c8c8c;
     height: auto;
@@ -1369,12 +1374,22 @@ ul.nostyle i {
     font-size: 1.000em;
     margin-bottom: 30px;
   }
-  #team h1 {
-    font-family: 'Montserrat', sans-serif;
-    text-transform: capitalize;
+  #team #team-pitch p {
+    margin-left: 0px;
+  }
+  #team #team-pitch ul {
+    margin-left: -40px;
+  }
+  #team #team-pitch li {
+    padding: 4px 7px;
+    margin: 0 3px 6px 0;
     color: #404040;
+    display: inline-block;
+    background-color: #FEE2CC;
+    border-radius: 3px;
   }
   #team #profile {
+    height: 450px;
     margin-bottom: 30px;
   }
   #team #profile img {
@@ -1386,10 +1401,10 @@ ul.nostyle i {
     font-family: 'Montserrat', sans-serif;
   }
   #team p {
-    font-size: 0.875em;
+    font-size: 0.950em;
     font-family: 'Abel',sans-serif;
     line-height: normal;
-    color: #8c8c8c;
+    color: #404040;
   }
   #pre-team #center-pic img {
     margin-left: auto;
@@ -1399,7 +1414,229 @@ ul.nostyle i {
   }
 }
 
-/* ------- BLOG ------- waiting to deploy */
+/* Iphone 6 - Landscape mode */
+@media (min-width: 665px) and (max-width: 734px) {
+  #team {
+    color: #8c8c8c;
+    height: auto;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    background-color: #FFF;
+    text-align: left;
+  }
+  #team #team-pitch {
+    text-align: center;
+    font-size: 1.000em;
+    margin-bottom: 30px;
+  }
+  #team #team-pitch p {
+    margin-left: 0px;
+  }
+  #team #team-pitch ul {
+    margin-left: -40px;
+  }
+  #team #team-pitch li {
+    padding: 4px 7px;
+    margin: 0 3px 6px 0;
+    color: #404040;
+    display: inline-block;
+    background-color: #FEE2CC;
+    border-radius: 3px;
+  }
+  #team #profile {
+    height: 450px;
+    margin-bottom: 30px;
+  }
+  #team #profile img {
+    margin-bottom: 30px;
+    border-radius: 3px;
+  }
+  #team h4 {
+    color: #404040;
+    font-family: 'Montserrat', sans-serif;
+  }
+  #team p {
+    font-size: 0.950em;
+    font-family: 'Abel',sans-serif;
+    line-height: normal;
+    color: #404040;
+  }
+  #pre-team #center-pic img {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    margin-top: 80px;
+  }
+}
+
+/* Iphone 5 - Landscape mode */
+@media (min-width: 440px) and (max-width: 665px) {
+  #team {
+    color: #8c8c8c;
+    height: auto;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    background-color: #FFF;
+    text-align: left;
+  }
+  #team #team-pitch {
+    text-align: center;
+    font-size: 1.000em;
+    margin-bottom: 30px;
+  }
+  #team #team-pitch p {
+    margin-left: 0px;
+  }
+  #team #team-pitch ul {
+    margin-left: -40px;
+  }
+  #team #team-pitch li {
+    padding: 4px 7px;
+    margin: 0 3px 6px 0;
+    color: #404040;
+    display: inline-block;
+    background-color: #FEE2CC;
+    border-radius: 3px;
+  }
+  #team #profile {
+    height: 450px;
+    margin-bottom: 30px;
+  }
+  #team #profile img {
+    margin-bottom: 30px;
+    border-radius: 3px;
+  }
+  #team h4 {
+    color: #404040;
+    font-family: 'Montserrat', sans-serif;
+  }
+  #team p {
+    font-size: 0.950em;
+    font-family: 'Abel',sans-serif;
+    line-height: normal;
+    color: #404040;
+  }
+  #pre-team #center-pic img {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    margin-top: 80px;
+  }
+}
+
+/* Phones - Portrait */
+@media (min-width: 380px) and (max-width: 440px) {
+  #team {
+    color: #8c8c8c;
+    height: auto;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    background-color: #FFF;
+    text-align: left;
+  }
+  #team #team-pitch {
+    text-align: center;
+    font-size: 1.000em;
+    margin-bottom: 30px;
+  }
+  #team #team-pitch p {
+    margin-left: 0px;
+  }
+  #team #team-pitch ul {
+    margin-left: -40px;
+  }
+  #team #team-pitch li {
+    padding: 4px 7px;
+    margin: 0 3px 6px 0;
+    color: #404040;
+    display: inline-block;
+    background-color: #FEE2CC;
+    border-radius: 3px;
+  }
+  #team #profile {
+    width: 100%;
+    height: 430px;
+    margin-bottom: 30px;
+  }
+  #team #profile img {
+    margin-bottom: 20px;
+    border-radius: 3px;
+  }
+  #team h4 {
+    color: #404040;
+    font-family: 'Montserrat', sans-serif;
+  }
+  #team p {
+    font-size: 0.950em;
+    font-family: 'Abel',sans-serif;
+    line-height: normal;
+    color: #404040;
+  }
+  #pre-team #center-pic img {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    margin-top: 80px;
+  }
+}
+
+/* Small Phones */
+@media (max-width: 379px) {
+  #team {
+    color: #8c8c8c;
+    height: auto;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    background-color: #FFF;
+    text-align: left;
+  }
+  #team #team-pitch {
+    text-align: center;
+    font-size: 1.000em;
+    margin-bottom: 30px;
+  }
+  #team #team-pitch p {
+    margin-left: 0px;
+  }
+  #team #team-pitch ul {
+    margin-left: -40px;
+  }
+  #team #team-pitch li {
+    padding: 4px 7px;
+    margin: 0 3px 6px 0;
+    color: #404040;
+    display: inline-block;
+    background-color: #FEE2CC;
+    border-radius: 3px;
+  }
+  #team #profile {
+    width: 100%;
+    height: 400px;
+    margin-bottom: 30px;
+  }
+  #team #profile img {
+    margin-bottom: 20px;
+    border-radius: 3px;
+  }
+  #team h4 {
+    color: #404040;
+    font-family: 'Montserrat', sans-serif;
+  }
+  #team p {
+    font-size: 0.950em;
+    font-family: 'Abel',sans-serif;
+    line-height: normal;
+    color: #404040;
+  }
+  #pre-team #center-pic img {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    margin-top: 80px;
+  }
+}
+
+/* ------- BLOG ------- waiting for deployment */
 
 /* Medium and Large devices */
 @media (min-width: 1200px) {
@@ -1735,10 +1972,7 @@ ul.nostyle i {
     padding-top: 125px;
     padding-bottom: 0px;
     height: 414px;
-    background: url(../img/but-piensa-05.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center center;
+    background-color: #f68b39;
     color: #404040;
   }
   #get-in-touch p {
@@ -1770,10 +2004,7 @@ ul.nostyle i {
     padding-top: 115px;
     padding-bottom: 0px;
     height: 375px;
-    background: url(../img/but-piensa-05.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center center;
+    background-color: #f68b39;
     color: #404040;
   }
   #get-in-touch p {
@@ -1799,12 +2030,12 @@ ul.nostyle i {
   }
 }
 
-/* Iphone 5 - Landscape mode */
-@media (min-width:440px) and (max-width: 665px) {
+/* S5 - Landscape mode */
+@media (min-width: 569px) and (max-width: 665px) {
   #get-in-touch {
-    padding-top: 105px;
+    padding-top: 120px;
     padding-bottom: 0px;
-    height: 320px;
+    height: 360px;
     background-color: #f68b39;
     color: #404040;
   }
@@ -1821,10 +2052,38 @@ ul.nostyle i {
    font-family: 'Montserrat', sans-serif;
    text-align: center;
    font-weight: 600;
-   font-size: 0.800em;
+   font-size: 0.950em;
    line-height: normal;
    text-decoration: underline;
   }
+}
+
+/* Iphone 5 - Landscape mode */
+@media (min-width: 440px) and (max-width: 568px) {
+ #get-in-touch {
+   padding-top: 105px;
+   padding-bottom: 0px;
+   height: 320px;
+   background-color: #f68b39;
+   color: #404040;
+ }
+ #get-in-touch p {
+   color: #fff;
+   font-family: 'Montserrat', sans-serif;
+   text-align: center;
+   font-weight: 600;
+   font-size: 0.950em;
+   line-height: normal;
+ }
+ #get-in-touch #contact-mail a {
+ color: #404040;
+ font-family: 'Montserrat', sans-serif;
+ text-align: center;
+ font-weight: 600;
+ font-size: 0.800em;
+ line-height: normal;
+ text-decoration: underline;
+ }
 }
 
 /* Large Phones - Portrait */
