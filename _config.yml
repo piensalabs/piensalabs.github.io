@@ -24,3 +24,7 @@ defaults:
       author: Javier Daza
       layout: "post"
       #comments: true
+
+# Where are tags and categories displayed
+tag_page: '/blog/tags/'
+category_page: '/blog/categories/'
