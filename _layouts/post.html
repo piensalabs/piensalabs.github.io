@@ -7,7 +7,12 @@ layout: default
     <div class="row">
       <div class="col-lg-8 col-lg-offset-2">
         </br></br></br></br>
-        <p style="display:inline-block;"><img src="/img/javier.jpg" width="50px" height="50px"> <ba>{% if page.author %}{{ page.author }}{% endif %}</ba></p>
+        <p style="display:inline-block;">
+          <img src="/img/javier.jpg" width="50px" height="50px">
+          <ba>
+            {% if page.author %}{{ page.author }}{% endif %}
+          </ba>
+        </p>
         <p style="float: right;clear: both;" class="btn">share</p>
 
         {% if page.image %}
@@ -16,29 +21,18 @@ layout: default
 
         <h1>{{ page.title }}</h1>
         <p> Posted <bd>{{ page.date | date: "%b %-d, %Y" }}</bd></p>
+
         <p>
-          Tags:
-          {% if page.tags %}
-            {% for tag in page.tags %}
-                    <a href="{{ site.baseurl }}{{ site.tag_page }}#{{ tag | slugify }}" class="post-tag">
-                      {{ tag }}
-                    </a>
-            {% endfor %}
-          {% endif %}
+          <bt>
+            Category:
+            <a href="{{ site.url }}/{{ page.category-url }}" rel="category">
+              {{ page.category }}
+            </a>
+          </bt>
         </p>
-        <p>
-          Category:
-          {% if page.category %} 
-            {% for category in page.category %}
-                    <a href="{{ site.baseurl }}{{ site.category_page }}#{{ category | slugify }}" class="post-tag">
-                      {{ category }}
-                    </a>
-            {% endfor %}
-          {% endif %}
-        </p>
+
         {{ content }}
-        <!-- <br>
-        <p><bt>CATEGORÍAS: <a href="#">Wordpress</a> - <a href="#">Web Design</a></bt></p> -->
+
         <hr>
         <p><a href="/blog/"># Back</a></p>
       </div>
