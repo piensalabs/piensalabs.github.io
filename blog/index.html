@@ -25,12 +25,10 @@ title: Blog
 	                <br>
 	                <a href="{{ post.url | prepend: site.baseurl }}">Read more</a>
 	                <br>
-	                {% if post.tags %}
-						{% for tag in post.tags %}
-							<a href="{{ site.baseurl }}{{ site.tag_page }}#{{ tag | slugify }}" class="btn">
-							{{ tag }}
-							</a>
-						{% endfor %}
+	                {% if post.category %}
+						<a href="{{ site.url }}/{{ post.category-url }}" class="btn">
+						{{ post.category }}
+						</a>
 			        {% endif %}
 				</div>
 				<div class="col-md-5">
