@@ -3,7 +3,7 @@ layout: category
 title: Computer Vision from Piensa Labs
 description:
 category: computer vision
-permalink: /computer-vision/
+permalink: /category/computer-vision/
 ---
 
 
