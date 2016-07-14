@@ -28,3 +28,25 @@ defaults:
 
 # Where are categories displayed
 include: ["_pages"]
+
+authors:
+  javier:
+    display_name: Javier Daza
+    image_name: javier.jpg
+    email: javier@piensa.co
+    github: javierdaza
+    url: javier-daza
+
+  ariel:
+    display_name: Ariel Núñez
+    image_name: ariel.jpg
+    email: ariel@piensa.co
+    github: ingenieroariel
+    url: ariel-nunez
+
+  guillermo:
+    display_name: Guillermo Solano
+    image_name: guillo.jpg
+    email: guillermo@piensa.co
+    github: gsolat
+    url: guillermo-solano

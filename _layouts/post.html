@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+{% assign author = site.authors[page.author] %}
 
 <div id="white">
     <div class="container">
@@ -8,9 +9,9 @@ layout: default
       <div class="col-lg-8 col-lg-offset-2">
         </br></br></br></br>
         <p style="display:inline-block;">
-          <img src="/img/javier.jpg" width="50px" height="50px">
+          <img src="/img/{{ author.image_name }}" width="50px" height="50px">
           <ba>
-            {% if page.author %}{{ page.author }}{% endif %}
+            {{ author.display_name }}
           </ba>
         </p>
         <p style="float: right;clear: both;" class="btn">share</p>
@@ -25,7 +26,7 @@ layout: default
         <p>
           <bt>
             Category:
-            <a href="{{ site.url }}/{{ page.category-url }}" rel="category">
+            <a href="{{ site.url }}/category/{{ page.category-url }}" rel="category">
               {{ page.category }}
             </a>
           </bt>
