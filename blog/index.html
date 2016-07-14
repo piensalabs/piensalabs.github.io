@@ -17,7 +17,7 @@ title: Blog
 					<img class="blog__post-thumb" src="/img/{{ author.image_name }}" style="border-radius:50%;width:75%;">
 				</div>
 				<div class="col-md-11">
-					<p>{{ author.display_name }}</p>
+					<p><a href="{{ site.url }}/authors/{{ post.author-url }}">{{ author.display_name }}</a></p>
 					<p>{{ post.date | date: "%b %-d, %Y" }}</p>
 				</div>
 				<div class="col-md-7">

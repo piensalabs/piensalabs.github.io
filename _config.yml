@@ -26,27 +26,31 @@ defaults:
       layout: "post"
       #comments: true
 
-# Where are categories displayed
-include: ["_pages"]
+# Where are categories and authors displayed
+include: ["_pages", "_authors"]
+
 
 authors:
   javier:
+    name: javier
     display_name: Javier Daza
     image_name: javier.jpg
     email: javier@piensa.co
     github: javierdaza
-    url: javier-daza
+    description: "Electronic Engineer with experience developing apps for Python and PHP. He is the creator of communities like Django Barranquilla and Kizuna Club. Engaging community. Make it work"
 
   ariel:
+    name: ariel
     display_name: Ariel Núñez
     image_name: ariel.jpg
     email: ariel@piensa.co
     github: ingenieroariel
-    url: ariel-nunez
+    description: "Electronic Engineer, specialist in open source software. He is one of the main creators and contributors of GeoNode software. Ariel has worked with NGOs such as the UN (WFP), and the World Bank (GFDRR), developing and promoting the use of open source software for risk assessment and prevention. Make it work."
 
   guillermo:
+    name: guillermo
     display_name: Guillermo Solano
     image_name: guillo.jpg
     email: guillermo@piensa.co
     github: gsolat
-    url: guillermo-solano
+    description: "Graphic Designer with experience using image to create graphic and visual projects with cultural organizations and social development initiatives. Also, he is a web application developer and enthusiast in the use of open source tools for vectorial and photographic edition. Make it useful"
