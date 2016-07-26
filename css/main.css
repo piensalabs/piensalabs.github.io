@@ -1629,19 +1629,14 @@ ul.nostyle i {
       background-color: #FFF;
       text-align: left;
     }
-    #main-image {
-      height: 240px;
-      background-image: url(../img/open-background.jpg);
-      background-position: top center;
-      background-attachment: fixed;
-      margin-bottom: 50px;
-    }
     .blog__post-thumb {
-     width: 100%;
+     max-height: 65px;
      border-radius: 50%;
     }
     #blog #post-header {
       height: 60px;
+      text-align: center;
+      margin-top: 25px;
       margin-bottom: 10px;
    }
     #blog #entrie {
@@ -1650,6 +1645,7 @@ ul.nostyle i {
     #blog #entrie #author a {
       font-family: 'Abel', sans-serif;
       font-size: 1.100em;
+      font-weight: 400;
       color: #404040;
       margin-bottom: 5px;
       border-bottom: 1px solid #404040;
@@ -1660,7 +1656,11 @@ ul.nostyle i {
       margin-bottom: 5px;
       border-bottom: 1px solid #404040;
     }
-    #blog #entrie h2, a {
+    #blog #entrie h5 {
+      font-family: 'Abel', sans-serif;
+      font-weight: 400;
+   }
+    #blog #entrie h1, a {
       color: #404040;
       font-family: 'Montserrat', sans-serif;
       margin-bottom: 20px;
@@ -1668,14 +1668,14 @@ ul.nostyle i {
       transition-duration: .4s;
       line-height: normal;
     }
-    #blog #entrie h2 > a:hover {
+    #blog #entrie h1 > a:hover {
       font-family: 'Montserrat', sans-serif;
       text-decoration: underline;;
       -webkit-transition-duration: .4s; /* Safari */
       transition-duration: .4s;
     }
     #blog #entrie #post #read-more {
-      font-family: 'Abel', sans-serif;
+      font-family: 'Montserrat', sans-serif;
       font-size: 1.000em;
       font-weight: bold;
       color: #404040;
@@ -1684,10 +1684,11 @@ ul.nostyle i {
     #blog #entrie #post {
       margin-bottom: 120px;
    }
-    #blog #entrie p {
+    #blog #entrie #post p {
       color: #404040;
-      font-size: 1.000em;
-      font-family: 'Abel',sans-serif;
+      font-size: 1.350em;
+      font-family: 'Lato',sans-serif;
+      font-weight: 200;
       line-height: normal;
     }
     #blog #entrie #post #tag {
@@ -1702,17 +1703,74 @@ ul.nostyle i {
       background-color: #D9D9D8;
     }
     #blog #post-img img {
-      height: 280px;
-      margin-top: 20px;
+      width: 100%;
+      height: 250px;
+      margin-bottom: 20px;
       border-radius: 3px;
     }
     .pagination {
-      font-family: 'Montserrat', sans-serif;
+     font-family: 'Montserrat', sans-serif;
+   }
+
+   /* post */
+
+   #post-body {
+     margin-top: 100px;
+   }
+   #post-body #post-image img {
+     width: 100%;
+     height: 250px;
+     margin-bottom: 20px;
+     border-radius: 3px;
+   }
+   #post-body #author a {
+    font-family: 'Abel', sans-serif;
+    font-size: 1.100em;
+    font-weight: 400;
+    color: #404040;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #404040;
+   }
+   #post-body #author h5 {
+    font-family: 'Abel', sans-serif;
+    font-weight: 400;
+   }
+   #post-body #post-header {
+     margin-top: 20px;
+     margin-bottom: 20px;
+   }
+   #post-body #post-header img {
+     border-radius: 50%;
+   }
+   #post-body #post-header #author {
+     border-radius: 50%;
+   }
+   #post-title h1 {
+     color: #404040;
+     font-family: 'Montserrat', sans-serif;
+     margin-bottom: 20px;
+     line-height: normal;
+   }
+   #post-body #post-content p {
+     color: #404040;
+     font-size: 1.500em;
+     font-family: 'Lato',sans-serif;
+     font-weight: 200;
+     line-height: normal;
+   }
+   #post-body #post-header .btn-xs {
+     margin-top: 20px;
+     font-size: 0.938em;
+     color: #404040;
+     background-color: #D9D9D8;
+   }
+   #post-body #share-btn {
+     margin-bottom: 80px;
    }
 }
 
 /* Medium devices */
-  @media (min-width: 768px) and (max-width: 1200px){
+@media (min-width: 768px) and (max-width: 1200px){
     #blog {
       color: #404040;
       height: auto;
@@ -1752,7 +1810,7 @@ ul.nostyle i {
   }
 
 /* Small devices */
-  @media (max-width: 768px) {
+@media (max-width: 768px) {
     #blog {
       color: #404040;
       height: auto;
