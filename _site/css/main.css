@@ -73,11 +73,20 @@ hr {
   border-radius: 3px;
   background-color: #FF6D00;
 }
+.btn-xs {
+  font-family: 'Abel', sans-serif;
+  font-weight: 300;
+  color: #fff;
+  padding: 4px 8px;
+  border-width: 0;
+  border-radius: 3px;
+  background-color: #FF6D00;
+}
 .btn-primary {
   font-family: 'Montserrat', sans-serif;
   font-weight: 800;
   font-size: 1.188em;
-  padding: 8px 16px 8px 16px;
+  padding: 8px 16px;
   color: #fff;
   border-width: 0;
   border-radius: 3px;
@@ -212,6 +221,7 @@ ul.nostyle i {
   .navbar.navbar-default .navbar-brand {
     height: auto;
     padding: 22px 15px 21px;
+    margin-bottom: 0;
   }
   .navbar.navbar-default .navbar-brand img {
     height: 50px;
@@ -1619,60 +1629,148 @@ ul.nostyle i {
       background-color: #FFF;
       text-align: left;
     }
+    .blog__post-thumb {
+     max-height: 65px;
+     border-radius: 50%;
+    }
+    #blog #post-header {
+      height: 60px;
+      text-align: center;
+      margin-top: 25px;
+      margin-bottom: 10px;
+   }
     #blog #entrie {
-      margin-bottom: 30px;
+      margin-bottom: 80px;
     }
-    #blog #entrie btn {
-      font-size: 0.938em;
+    #blog #entrie #author a {
+      font-family: 'Abel', sans-serif;
+      font-size: 1.100em;
+      font-weight: 400;
+      color: #404040;
+      margin-bottom: 5px;
+      border-bottom: 1px solid #404040;
     }
-    #blog #entrie h4 {
+    #blog #entrie #author a:hover {
+      font-size: 1.100em;
+      color: #404040;
+      margin-bottom: 5px;
+      border-bottom: 1px solid #404040;
+    }
+    #blog #entrie h5 {
+      font-family: 'Abel', sans-serif;
+      font-weight: 400;
+   }
+    #blog #entrie h1, a {
       color: #404040;
       font-family: 'Montserrat', sans-serif;
-    }
-    #blog #entrie p {
-      color: #404040;
-      font-size: 1.000em;
-      font-family: 'Abel',sans-serif;
+      margin-bottom: 20px;
+      -webkit-transition-duration: .4s; /* Safari */
+      transition-duration: .4s;
       line-height: normal;
     }
-    #blog #right-pic img {
-      margin-left: auto;
-      margin-right: auto;
-      margin-bottom: 150px;
-      margin-top: 150px;
+    #blog #entrie h1 > a:hover {
+      font-family: 'Montserrat', sans-serif;
+      text-decoration: underline;;
+      -webkit-transition-duration: .4s; /* Safari */
+      transition-duration: .4s;
     }
-    #pre-blog #center-pic img {
-      margin-left: auto;
-      margin-right: auto;
-      margin-bottom: 5px;
-      margin-top: 0px;
+    #blog #entrie #post #read-more {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 1.000em;
+      font-weight: bold;
+      color: #404040;
+      border-bottom: 1px solid #404040;
     }
-/*    #team i {
-      font-size: 2em;
-      height: 30px;
-      width: 30px;
-      line-height: 30px;
-      text-align: center;
-      color: #1A1A1A;
-      background-color: #FFF;
-      transition: background-color 400ms, background-color 400ms;
-      position: relative;
-      -webkit-transition: all 0.5s ease;
-      -moz-transition: all 0.5s ease;
-      -o-transition: all 0.5s ease;
-      transition: all 0.5s ease;
+    #blog #entrie #post {
+      margin-bottom: 120px;
+   }
+    #blog #entrie #post p {
+      color: #404040;
+      font-size: 1.350em;
+      font-family: 'Lato',sans-serif;
+      font-weight: 200;
+      line-height: normal;
     }
-    #team i:hover {
-      color: #B4CC35;
-      -webkit-transition: all 0.5s ease;
-      -moz-transition: all 0.5s ease;
-      -o-transition: all 0.5s ease;
-      transition: all 0.5s ease;
-    }*/
-  }
+    #blog #entrie #post #tag {
+      margin-top: 20px;
+      font-size: 0.938em;
+      color: #404040;
+    }
+    #blog #entrie #post #tag .btn-xs {
+      margin-top: 20px;
+      font-size: 0.938em;
+      color: #404040;
+      background-color: #D9D9D8;
+    }
+    #blog #post-img img {
+      width: 100%;
+      height: 250px;
+      margin-bottom: 20px;
+      border-radius: 3px;
+    }
+    .pagination {
+     font-family: 'Montserrat', sans-serif;
+   }
+
+   /* post */
+
+   #post-body {
+     margin-top: 100px;
+   }
+   #post-body #post-image img {
+     width: 100%;
+     height: 250px;
+     margin-bottom: 20px;
+     border-radius: 3px;
+   }
+   #post-body #author a {
+    font-family: 'Abel', sans-serif;
+    font-size: 1.100em;
+    font-weight: 400;
+    color: #404040;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #404040;
+   }
+   #post-body #author h5 {
+    font-family: 'Abel', sans-serif;
+    font-weight: 400;
+   }
+   #post-body #post-header {
+     margin-top: 20px;
+     margin-bottom: 20px;
+   }
+   #post-body #post-header img {
+     border-radius: 50%;
+   }
+   #post-body #post-header #author {
+     border-radius: 50%;
+   }
+   #post-title h1 {
+     color: #404040;
+     font-family: 'Montserrat', sans-serif;
+     margin-bottom: 20px;
+     line-height: normal;
+   }
+   #post-body #post-content p {
+     color: #404040;
+     font-size: 1.500em;
+     font-family: 'Lato',sans-serif;
+     font-weight: 200;
+     line-height: normal;
+   }
+   #post-body #post-header .btn-xs {
+     margin-top: 20px;
+     font-size: 0.938em;
+     color: #404040;
+     background-color: #D9D9D8;
+   }
+   #post-body #share-btn {
+     margin-bottom: 80px;
+   }
+}
 
 /* Medium devices */
-  @media (min-width: 768px) and (max-width: 1200px){
+@media (min-width: 768px) and (max-width: 1200px){
     #blog {
       color: #404040;
       height: auto;
@@ -1712,7 +1810,7 @@ ul.nostyle i {
   }
 
 /* Small devices */
-  @media (max-width: 768px) {
+@media (max-width: 768px) {
     #blog {
       color: #404040;
       height: auto;
