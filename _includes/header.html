@@ -13,15 +13,18 @@
             <div class="collapse navbar-collapse navbar-right">
               <a class="navbar-brand" id="logo-large-dev" href="/"><img src="/img/nav-icon.png" alt="logo"></a>
                 <ul class="nav navbar-nav">
+                {% if page.url == "/" %}
                     <li class="scroll"><a href="#home">Home</a></li>
-                    <!--li class="scroll"><a href="#about">about</a></li-->
                     <li class="scroll"><a href="#team">Team</a></li>
+                {% else %}
+                    <li class="scroll"><a href="/">Home</a></li>
+                {% endif %}
                     <li class="scroll"><a href="/blog/">Blog</a></li>
+                    {% if page.url == "/" %}
                     <li class="scroll"><a href="#get-in-touch">Contact</a></li>
-                    <!--li class="scroll"><a href="#"><i class="fa fa-twitter-square animated"></i></a></li>
-                    <li class="scroll"><a href="#"><i class="fa fa-facebook-square animated"></i></a></li-->
+                    {% endif %}
                 </ul>
             </div>
-        </div><!--/.container-->
-    </nav><!--/nav-->
-</header><!--/header-->
+        </div>
+    </nav>
+</header>
