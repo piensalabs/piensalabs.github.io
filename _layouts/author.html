@@ -7,38 +7,44 @@ layout: default
 <section class="tags" style="padding-top:100px;">
   <div class="container">
     <div class="row">
-      <h1 class="archive-title">Posts of {{ author.display_name }}</h1>
-      <img src="/img/{{ author.image_name }}" width="20%" height="auto">      
-      <p>
-      	{{ author.description }}
-      </p>
-      <div class="wrap">
-		{% if author %}
-		<div class="group-year">
-			{% for post in site.posts %}
-				{% if post.author == author.name %}
-				{% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
-				{% unless year == this_year %}
-				{% assign year = this_year %}
-				<br>
-				<p>{{ year }}</p>
-				{% endunless %}
-				<article>
-					<h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
-					<time>
-					<span class="month">{{ post.date | date: "%b" }}</span>
-					<span class="day">{{ post.date | date: "%d" }}</span>
-					<span class="year">{{ post.date | date: "%Y" }}</span>
-					</time>
-				</article>
-				{% endif %}
-			{% endfor %}
-		</div>
-		{% else %}
-		<p>There are no posts about this author.</p>
-		{% endif %}
-      </div>
-
+              <div id="author-layout" class="col-lg-8 col-lg-offset-2">
+                <div class="col-lg-12">
+                     <h1 class="archive-title">{{ author.display_name }}</h1>
+                </div>
+                <div class="col-lg-4">
+                     <img src="/img/{{ author.image_name }}" width="100%" height="auto">
+                </div>
+                <div class="col-lg-8">
+                     <p>{{ author.description }}</p>
+                </div>
+                <div class="wrap col-lg-12">
+          		{% if author %}
+          		<div class="group-year col-lg-8 col-lg-offset-4">
+                                        <div id="year">
+          			{% for post in site.posts %}
+          				{% if post.author == author.name %}
+          				{% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
+          				{% unless year == this_year %}
+          				{% assign year = this_year %}
+          				<h3>{{ year }}</h3>
+          				{% endunless %}
+          				<article>
+          					<h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
+          					<time>
+          					<span class="month">{{ post.date | date: "%b" }}</span>
+          					<span class="day">{{ post.date | date: "%d" }}</span>
+          					<span class="year">{{ post.date | date: "%Y" }}</span>
+          					</time>
+          				</article>
+          				{% endif %}
+          			{% endfor %}
+                                        </div>
+          		</div>
+          		{% else %}
+          		<p>There are no posts about this author.</p>
+          		{% endif %}
+                </div>
+             </div>
     </div>
   </div>
 </section>

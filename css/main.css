@@ -1767,6 +1767,32 @@ ul.nostyle i {
    #post-body #share-btn {
      margin-bottom: 80px;
    }
+
+   /* Author */
+
+   #author-layout{
+     margin-bottom: 80px;
+   }
+   #author-layout h1 {
+     font-family: 'Montserrat', sans-serif;
+     color: #404040;
+   }
+   #author-layout img {
+     border-radius: 3px;
+   }
+   #author-layout p {
+     color: #404040;
+   }
+   .group-year {
+     margin-top: 10px;
+   }
+   .group-year a:hover {
+     text-decoration: underline;
+   }
+   .group-year #year h3 {
+     font-family: 'Montserrat', sans-serif;
+     color: #B0B1B1;
+   }
 }
 
 /* Medium devices */
