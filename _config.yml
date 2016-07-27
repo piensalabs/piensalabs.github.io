@@ -13,6 +13,7 @@ gems: [jekyll-paginate]
 
 # Build settings
 markdown: kramdown
+highlighter: rouge
 permalink: blog/:title
 
 #Default settings
