@@ -1677,7 +1677,7 @@ ul.nostyle i {
     #blog #entrie #post #read-more {
       font-family: 'Montserrat', sans-serif;
       font-size: 1.000em;
-      font-weight: bold;
+      font-weight: 400;
       color: #404040;
       border-bottom: 1px solid #404040;
     }
@@ -1745,7 +1745,7 @@ ul.nostyle i {
    #post-body #post-header #author {
      border-radius: 50%;
    }
-   #post-title h1 {
+   #post-title h1, h2, h3 {
      color: #404040;
      font-family: 'Montserrat', sans-serif;
      margin-bottom: 20px;
@@ -1757,6 +1757,55 @@ ul.nostyle i {
      font-family: 'Lato',sans-serif;
      font-weight: 200;
      line-height: normal;
+   }
+   #post-body #post-content strong {
+     color: #8c8c8c;
+   }
+   #post-body #post-content img {
+     max-width:100%;
+     border-radius: 3px;
+     margin: 30px 0;
+   }
+   #post-body #post-content pre {
+     margin: 30px 0;
+   }
+   #post-body #post-content a {
+     font-family: 'Lato', sans-serif;
+     font-weight: normal;
+     text-decoration: underline;
+     color: #f36e21;
+   }
+   #post-body #post-content blockquote {
+     font-style: italic;
+   }
+   #post-body #post-content blockquote a {
+     font-family: 'Lato', sans-serif;
+   }
+   #post-body #post-content ul {
+     font-family: 'Lato', sans-serif;
+     color: #404040;
+     font-weight: 200;
+     font-size: 1.150em;
+     margin-bottom: 30px;
+   }
+   #post-body #post-content kbd {
+     font-size: 70%;
+   }
+   #post-body #post-content table {
+     font-family: 'Lato', sans-serif;
+     font-size: 0.900em;
+   }
+   #post-body #post-content td {
+     padding: 0 15px 3px 0;
+   }
+   #post-body #post-content dl {
+     font-family: 'Lato', sans-serif;
+   }
+   #post-body #post-content dt {
+     padding: 0 15px 3px 0;
+   }
+   #post-body #post-content .highlight {
+     color: #D9D9D8;
    }
    #post-body #post-header .btn-xs {
      margin-top: 20px;
@@ -1793,7 +1842,50 @@ ul.nostyle i {
      font-family: 'Montserrat', sans-serif;
      color: #B0B1B1;
    }
+
+   /*Category*/
+
+    .tags .group-year {
+      margin-bottom: 80px;
+    }
+    .tags #category-page {
+      margin-top: 80px;
+    }
+    .tags p {
+      color: #404040;
+    }
+    .tags .group-year h3 {
+     font-family: 'Montserrat', sans-serif;
+     color: #B0B1B1;
+    }
+    .tags h1 {
+     font-family: 'Montserrat', sans-serif;
+     text-transform: capitalize;
+     color: #404040;
+    }
+
+    /* 404 */
+
+    #notfound-page {
+     margin-top: 300px;
+     text-align: center;
+     color:#404040;
+    }
+    #notfound-page h1 {
+     font-family: 'Montserrat', sans-serif;
+     font-weight: 800;
+     color:#404040;
+    }
+    #notfound-page p {
+     font-family: 'Lato', sans-serif;
+     color: #404040;
+    }
+    #notfound-page a {
+     text-decoration: underline;
+    }
 }
+
+
 
 /* Medium devices */
 @media (min-width: 768px) and (max-width: 1200px){
