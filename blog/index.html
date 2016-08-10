@@ -14,17 +14,18 @@ title: Blog
 				      <img src="/img/posts/{{ post.image }}" class="img-responsive"></>
 				      {% endif %}
 				</div>
-				<div id="post" class="col-lg-12">
+				<div id="post" class="col-lg-12 col-xs-12">
 					<div class="col-lg-2" id="post-header">
-						<div style="padding-right:1px;">
+						<div style="padding-right:1px;" id="author-img">
 						     <a href="{{ site.url }}/authors/{{ post.author-url }}"><img class="blog__post-thumb" src="/img/thumbs/{{ author.image_name }}"></a>
 						</div>
-						<div>
+						<div id="author-name">
 						     <h5 id="author"><a href="{{ site.url }}/authors/{{ post.author-url }}">{{ author.display_name }}</a></h5>
 						     <h5>{{ post.date | date: "%b %-d, %Y" }}</h5>
 						</div>
+
 					</div>
-					<div class="col-lg-10">
+					<div class="col-lg-10 col-xs-12">
 						<h1><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h1>
 		                			<p>{{ post.excerpt | strip_html | truncatewords: 100 }} <a id="read-more" href="{{ post.url | prepend: site.baseurl }}">Read more</a></p>
 		                			{% if post.category %}
