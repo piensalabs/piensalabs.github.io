@@ -3798,6 +3798,894 @@ ul.nostyle i {
     }
 }
 
+/* Large Phones - Portrait */
+@media (min-width: 380px) and (max-width: 440px) {
+    #blog {
+      color: #404040;
+      height: auto;
+      padding-top: 70px;
+      padding-bottom: 0px;
+      background-color: #FFF;
+      text-align: left;
+    }
+    .blog__post-thumb {
+     max-height: 55px;
+     border-radius: 50%;
+    }
+    #blog #post-header {
+      width: auto;
+      height: 55px;
+      text-align: left;
+      margin-top: 25px;
+      margin-bottom: 0px;
+   }
+    #blog #entrie {
+      margin-bottom: 60px;
+    }
+    #blog #entrie #author-name {
+      margin-top: -60px;
+      margin-left: 75px;
+    }
+    #blog #entrie #author-name a {
+      font-family: 'Abel', sans-serif;
+      font-size: inherit;
+      font-weight: 400;
+      color: #404040;
+      margin-bottom: 5px;
+      border-bottom: 1px solid #404040;
+    }
+    #blog #entrie #post h5 {
+      font-family: 'Abel', sans-serif;
+      font-weight: 400;
+   }
+    #blog #entrie h1, a {
+      font-size: 26px;
+      color: #404040;
+      font-family: 'Montserrat', sans-serif;
+      margin-bottom: 20px;
+      -webkit-transition-duration: .4s; /* Safari */
+      transition-duration: .4s;
+      line-height: normal;
+    }
+    #blog #entrie #post #read-more {
+      font-family: 'Lato', sans-serif;
+      font-size: 0.900em;
+      font-weight: 400;
+      color: #404040;
+      border-bottom: 1px solid #404040;
+    }
+    #blog #entrie #post #post-prev {
+      width: 100%;
+    }
+    #blog #entrie #post {
+      margin-bottom: 120px;
+   }
+    #blog #entrie #post p {
+      color: #404040;
+      font-size: 1.150em;
+      font-family: 'Lato',sans-serif;
+      font-weight: 200;
+      line-height: normal;
+    }
+    #blog #entrie #post #tag {
+      margin-top: 20px;
+      font-size: 0.938em;
+      color: #404040;
+    }
+    #blog #entrie #post #tag .btn-xs {
+      margin-top: 20px;
+      font-size: 0.938em;
+      color: #404040;
+      background-color: #D9D9D8;
+    }
+    #blog #post-img img {
+      width: 100%;
+      height: 104px;
+      margin-bottom: 0px;
+      border-radius: 3px;
+    }
+    .pagination {
+     font-family: 'Montserrat', sans-serif;
+     float: right;
+   }
+    .pagination a {
+     font-size: 16px;
+   }
+
+   /* post */
+
+   #post-body {
+     margin-top: 70px;
+   }
+   #post-body #post-image img {
+     width: 100%;
+     height: 104px;
+     margin-bottom: 0px;
+     border-radius: 3px;
+   }
+   #post-body #post-header {
+     height: auto;
+   }
+   #post-body #post-header #author-info {
+     margin: 20px 0 20px -15px;
+     height: 55px;
+   }
+   #post-body #post-header #author-name {
+    margin-top:0px;
+    margin-left: 90px;
+   }
+   #post-body #post-header #author-name a {
+    font-family: 'Abel', sans-serif;
+    font-size: 1.000em;
+    font-weight: 400;
+    color: #404040;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #404040;
+   }
+   #post-body #post-header #author-name h5 {
+    font-family: 'Abel', sans-serif;
+    font-weight: 400;
+   }
+   #post-body #post-header {
+     margin-bottom: 20px;
+   }
+   #post-body #post-header #author-info img {
+     margin-top: -5px;
+     width: 55px;
+     height: 55px;
+     border-radius: 50%;
+   }
+   #post-title h1 {
+     font-size: 26px;
+   }
+   #post-title #post-content h2 {
+     font-size: 24px;
+   }
+   #post-title h1, h2, h3 {
+     color: #404040;
+     font-family: 'Montserrat', sans-serif;
+     margin-bottom: 20px;
+     line-height: normal;
+   }
+   #post-body #post-content p {
+     color: #404040;
+     font-size: 1.250em;
+     font-family: 'Lato',sans-serif;
+     font-weight: 200;
+     line-height: normal;
+   }
+   #post-body #post-content strong {
+     color: #8c8c8c;
+   }
+   #post-body #post-content img {
+     max-width:100%;
+     border-radius: 3px;
+     margin: 30px 0;
+   }
+   #post-body #post-content pre {
+     margin: 30px 0;
+   }
+   #post-body #post-content a {
+     font-size: 0.900em;
+     font-family: 'Lato', sans-serif;
+     font-weight: normal;
+     text-decoration: underline;
+     color: #f36e21;
+   }
+   #post-body #post-content code {
+    font-size: 85%;
+   }
+   #post-body #post-content blockquote {
+     font-style: italic;
+   }
+   #post-body #post-content blockquote a {
+     font-family: 'Lato', sans-serif;
+   }
+   #post-body #post-content ul {
+     font-family: 'Lato', sans-serif;
+     color: #404040;
+     font-weight: 200;
+     font-size: 1.150em;
+     margin-bottom: 30px;
+   }
+   #post-body #post-content kbd {
+     font-size: 70%;
+   }
+   #post-body #post-content table {
+     font-family: 'Lato', sans-serif;
+     font-size: 0.900em;
+   }
+   #post-body #post-content td {
+     padding: 0 15px 3px 0;
+   }
+   #post-body #post-content dl {
+     font-family: 'Lato', sans-serif;
+   }
+   #post-body #post-content dt {
+     padding: 0 15px 3px 0;
+   }
+   #post-body #post-content .highlight {
+     color: #D9D9D8;
+   }
+   #post-body #post-header .btn-xs {
+     margin-top: 20px;
+     font-size: 0.938em;
+     color: #404040;
+     background-color: #D9D9D8;
+   }
+   #post-body #share-btn {
+     margin-bottom: 30px;
+   }
+   #post-body #share-btn a:first-child {
+     font-size: 16px;
+   }
+
+   /* Author */
+
+   .tags {
+     padding-top: 60px;
+   }
+   #author-layout{
+     margin-bottom: 0px;
+   }
+   #author-layout h1 {
+     font-size: 26px;
+     font-family: 'Montserrat', sans-serif;
+     color: #404040;
+   }
+   #author-layout #author-img {
+     width: 100%;
+   }
+   #author-layout #author-desc {
+     width: 100%;
+   }
+   #author-layout img {
+     margin-top: 10px;
+     border-radius: 3px;
+   }
+   #author-layout p {
+     color: #404040;
+   }
+   .group-year {
+     width: 100%;
+     margin-top: 10px;
+     margin-left: 0px;
+   }
+   .group-year a:hover {
+     text-decoration: underline;
+   }
+   .group-year #year h3 {
+     font-family: 'Montserrat', sans-serif;
+     color: #B0B1B1;
+   }
+
+   /*Category*/
+
+    .tags {
+      padding-top: 60px;
+    }
+    .tags .group-year {
+      margin-bottom: 40px;
+    }
+    .tags #category-page {
+      margin-top: 60px;
+    }
+    .tags p {
+      color: #404040;
+    }
+    .tags .group-year h3 {
+     font-size: 24px;
+     font-family: 'Montserrat', sans-serif;
+     color: #B0B1B1;
+    }
+    .tags h1 {
+     font-size: 26px;
+     font-family: 'Montserrat', sans-serif;
+     text-transform: capitalize;
+     color: #404040;
+    }
+}
+
+/* Medium Phones - Portrait */
+@media (min-width: 350px) and (max-width: 379px) {
+   #blog {
+     color: #404040;
+     height: auto;
+     padding-top: 70px;
+     padding-bottom: 0px;
+     background-color: #FFF;
+     text-align: left;
+   }
+   .blog__post-thumb {
+    max-height: 55px;
+    border-radius: 50%;
+   }
+   #blog #post-header {
+     width: auto;
+     height: 55px;
+     text-align: left;
+     margin-top: 25px;
+     margin-bottom: 0px;
+ }
+   #blog #entrie {
+     margin-bottom: 60px;
+     width: 100%;
+     margin-left: 0px;
+   }
+   #blog #entrie #author-name {
+     margin-top: -60px;
+     margin-left: 75px;
+   }
+   #blog #entrie #author-name a {
+     font-family: 'Abel', sans-serif;
+     font-size: inherit;
+     font-weight: 400;
+     color: #404040;
+     margin-bottom: 5px;
+     border-bottom: 1px solid #404040;
+   }
+   #blog #entrie #post h5 {
+     font-family: 'Abel', sans-serif;
+     font-weight: 400;
+ }
+   #blog #entrie h1, a {
+     font-size: 21px;
+     color: #404040;
+     font-family: 'Montserrat', sans-serif;
+     margin-bottom: 20px;
+     -webkit-transition-duration: .4s; /* Safari */
+     transition-duration: .4s;
+     line-height: normal;
+   }
+   #blog #entrie #post #read-more {
+     font-family: 'Lato', sans-serif;
+     font-size: 0.900em;
+     font-weight: 400;
+     color: #404040;
+     border-bottom: 1px solid #404040;
+   }
+   #blog #entrie #post #post-prev {
+     width: 100%;
+   }
+   #blog #entrie #post {
+     margin-bottom: 120px;
+ }
+   #blog #entrie #post p {
+     color: #404040;
+     font-size: 1.150em;
+     font-family: 'Lato',sans-serif;
+     font-weight: 200;
+     line-height: normal;
+   }
+   #blog #entrie #post #tag {
+     margin-top: 20px;
+     font-size: 0.938em;
+     color: #404040;
+   }
+   #blog #entrie #post #tag .btn-xs {
+     margin-top: 20px;
+     font-size: 0.938em;
+     color: #404040;
+     background-color: #D9D9D8;
+   }
+   #blog #post-img img {
+     width: 100%;
+     height: 109px;
+     margin-bottom: 0px;
+     border-radius: 3px;
+   }
+   .pagination {
+    font-family: 'Montserrat', sans-serif;
+    float: right;
+ }
+   .pagination a {
+    font-size: 16px;
+ }
+
+ /* post */
+
+ #post-body {
+    margin-top: 70px;
+ }
+ #post-body #post-image img {
+    width: 100%;
+    height: 143px;
+    margin-bottom: 0px;
+    border-radius: 3px;
+ }
+ #post-body #post-header {
+    height: auto;
+ }
+ #post-body-mobile {
+    width: 100%;
+    margin-left: 0px;
+ }
+ #post-body #post-header #author-info {
+    margin: 20px 0 20px -15px;
+    height: 50px;
+ }
+ #post-body #post-header #author-name {
+   margin-top:0px;
+   margin-left: 90px;
+ }
+ #post-body #post-header #author-name a {
+   font-family: 'Abel', sans-serif;
+   font-size: 1.000em;
+   font-weight: 400;
+   color: #404040;
+   margin-bottom: 5px;
+   border-bottom: 1px solid #404040;
+ }
+ #post-body #post-header #author-name h5 {
+   font-family: 'Abel', sans-serif;
+   font-weight: 400;
+ }
+ #post-body #post-header {
+    margin-bottom: 20px;
+ }
+ #post-body #post-header #author-info img {
+    margin-top: -5px;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+ }
+ #post-title h1 {
+    font-size: 26px;
+ }
+ #post-title #post-content h2 {
+    font-size: 24px;
+ }
+ #post-title h1, h2, h3 {
+    font-size: 21px;
+    color: #404040;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 20px;
+    line-height: normal;
+ }
+ #post-body #post-content p {
+    color: #404040;
+    font-size: 1.250em;
+    font-family: 'Lato',sans-serif;
+    font-weight: 200;
+    line-height: normal;
+ }
+ #post-body #post-content strong {
+    color: #8c8c8c;
+ }
+ #post-body #post-content img {
+    max-width:100%;
+    border-radius: 3px;
+    margin: 30px 0;
+ }
+ #post-body #post-content pre {
+    margin: 30px 0;
+ }
+ #post-body #post-content a {
+    font-size: 0.900em;
+    font-family: 'Lato', sans-serif;
+    font-weight: normal;
+    text-decoration: underline;
+    color: #f36e21;
+ }
+ #post-body #post-content code {
+   font-size: 85%;
+ }
+ #post-body #post-content blockquote {
+    font-style: italic;
+ }
+ #post-body #post-content blockquote a {
+    font-family: 'Lato', sans-serif;
+ }
+ #post-body #post-content ul {
+    font-family: 'Lato', sans-serif;
+    color: #404040;
+    font-weight: 200;
+    font-size: 1.150em;
+    margin-bottom: 30px;
+ }
+ #post-body #post-content kbd {
+    font-size: 70%;
+ }
+ #post-body #post-content table {
+    font-family: 'Lato', sans-serif;
+    font-size: 0.900em;
+ }
+ #post-body #post-content td {
+    padding: 0 15px 3px 0;
+ }
+ #post-body #post-content dl {
+    font-family: 'Lato', sans-serif;
+ }
+ #post-body #post-content dt {
+    padding: 0 15px 3px 0;
+ }
+ #post-body #post-content .highlight {
+    color: #D9D9D8;
+ }
+ #post-body #post-header .btn-xs {
+    margin-top: 20px;
+    font-size: 0.938em;
+    color: #404040;
+    background-color: #D9D9D8;
+ }
+ #post-body #share-btn {
+    margin-bottom: 30px;
+ }
+ #post-body #share-btn a:first-child {
+    font-size: 16px;
+ }
+
+ /* Author */
+
+ .tags {
+    padding-top: 60px;
+ }
+ #author-layout{
+    margin-bottom: 0px;
+    width: 100%;
+    margin-left: 0px;
+ }
+ #author-layout h1 {
+    font-size: 21px;
+    font-family: 'Montserrat', sans-serif;
+    color: #404040;
+ }
+ #author-layout #author-img {
+    width: 100%;
+ }
+ #author-layout #author-desc {
+    width: 100%;
+ }
+ #author-layout img {
+    margin-top: 10px;
+    border-radius: 3px;
+ }
+ #author-layout p {
+    color: #404040;
+ }
+ .group-year {
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 0px;
+ }
+ .group-year a:hover {
+    text-decoration: underline;
+ }
+ .group-year #year h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #B0B1B1;
+ }
+
+ /*Category*/
+
+   .tags {
+     padding-top: 60px;
+   }
+   .tags .group-year {
+     margin-bottom: 40px;
+   }
+   .tags #category-page {
+     margin-top: 60px;
+   }
+   .tags p {
+     color: #404040;
+   }
+   .tags .group-year h3 {
+    font-size: 21px;
+    font-family: 'Montserrat', sans-serif;
+    color: #B0B1B1;
+   }
+   .tags h1 {
+    font-size: 26px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: capitalize;
+    color: #404040;
+   }
+   #category-mobile {
+    padding: 0px;
+   }
+}
+
+/* Medium Phones - Portrait */
+@media (max-width: 350px) {
+   #blog {
+     color: #404040;
+     height: auto;
+     padding-top: 70px;
+     padding-bottom: 0px;
+     background-color: #FFF;
+     text-align: left;
+   }
+   .blog__post-thumb {
+    max-height: 50px;
+    border-radius: 50%;
+   }
+   #blog #post-header {
+     width: auto;
+     height: 55px;
+     text-align: left;
+     margin-top: 25px;
+     margin-bottom: 0px;
+ }
+   #blog #entrie {
+     margin-bottom: 60px;
+     width: 100%;
+     margin-left: 0px;
+   }
+   #blog #entrie #author-name {
+     margin-top: -55px;
+     margin-left: 65px;
+   }
+   #blog #entrie #author-name a {
+     font-family: 'Abel', sans-serif;
+     font-size: inherit;
+     font-weight: 400;
+     color: #404040;
+     margin-bottom: 5px;
+     border-bottom: 1px solid #404040;
+   }
+   #blog #entrie #post h5 {
+     font-family: 'Abel', sans-serif;
+     font-weight: 400;
+ }
+   #blog #entrie h1, a {
+     font-size: 21px;
+     color: #404040;
+     font-family: 'Montserrat', sans-serif;
+     margin-bottom: 20px;
+     -webkit-transition-duration: .4s; /* Safari */
+     transition-duration: .4s;
+     line-height: normal;
+   }
+   #blog #entrie #post #read-more {
+     font-family: 'Lato', sans-serif;
+     font-size: 0.900em;
+     font-weight: 400;
+     color: #404040;
+     border-bottom: 1px solid #404040;
+   }
+   #blog #entrie #post #post-prev {
+     width: 100%;
+   }
+   #blog #entrie #post {
+     margin-bottom: 120px;
+ }
+   #blog #entrie #post p {
+     color: #404040;
+     font-size: 1.150em;
+     font-family: 'Lato',sans-serif;
+     font-weight: 200;
+     line-height: normal;
+   }
+   #blog #entrie #post #tag {
+     margin-top: 20px;
+     font-size: 0.938em;
+     color: #404040;
+   }
+   #blog #entrie #post #tag .btn-xs {
+     margin-top: 20px;
+     font-size: 0.938em;
+     color: #404040;
+     background-color: #D9D9D8;
+   }
+   #blog #post-img img {
+     width: 100%;
+     height: 90px;
+     margin-bottom: 0px;
+     border-radius: 3px;
+   }
+   .pagination {
+    font-family: 'Montserrat', sans-serif;
+    float: right;
+ }
+   .pagination a {
+    font-size: 16px;
+ }
+
+ /* post */
+
+ #post-body {
+    margin-top: 70px;
+ }
+ #post-body #post-image img {
+    width: 100%;
+    height: 90px;
+    margin-bottom: 0px;
+    border-radius: 3px;
+ }
+ #post-body #post-header {
+    height: auto;
+ }
+ #post-body-mobile {
+    width: 100%;
+    margin-left: 0px;
+ }
+ #post-body #post-header #author-info {
+    margin: 20px 0 20px -15px;
+    height: 50px;
+ }
+ #post-body #post-header #author-name {
+   margin-top:0px;
+   margin-left: 80px;
+ }
+ #post-body #post-header #author-name a {
+   font-family: 'Abel', sans-serif;
+   font-size: 1.000em;
+   font-weight: 400;
+   color: #404040;
+   margin-bottom: 5px;
+   border-bottom: 1px solid #404040;
+ }
+ #post-body #post-header #author-name h5 {
+   font-family: 'Abel', sans-serif;
+   font-weight: 400;
+ }
+ #post-body #post-header {
+    margin-bottom: 20px;
+ }
+ #post-body #post-header #author-info img {
+    margin-top: -5px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+ }
+ #post-title h1 {
+    font-size: 26px;
+ }
+ #post-title #post-content h2 {
+    font-size: 24px;
+ }
+ #post-title h1, h2, h3 {
+    font-size: 21px;
+    color: #404040;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 20px;
+    line-height: normal;
+ }
+ #post-body #post-content p {
+    color: #404040;
+    font-size: 1.250em;
+    font-family: 'Lato',sans-serif;
+    font-weight: 200;
+    line-height: normal;
+ }
+ #post-body #post-content strong {
+    color: #8c8c8c;
+ }
+ #post-body #post-content img {
+    max-width:100%;
+    border-radius: 3px;
+    margin: 30px 0;
+ }
+ #post-body #post-content pre {
+    margin: 30px 0;
+ }
+ #post-body #post-content a {
+    font-size: 0.900em;
+    font-family: 'Lato', sans-serif;
+    font-weight: normal;
+    text-decoration: underline;
+    color: #f36e21;
+ }
+ #post-body #post-content code {
+   font-size: 85%;
+ }
+ #post-body #post-content blockquote {
+    font-style: italic;
+ }
+ #post-body #post-content blockquote a {
+    font-family: 'Lato', sans-serif;
+ }
+ #post-body #post-content ul {
+    font-family: 'Lato', sans-serif;
+    color: #404040;
+    font-weight: 200;
+    font-size: 1.150em;
+    margin-bottom: 30px;
+ }
+ #post-body #post-content kbd {
+    font-size: 70%;
+ }
+ #post-body #post-content table {
+    font-family: 'Lato', sans-serif;
+    font-size: 0.900em;
+ }
+ #post-body #post-content td {
+    padding: 0 15px 3px 0;
+ }
+ #post-body #post-content dl {
+    font-family: 'Lato', sans-serif;
+ }
+ #post-body #post-content dt {
+    padding: 0 15px 3px 0;
+ }
+ #post-body #post-content .highlight {
+    color: #D9D9D8;
+ }
+ #post-body #post-header .btn-xs {
+    margin-top: 20px;
+    font-size: 0.938em;
+    color: #404040;
+    background-color: #D9D9D8;
+ }
+ #post-body #share-btn {
+    margin-bottom: 30px;
+ }
+ #post-body #share-btn a:first-child {
+    font-size: 16px;
+ }
+
+ /* Author */
+
+ .tags {
+    padding-top: 60px;
+ }
+ #author-layout{
+    margin-bottom: 0px;
+    width: 100%;
+    margin-left: 0px;
+ }
+ #author-layout h1 {
+    font-size: 21px;
+    font-family: 'Montserrat', sans-serif;
+    color: #404040;
+ }
+ #author-layout #author-img {
+    width: 100%;
+ }
+ #author-layout #author-desc {
+    width: 100%;
+ }
+ #author-layout img {
+    margin-top: 10px;
+    border-radius: 3px;
+ }
+ #author-layout p {
+    color: #404040;
+ }
+ .group-year {
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 0px;
+ }
+ .group-year a:hover {
+    text-decoration: underline;
+ }
+ .group-year #year h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #B0B1B1;
+ }
+
+ /*Category*/
+
+   .tags {
+     padding-top: 60px;
+   }
+   .tags .group-year {
+     margin-bottom: 40px;
+   }
+   .tags #category-page {
+     margin-top: 60px;
+   }
+   .tags p {
+     color: #404040;
+   }
+   .tags .group-year h3 {
+    font-size: 21px;
+    font-family: 'Montserrat', sans-serif;
+    color: #B0B1B1;
+   }
+   .tags h1 {
+    font-size: 26px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: capitalize;
+    color: #404040;
+   }
+   #category-mobile {
+    padding: 0px;
+   }
+}
+
 
 /* ------- GET IN TOUCH ------- */
 
