@@ -4,21 +4,21 @@ layout: default
 
 {% assign author = site.authors[page.author] %}
 
-<section class="tags" style="padding-top:100px;">
+<section class="tags">
   <div class="container">
     <div class="row">
-              <div id="author-layout" class="col-lg-8 col-md-8 col-sm-10 col-lg-offset-2 col-md-offset-2 col-sm-offset-1 wow fadeInUp">
+              <div id="author-layout" class="col-lg-8 col-md-8 col-sm-10 col-xs-10 col-lg-offset-2 col-md-offset-2 col-sm-offset-1 col-xs-offset-1 wow fadeInUp">
 
-                <div class="col-lg-4 col-md-4 col-sm-4">
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
                      <img src="/img/{{ author.image_name }}" width="100%" height="auto">
                 </div>
-                <div class="col-lg-8 col-md-8 col-sm-8">
+                <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
                      <h1 class="archive-title">{{ author.display_name }}</h1>
                      <p>{{ author.description }}</p>
                 </div>
                 <div class="wrap">
           		{% if author %}
-          		<div class="group-year col-lg-8 col-md-8 col-sm-8 col-lg-offset-4 col-md-offset-4 col-sm-offset-4">
+          		<div class="group-year col-lg-8 col-md-8 col-sm-8 col-xs-8 col-lg-offset-4 col-md-offset-4 col-sm-offset-4 col-xs-offset-4">
                                         <div id="year">
           			{% for post in site.posts %}
           				{% if post.author == author.name %}
