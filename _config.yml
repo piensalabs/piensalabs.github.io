@@ -55,3 +55,11 @@ authors:
     email: guillermo@piensa.co
     github: gsolat
     description: "Graphic Designer with experience using image to create graphic and visual projects with cultural organizations and social development initiatives. Also, he is a web application developer and enthusiast in the use of open source tools for vectorial and photographic edition. Make it useful"
+
+  wayner:
+    name: wayner
+    display_name: Wayner Barrios
+    image_name: wayner.jpg
+    email: waybarrios@gmail.com
+    github: waybarrios
+    description: "Electronic engineer with experience in Machine Learning and Computer Vision. He has been working for King Abdullah University Science and Technology (KAUST) and Tecnologico de Monterrey (ITESM)  focus on deep learning research and autonomous quadcopter flight, respectively. He has also developed apps for python and Android."

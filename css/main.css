@@ -1773,12 +1773,12 @@ ul.nostyle i {
      line-height: normal;
    }
    #post-body #post-content strong {
-     color: #8c8c8c;
+     color: #404040;
    }
    #post-body #post-content img {
      max-width:100%;
      border-radius: 3px;
-     margin: 30px 0;
+     margin: 10px 0;
    }
    #post-body #post-content pre {
      margin: 30px 0;
@@ -1800,7 +1800,7 @@ ul.nostyle i {
      color: #404040;
      font-weight: 200;
      font-size: 1.150em;
-     margin-bottom: 30px;
+     margin-bottom: 20px;
    }
    #post-body #post-content kbd {
      font-size: 70%;
@@ -2035,7 +2035,7 @@ ul.nostyle i {
      line-height: normal;
    }
    #post-body #post-content strong {
-     color: #8c8c8c;
+     color: #404040;
    }
    #post-body #post-content img {
      max-width:100%;
@@ -2307,7 +2307,7 @@ ul.nostyle i {
      line-height: normal;
    }
    #post-body #post-content strong {
-     color: #8c8c8c;
+     color: #404040;
    }
    #post-body #post-content img {
      max-width:100%;
@@ -2586,7 +2586,7 @@ ul.nostyle i {
      line-height: normal;
    }
    #post-body #post-content strong {
-     color: #8c8c8c;
+     color: #404040;
    }
    #post-body #post-content img {
      max-width:100%;
@@ -2862,7 +2862,7 @@ ul.nostyle i {
      line-height: normal;
    }
    #post-body #post-content strong {
-     color: #8c8c8c;
+     color: #404040;
    }
    #post-body #post-content img {
      max-width:100%;
@@ -3130,7 +3130,7 @@ ul.nostyle i {
      line-height: normal;
    }
    #post-body #post-content strong {
-     color: #8c8c8c;
+     color: #404040;
    }
    #post-body #post-content img {
      max-width:100%;
@@ -3401,7 +3401,7 @@ ul.nostyle i {
      line-height: normal;
    }
    #post-body #post-content strong {
-     color: #8c8c8c;
+     color: #404040;
    }
    #post-body #post-content img {
      max-width:100%;
@@ -3676,7 +3676,7 @@ ul.nostyle i {
      line-height: normal;
    }
    #post-body #post-content strong {
-     color: #8c8c8c;
+     color: #404040;
    }
    #post-body #post-content img {
      max-width:100%;
@@ -3956,12 +3956,12 @@ ul.nostyle i {
      line-height: normal;
    }
    #post-body #post-content strong {
-     color: #8c8c8c;
+     color: #404040;
    }
    #post-body #post-content img {
      max-width:100%;
      border-radius: 3px;
-     margin: 30px 0;
+     margin: 10px 0;
    }
    #post-body #post-content pre {
      margin: 30px 0;
@@ -4251,12 +4251,12 @@ ul.nostyle i {
     line-height: normal;
  }
  #post-body #post-content strong {
-    color: #8c8c8c;
+    color: #404040;
  }
  #post-body #post-content img {
     max-width:100%;
     border-radius: 3px;
-    margin: 30px 0;
+    margin: 10px 0;
  }
  #post-body #post-content pre {
     margin: 30px 0;
@@ -4551,12 +4551,12 @@ ul.nostyle i {
     line-height: normal;
  }
  #post-body #post-content strong {
-    color: #8c8c8c;
+    color: #404040;
  }
  #post-body #post-content img {
     max-width:100%;
     border-radius: 3px;
-    margin: 30px 0;
+    margin: 10px 0;
  }
  #post-body #post-content pre {
     margin: 30px 0;
@@ -4573,6 +4573,7 @@ ul.nostyle i {
  }
  #post-body #post-content blockquote {
     font-style: italic;
+    font-size: 0.950em;
  }
  #post-body #post-content blockquote a {
     font-family: 'Lato', sans-serif;
