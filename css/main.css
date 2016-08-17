@@ -1731,8 +1731,8 @@ ul.nostyle i {
      height: auto;
    }
    #post-body #post-header #author-info {
-     height: 65px;
-     margin: 20px 0;
+     height: 50px;
+     margin: 10px 0;
    }
    #post-body #post-header #author-name {
     margin-left: 100px;
@@ -1758,6 +1758,9 @@ ul.nostyle i {
      width: 65px;
      height: 65px;
      border-radius: 50%;
+   }
+   #post-title h1 {
+     font-size: 42px;
    }
    #post-title h1, h2, h3 {
      color: #404040;
@@ -4237,7 +4240,7 @@ ul.nostyle i {
     font-size: 24px;
  }
  #post-title h1, h2, h3 {
-    font-size: 21px;
+    font-size: 24px;
     color: #404040;
     font-family: 'Montserrat', sans-serif;
     margin-bottom: 20px;
@@ -4537,7 +4540,7 @@ ul.nostyle i {
     font-size: 24px;
  }
  #post-title h1, h2, h3 {
-    font-size: 21px;
+    font-size: 24px;
     color: #404040;
     font-family: 'Montserrat', sans-serif;
     margin-bottom: 20px;
