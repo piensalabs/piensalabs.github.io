@@ -1620,7 +1620,7 @@ ul.nostyle i {
   }
 }
 
-/* ------- BLOG ------- waiting for deployment */
+/* ------- BLOG ------- */
 
 /* Large devices */
 @media (min-width: 1200px) {
@@ -1832,6 +1832,9 @@ ul.nostyle i {
    }
    #post-body #share-btn {
      margin-bottom: 80px;
+   }
+   #social-networks {
+     float: right;
    }
 
    /* Author */
@@ -2094,6 +2097,9 @@ ul.nostyle i {
    }
    #post-body #share-btn {
      margin-bottom: 30px;
+   }
+   #social-networks {
+     float: right;
    }
 
    /* Author */
@@ -2370,6 +2376,9 @@ ul.nostyle i {
    }
    #post-body #share-btn a:first-child {
      font-size: 16px;
+   }
+   #social-networks {
+     float: right;
    }
 
    /* Author */
@@ -2653,6 +2662,9 @@ ul.nostyle i {
    #post-body #share-btn a:first-child {
      font-size: 16px;
    }
+   #social-networks {
+     float: right;
+   }
 
    /* Author */
 
@@ -2929,6 +2941,9 @@ ul.nostyle i {
    #post-body #share-btn a:first-child {
      font-size: 16px;
    }
+   #social-networks {
+     float: right;
+   }
 
    /* Author */
 
@@ -3196,6 +3211,9 @@ ul.nostyle i {
    }
    #post-body #share-btn a:first-child {
      font-size: 16px;
+   }
+   #social-networks {
+     float: right;
    }
 
    /* Author */
@@ -3467,6 +3485,9 @@ ul.nostyle i {
    }
    #post-body #share-btn a:first-child {
      font-size: 16px;
+   }
+   #social-networks {
+     float: right;
    }
 
    /* Author */
@@ -3742,6 +3763,9 @@ ul.nostyle i {
    }
    #post-body #share-btn a:first-child {
      font-size: 16px;
+   }
+   #social-networks {
+     float: right;
    }
 
    /* Author */
@@ -4022,6 +4046,9 @@ ul.nostyle i {
    }
    #post-body #share-btn a:first-child {
      font-size: 16px;
+   }
+   #social-networks {
+     float: right;
    }
 
    /* Author */
@@ -4317,6 +4344,9 @@ ul.nostyle i {
  }
  #post-body #share-btn a:first-child {
     font-size: 16px;
+ }
+ #social-networks {
+   float: right;
  }
 
  /* Author */
@@ -4618,6 +4648,9 @@ ul.nostyle i {
  }
  #post-body #share-btn a:first-child {
     font-size: 16px;
+ }
+ #social-networks {
+   float: right;
  }
 
  /* Author */
