@@ -6,3 +6,4 @@ gem "jekyll-sass-converter", "~> 1.4.0"
 gem "jekyll-watch", "~> 1.4.0"
 gem "kramdown", "~> 1.11.1"
 gem "rouge", "~> 1.11.1"
+gem 'html-proofer'
