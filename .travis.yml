@@ -1,0 +1,27 @@
+language: ruby
+sudo: false
+rvm:
+- 2.2
+branches:
+  only:
+  - blog-jekyll
+script:
+- bundle exec jekyll build
+- bundle exec htmlproofer ./_site --disable-external
+after_success:
+- git clone https://$GH_REF
+- cd $(basename ${GH_REF%.git})
+- git config user.name "Travis-CI"
+- git config user.email ${EMAIL}
+- rsync -az --delete --exclude '.git*' ../_site/ .
+- touch .nojekyll
+- git add -A .
+- git commit -m "Generated Jekyll Site by Travis CI - ${TRAVIS_BUILD_NUMBER}"
+- git push -f "https://${DEPLOY_KEY}@${GH_REF}" ${TARGET_BRANCH} > /dev/null 2>&1
+env:
+  global:
+  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+  - GH_REF: github.com/piensa/piensa.github.io.git
+  - TARGET_BRANCH: master
+  - secure: pHP3lrhZjn3MXmS+SK37VIqCPOhwqYWD6jPpckT5dIzvEdWH3KlGiK2QD8bsRj/dO3WyDJFL53dboaajgyBsEacwRDBHYG8IHkmp0foAqO5xvgsQPKod9PWnVaMu8Xi5nj9g/0adCGAuuu8X4u8kjykh5BscLNRD4TuVIAkBXLUA0QxJ8E7s6yuXQqOJQ+BPOL7hR6aYkc9A3fBWJtz5ht1gF84YA+9gwNSmp8hPFd+shx7IT2BOwVQteoDir2BFkhzo821xWIN/1wSHfH4z2bqxC9FdL3cYV9H8mnJQsIz5zOQppCVodPubf7N/XheKd1PWLyPvPYSdhax9YXgrbSN35jVaDbyynjwDXGhFikOAGCnr3BK6iIj8Di7CC2sGJtolWj1dTYHcIIlz77LJ5QyOM3/sy+uDoWpjiZLvr1mRSXnMMMQf4tlXdoUakfgvyP1cX3V3XXGBIeQtKfBsf2L5SVppP7SXyPmJtGHMiyUIaU2xhwEhayUAckUHTUaSUzb9s1WS6xmXs9baRC6jLjKkVSjCoGQMPnlZKdMZBXu1VANj63Q05IRyza4v/yXl6e3/9UtnXyXeJPz7Bgbj0AyvtFE9rk8JEAVyj8pEIek/KxXda6vN9Iie9TXg59DqL4xwhZdNsLB3CZWgImVNi1/aS8lHgg2X3dVnv30PaVg=
+  - secure: uc8z0MUQBXCL6lpg543igFpRGMemOYjr2iZa+63Q9la6YCFf5sfoU4Y2P2Wo4DAERUsLwDuktVBP4ZZKu7o8kJJqW+WPzuGN9k+ALsQTinsEtIfHhiogctSOX5V/GHtb5hA8zyPWBT8pWUfeglehVpf8LxYJwtbID8QK/dqR08o/royDbc6a26+iSzi+3G1lb/gwOmx3xxMVLGZKNQN6Lp0mAxlAyG9Xt0DCGAtAC2VACoObSL0NPJIK9JcHvadU9nMKGo5ScsyVkxPX+QZKv5/FjfMhrApx/irDZVSU/fB/znW93Nx7JB9NwC1+zSZ7rlMiWNYrfZv+eUldvlLeWy65w0cHMuLiVXnVgMeuj12Wez6kUREJjCmBq98+dW8cmyh8IHim02TaHz7HAUParTnQQ0hcNGjTycGpeeUEf7VRGia7GGIiNUU7RaCHR7BKWgan6pxafolhQdcHsg+DvogqGreVAEnRD2Q0G/BpYzUVxt8spzXyatIRb1H4L/XjIqy1Laj41QkPXBJS/EwZdpI+2+afGV19fGdzy52zmUpzDdQjSXV9V1MdX6K9vfclRCfbdxi918YLJJBMuvA1ipq8Mrx/s2oZEcJ11qirjx56CWlRl/qd59VHojCfHd0x8oU1hnehE+rz34w1poTck1MFk4XhGUfJmDR4V9qjqyE=
