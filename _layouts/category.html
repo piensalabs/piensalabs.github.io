@@ -22,7 +22,7 @@ layout: default
                       <h3>{{ year }}</h3>
                       {% endunless %}
                       <article>
-                                <h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
+                                <h3><a href="{{ post.url | prepend: site.url }}">{{ post.title }}</a></h3>
                                   <time>
                                     <span class="month">{{ post.date | date: "%b" }}</span>
                                     <span class="day">{{ post.date | date: "%d" }}</span>
