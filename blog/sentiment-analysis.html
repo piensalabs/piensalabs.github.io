@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Piensa Labs</title>
+    <!-- core CSS -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/font-awesome.min.css" rel="stylesheet">
+    <link href="/css/animate.min.css" rel="stylesheet">
+    <link href="/css/owl.transitions.css" rel="stylesheet">
+    <link href="/css/main.css" rel="stylesheet">
+    <link href="/css/syntax.css" rel="stylesheet">
+    <link href="/css/responsive.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,400italic,600,700,900,200' rel='stylesheet' type='text/css'>
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+    <link rel="shortcut icon" href="/img/favicon.ico">
+</head><!--/head-->
+
+<body id="home" class="homepage">
+	<header id="header">
+    <nav id="main-menu" class="navbar navbar-default navbar-fixed-top" role="banner">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" id="logo-small-dev" href="/"><img src="/img/nav-icon.png" alt="logo"></a>
+            </div>
+            <div class="collapse navbar-collapse navbar-right">
+              <a class="navbar-brand" id="logo-large-dev" href="/"><img src="/img/nav-icon.png" alt="logo"></a>
+                <ul class="nav navbar-nav">
+                
+                    <li class="scroll"><a href="/">Home</a></li>
+                
+                    <li class="scroll"><a href="/blog/">Blog</a></li>
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+	
+
+<div id="white">
+    <div class="container">
+              <div class="row">
+                     <div class="col-lg-8 col-md-8 col-sm-10 col-xs-10 col-lg-offset-2 col-md-offset-2 col-sm-offset-1 col-xs-offset-1 wow fadeInUp" id="post-body-mobile">
+                            <div id="post-body">
+                                   <div id="post-image" class="col-xs-12">
+                                      
+                                       <img class="img-responsive" src="/img/posts/sentiment-analysis.png" alt="Sentiment Analysis and Deep Learning 101"></p>
+                                     
+                                   </div>
+                                   <div id="post-header" style="display:inline-block;" class="col-lg-12 col-md-12">
+                                             <div id="author-info">
+                                                  <div id="author-img" class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+                                                       <a href="http://piensa.co/authors/wayner-barrios"><img class="blog__post-thumb" src="/img/thumbs/wayner.jpg" alt="Wayner Barrios"></a>
+                                                  </div>
+                                                  <div id="author-name">
+                                                       <h5><a href="http://piensa.co/authors/wayner-barrios">Wayner Barrios</a></h5>
+                                                       <h5> <bd>Aug 11, 2016</bd></h5>
+                                                  </div>
+                                            </div>
+                                        <div id="post-title">
+                                             <h1>Sentiment Analysis and Deep Learning 101</h1>
+                                        </div>
+                                        <div id="tag">
+                                               <a href="http://piensa.co/category/computer-vision" rel="category" class="btn-xs">
+                                                 computer vision
+                                               </a>
+                                        </div>
+                                   </div>
+                                   <div id="post-content" class="col-lg-12 col-xs-12">
+                                        <p><p>The human brain is a sophisticated biological machine, forming rules and knowledge by memorizing everyday events. Those events help us to generalize learnings about things which we haven’t seen yet, since memorization allows us to further refine our generalized rules about what is right. However, technology has a big growth in the recent times, a lot of computer scientists have been asking themselves the following question: <strong>Can we teach computer to learn like humans do? And the answer is simple: Yes, it´s possible!</strong></p>
+
+<p>Machine Learning is a type of artificial intelligence (AI) that provides computers with the ability to learn without being explicitly programmed. Machine learning focuses on the development of computer programs that can teach themselves to grow and change when exposed to new data. This a subfield of computer science have many applications such as:</p>
+
+<ul>
+  <li><strong>Face detection:</strong> The face detection feature in mobile cameras is an example of what machine learning can do.</li>
+  <li><strong>Face recognition:</strong> This is where a computer program can identify an individual from a photo.</li>
+  <li><strong>Image classification:</strong>  is an approach of classification based on contextual information in images by multiples categories.</li>
+  <li><strong>Activity recognition:</strong>  aims to recognize the human being actions and activities on videos.</li>
+  <li><strong>Speech recognition:</strong> Process of enabling a computer to identify and respond to the sounds produced in human speech.</li>
+  <li><strong>Genetics:</strong> Classical data mining or clustering algorithms in machine learning such as agglomerative clustering algorithms are used in genetics to help find genes associated.</li>
+</ul>
+
+<p>Nonetheless, one important application is Sentimental analysis. Sentimental analysis is the process of computationally identifying and categorizing opinions expressed in a piece of text, especially in order to determine whether the writer’s attitude towards a particular topic, product, etc. is positive, negative, or neutral. It is widely applied to reviews and social media for a variety of applications, ranging from marketing to customer service.</p>
+
+<p><strong>Now, We will explore more about sentiment Analysis!</strong></p>
+
+<p>Following below image, first step is data selection, i.e. , we need to split our data into three subsets: training set with positives and negatives examples, validation to help us to adjust our system and testing set or evaluation set.</p>
+
+<p><img src="http://piensa.coimg/posts/01/1.jpg" alt="Steps of KKD" /></p>
+
+<h6 id="source-httpwwwscielobrscielophpscriptsciarttextpids0101-74382012000100009httpwwwscielobrscielophpscriptsciarttextpids0101-74382012000100009">Source <a href="http://www.scielo.br/scielo.php?script=sci_arttext&amp;pid=S0101-74382012000100009">http://www.scielo.br/scielo.php?script=sci_arttext&amp;pid=S0101-74382012000100009</a></h6>
+
+<p>On preprocessing step, we must be implemented a text extracting features algorithm as TF-IDF Transform. In information retrieval, tf–idf, short for term frequency–inverse document frequency, is a numerical statistic that is intended to reflect how important a word is to a document in a collection or corpus. It is often used as a weighting factor in information retrieval and text mining. The tf-idf value increases proportionally to the number of times a word appears in the document, but is offset by the frequency of the word in the corpus, which helps to adjust for the fact that some words appear more frequently in general. Variations of the tf–idf weighting scheme are often used by search engines as a central tool in scoring and ranking a document’s relevance given a user query. tf–idf can be successfully used for stop-words filtering in various subject fields including text summarization and classification.</p>
+
+<h6 id="source-httpscikit-learnorgstablemodulesfeatureextractionhtmlhttpscikit-learnorgstablemodulesfeatureextractionhtml">Source: <a href="http://scikit-learn.org/stable/modules/feature_extraction.html">http://scikit-learn.org/stable/modules/feature_extraction.html</a></h6>
+
+<p>Next step is about data mining and system evaluation, and to do get success on it we have to build a classifier which can interpret and discern about all extracted features previously. A common example is a Support Vector Machine (SVMs) that are a set of supervised learning methods used for classification, regression and outlier’s detection.</p>
+
+<p>The advantages of support vector machines are:</p>
+
+<ul>
+  <li>Effective in high dimensional spaces.</li>
+  <li>Still effective in cases where number of dimensions is greater than the number of samples.</li>
+  <li>Uses a subset of training points in the decision function (called support vectors), so it is also memory efficient.</li>
+  <li>Versatile: different Kernel functions can be specified for the decision function. Common kernels are provided, but it is also possible to specify custom kernels.</li>
+</ul>
+
+<p>The disadvantages of support vector machines include:</p>
+
+<ul>
+  <li>If the number of features is much greater than the number of samples, the method is likely to give poor performances.</li>
+  <li>SVMs do not directly provide probability estimates, these are calculated using an expensive five-fold cross-validation.</li>
+</ul>
+
+<hr />
+
+<h2 id="kernel-classification">Kernel Classification</h2>
+<p><img src="http://piensa.coimg/posts/01/2.png" alt="SVC, NuSVC and LinearSVC" /></p>
+
+<h6 id="source-httpscikit-learnorgstablemodulessvmhtmlhttpscikit-learnorgstablemodulessvmhtml">Source: <a href="http://scikit-learn.org/stable/modules/svm.html">http://scikit-learn.org/stable/modules/svm.html</a></h6>
+
+<hr />
+
+<h2 id="what-about-deep-learning">What about Deep Learning?</h2>
+<p><img src="http://piensa.coimg/posts/01/3.png" alt="Meme image" /></p>
+
+<p>In machine learning and cognitive science, artificial neural networks are a family of models inspired by biological neural networks (the central nervous systems of animals, in particular the brain) which are used to estimate or approximate functions that can depend on a large number of inputs and are generally unknown. Artificial neural networks are typically specified using three things:</p>
+
+<p><strong>Architecture</strong> specifies what variables are involved in the network and their topological relationships—for example the variables involved in a neural network might be the weights of the connections between the neurons, along with activities of the neurons.</p>
+
+<p><img src="http://piensa.coimg/posts/01/4.png" alt="artificial neurons" /></p>
+
+<p><strong>Activity Rule</strong> Most neural network models have short time-scale dynamics: local rules define how the activities of the neurons change in response to each other. Typically the activity rule depends on the weights (the parameters) in the network.</p>
+
+<p><strong>Learning Rule</strong> The learning rule specifies the way in which the neural network’s weights change with time. This learning is usually viewed as taking place on a longer time scale than the time scale of the dynamics under the activity rule. Usually the learning rule will depend on the activities of the neurons. It may also depend on the values of the target values supplied by a teacher and on the current value of the weights. There are three major learning paradigms, each corresponding to a particular abstract learning task. These are <strong>supervised learning</strong>, <strong>unsupervised learning</strong> and <strong>reinforcement learning</strong>.</p>
+
+<ul>
+  <li>Supervised learning:  is the machine learning task of inferring a function from labeled training data.</li>
+  <li>Unsupervised learning:  is the machine learning task of inferring a function to describe hidden structure from unlabeled data. Since the examples given to the learner are unlabeled, there is no error or reward signal to evaluate a potential solution.</li>
+  <li>Reinforcement learning: is an area of machine learning inspired by behaviorist psychology, concerned with how software agents ought to take actions in an environment so as to maximize some notion of cumulative reward</li>
+</ul>
+
+<h6 id="source-mehryar-mohri-afshin-rostamizadeh-ameet-talwalkar-2012foundations-of-machine-learning-the-mit-pressisbn-9780262018258"><strong>Source:</strong> Mehryar Mohri, Afshin Rostamizadeh, Ameet Talwalkar (2012) Foundations of Machine Learning, The MIT Press ISBN 9780262018258.</h6>
+
+<blockquote>
+  <p><strong>Recommendation Stanford Course:</strong> <a href="http://cs231n.github.io/">http://cs231n.github.io/</a></p>
+</blockquote>
+
+<hr />
+
+<h2 id="gradient-descent">Gradient Descent</h2>
+
+<p>Gradient descent is a first-order optimization algorithm. To find a local minimum of a function using gradient descent, one takes steps proportional to the negative of the gradient (or of the approximate gradient) of the function at the current point. If instead one takes steps proportional to the positive of the gradient, one approaches a local maximum of that function; the procedure is then known as gradient ascent. Gradient descent is also known as steepest descent, or the method of steepest descent.</p>
+
+<p><img src="http://piensa.coimg/posts/01/5.png" alt="gradient" /></p>
+
+<blockquote>
+  <p>Gradient descent is based on the observation that if the multi-variable function F(x) is defined and differentiable in a neighborhood of a point a, then F(x) decreases fastest if one goes from a in the direction of the negative gradient of F at a, −∇F(a).</p>
+</blockquote>
+
+<h6 id="source-httppapersnipsccpaper1576-gradient-descent-for-general-reinforcement-learningpdfhttppapersnipsccpaper1576-gradient-descent-for-general-reinforcement-learningpdf">source: <a href="http://papers.nips.cc/paper/1576-gradient-descent-for-general-reinforcement-learning.pdf">http://papers.nips.cc/paper/1576-gradient-descent-for-general-reinforcement-learning.pdf</a></h6>
+
+<hr />
+
+<h2 id="optimization-algorithms-for-gradient-descent">Optimization Algorithms for Gradient Descent</h2>
+
+<p><img src="http://piensa.coimg/posts/01/6.gif" alt="gradient gif" /></p>
+
+<h6 id="source-httpwwwdenizyuretcom201503alec-radfords-animations-forhtmlhttpwwwdenizyuretcom201503alec-radfords-animations-forhtml">source: <a href="http://www.denizyuret.com/2015/03/alec-radfords-animations-for.html">http://www.denizyuret.com/2015/03/alec-radfords-animations-for.html</a></h6>
+
+<blockquote>
+  <p><a href="https://github.com/waybarrios/Django_Meetup/blob/master/Presentation_Meetup_Django_BAQ.ipynb">Full Code and presentation</a></p>
+</blockquote>
+</p>
+                                        <hr>
+                                   </div>
+                                   <div id="share-btn" class="col-lg-12 col-xs-12">
+                                        <a href="/blog/"> <i class="fa fa-arrow-left"></i> Back</a>
+                                        <div id="social-networks">
+                                                  <a href="https://news.ycombinator.com/submit" class="hn-button" data-style="twitter" atl="twitter-hacker-news"></a>
+                                                  <a class="twitter-share-button" href="https://twitter.com/intent/tweet" atl="twitter-share"></a>
+
+                                        </div>
+                                   </div>
+                          </div>
+                                    <!-- <div class="container">
+                                       <div class="row">
+                                          <div class="col-lg-8 col-lg-offset-2">
+                                            
+                                          </div>
+                                       </div>
+                                    </div> -->
+
+                     </div>
+              </div>
+    </div>
+</div>
+
+
+	
+	<script src="/js/jquery.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="http://maps.google.com/maps/api/js?sensor=true"></script>
+<script src="/js/owl.carousel.min.js"></script>
+<script src="/js/mousescroll.js"></script>
+<script src="/js/jquery.prettyPhoto.js"></script>
+<script src="/js/jquery.isotope.min.js"></script>
+<script src="/js/jquery.inview.min.js"></script>
+<script src="/js/wow.min.js"></script>
+<script src="/js/main.js"></script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-76367491-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+<script type="text/javascript">var HN=[];HN.factory=function(e){return function(){HN.push([e].concat(Array.prototype.slice.call(arguments,0)))};},HN.on=HN.factory("on"),HN.once=HN.factory("once"),HN.off=HN.factory("off"),HN.emit=HN.factory("emit"),HN.load=function(){var e="hn-button.js";if(document.getElementById(e))return;var t=document.createElement("script");t.id=e,t.src="//hn-button.herokuapp.com/hn-button.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n)},HN.load();</script>
+
+<script>window.twttr = (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0],
+    t = window.twttr || {};
+  if (d.getElementById(id)) return t;
+  js = d.createElement(s);
+  js.id = id;
+  js.src = "https://platform.twitter.com/widgets.js";
+  fjs.parentNode.insertBefore(js, fjs);
+
+  t._e = [];
+  t.ready = function(f) {
+    t._e.push(f);
+  };
+
+  return t;
+}(document, "script", "twitter-wjs"));</script>
+
+</body>
+</html>
