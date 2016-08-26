@@ -4,7 +4,7 @@ email: hello@piensa.co
 description: We are Piensa, we become part of your team to tackle difficult challenges through the use of solid engineering, strong communication and usable design.
 #baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://piensa.co" # the base hostname & protocol for your site
-#url: "http://127.0.0.1:4000/" #for developing purposes
+# url: "http://127.0.0.1:4000" #for developing purposes
 paginate: 9
 paginate_path: "/blog/page:num/"
 

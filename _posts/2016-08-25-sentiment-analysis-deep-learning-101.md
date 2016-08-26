@@ -4,8 +4,8 @@ title: "Sentiment Analysis and Deep Learning 101"
 author: wayner
 author-url: wayner-barrios
 image: sentiment-analysis.png
-category: computer vision
-category-url: computer-vision
+category: artificial intelligence
+category-url: artificial-intelligence
 ---
 
 The human brain is a sophisticated biological machine, forming rules and knowledge by memorizing everyday events. Those events help us to generalize learnings about things which we haven't seen yet, since memorization allows us to further refine our generalized rules about what is right. However, technology has a big growth in the recent times, a lot of computer scientists have been asking themselves the following question: **Can we teach computer to learn like humans do? And the answer is simple: Yes, it´s possible!**
@@ -27,7 +27,7 @@ Nonetheless, one important application is Sentimental analysis. Sentimental anal
 
 Following below image, first step is data selection, i.e. , we need to split our data into three subsets: training set with positives and negatives examples, validation to help us to adjust our system and testing set or evaluation set.
 
-![Steps of KKD]({{ site.url }}img/posts/01/1.jpg)
+![Steps of KKD]({{ site.url }}/img/posts/01/1.jpg)
 
 ###### Source [http://www.scielo.br/scielo.php?script=sci_arttext&pid=S0101-74382012000100009](http://www.scielo.br/scielo.php?script=sci_arttext&pid=S0101-74382012000100009)
 
@@ -52,20 +52,20 @@ The disadvantages of support vector machines include:
 ---
 
 ## Kernel Classification
-![SVC, NuSVC and LinearSVC]({{ site.url }}img/posts/01/2.png)
+![SVC, NuSVC and LinearSVC]({{ site.url }}/img/posts/01/2.png)
 
 ###### Source: [http://scikit-learn.org/stable/modules/svm.html](http://scikit-learn.org/stable/modules/svm.html)
 
 ---
 
 ## What about Deep Learning?
-![Meme image]({{ site.url }}img/posts/01/3.png)
+![Meme image]({{ site.url }}/img/posts/01/3.png)
 
 In machine learning and cognitive science, artificial neural networks are a family of models inspired by biological neural networks (the central nervous systems of animals, in particular the brain) which are used to estimate or approximate functions that can depend on a large number of inputs and are generally unknown. Artificial neural networks are typically specified using three things:
 
 **Architecture** specifies what variables are involved in the network and their topological relationships—for example the variables involved in a neural network might be the weights of the connections between the neurons, along with activities of the neurons.
 
-![artificial neurons]({{ site.url }}img/posts/01/4.png)
+![artificial neurons]({{ site.url }}/img/posts/01/4.png)
 
 **Activity Rule** Most neural network models have short time-scale dynamics: local rules define how the activities of the neurons change in response to each other. Typically the activity rule depends on the weights (the parameters) in the network.
 
@@ -86,7 +86,7 @@ In machine learning and cognitive science, artificial neural networks are a fami
 
 Gradient descent is a first-order optimization algorithm. To find a local minimum of a function using gradient descent, one takes steps proportional to the negative of the gradient (or of the approximate gradient) of the function at the current point. If instead one takes steps proportional to the positive of the gradient, one approaches a local maximum of that function; the procedure is then known as gradient ascent. Gradient descent is also known as steepest descent, or the method of steepest descent.
 
-![gradient]({{ site.url }}img/posts/01/5.png)
+![gradient]({{ site.url }}/img/posts/01/5.png)
 
 > Gradient descent is based on the observation that if the multi-variable function F(x) is defined and differentiable in a neighborhood of a point a, then F(x) decreases fastest if one goes from a in the direction of the negative gradient of F at a, −∇F(a).
 
@@ -96,7 +96,7 @@ Gradient descent is a first-order optimization algorithm. To find a local minimu
 
 ## Optimization Algorithms for Gradient Descent
 
-![gradient gif]({{ site.url }}img/posts/01/6.gif)
+![gradient gif]({{ site.url }}/img/posts/01/6.gif)
 
 ###### source: [http://www.denizyuret.com/2015/03/alec-radfords-animations-for.html](http://www.denizyuret.com/2015/03/alec-radfords-animations-for.html)
 
