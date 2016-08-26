@@ -1,3 +1,6 @@
+#### Branches Statuses
+Master branch [![Build Status](https://travis-ci.org/piensa/piensa.github.io.svg?branch=master)](https://travis-ci.org/piensa/piensa.github.io)
+Blog-jekyll branch [![Build Status](https://travis-ci.org/piensa/piensa.github.io.svg?branch=blog-jekyll)](https://travis-ci.org/piensa/piensa.github.io)
 ### Installation
 
 Follow this simple steps to run this project locally.
@@ -35,3 +38,12 @@ bundle exec jekyll serve --drafts
 ```
 
 For more information about Bundler, please read [Bundler's Purpose and Rationale.](http://bundler.io/rationale.html)
+
+#### Running tests
+
+In order to run tests, you should have [html-proofer](https://github.com/gjtorikian/html-proofer) installed. Just run this 2 commands, one for building the `_site` folder and the other for running tests locally in it.
+
+```
+bundle exec jekyll build
+bundle exec htmlproofer ./_site --disable-external
+```
