@@ -2,9 +2,9 @@
 title: Piensa Labs
 email: hello@piensa.co
 description: We are Piensa, we become part of your team to tackle difficult challenges through the use of solid engineering, strong communication and usable design.
-#baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://piensa.co" # the base hostname & protocol for your site
-# url: "http://127.0.0.1:4000" #for developing purposes
+#baseurl: ""
+url: "http://piensa.co"
+# url: "http://127.0.0.1:4000"
 paginate: 9
 paginate_path: "/blog/page:num/"
 
@@ -22,8 +22,8 @@ permalink: blog/:title
 defaults:
   -
     scope:
-      path: "" # an empty string here means all files in the project
-      type: "posts" # previously `post` in Jekyll 2.2.
+      path: ""
+      type: "posts"
     values:
       author: Javier Daza
       layout: "post"
