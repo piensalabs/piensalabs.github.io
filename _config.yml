@@ -11,7 +11,7 @@ paginate_path: "/blog/page:num/"
 # Gems
 gems: [jekyll-paginate]
 
-exclude: [vendor]
+exclude: [Dockerfile, Gemfile, Gemfile.lock, LICENSE.md, docker-compose.yml, vendor]
 
 # Build settings
 markdown: kramdown
