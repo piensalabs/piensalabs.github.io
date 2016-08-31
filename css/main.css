@@ -4730,7 +4730,7 @@ ul.nostyle i {
 /* Large devices */
 @media (min-width: 1200px) {
   #get-in-touch {
-    padding-top: 210px;
+    padding-top: 190px;
     padding-bottom: 0px;
     height: 750px;
     background: url(../img/but-piensa-05.png);
@@ -4770,13 +4770,13 @@ ul.nostyle i {
    line-height: normal;
    text-decoration: underline;
   }
-    /*  #get-in-touch #icons a {
+  #get-in-touch #icons {
+   text-align: center;
+ }
+  #get-in-touch #icons i {
     margin: 10px;
-    font-size: 4em;
-    height: 80px;
-    width: 80px;
-    text-align: left;
-    color: #4ECDC4;
+    font-size: 2em;
+    color: #fff;
     transition: background-color 400ms, background-color 400ms;
     position: relative;
     -webkit-transition: all 0.5s ease;
@@ -4784,13 +4784,14 @@ ul.nostyle i {
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
   }
-  #get-in-touch a:hover {
-    color: #FFF;
+  #get-in-touch i:hover {
+    color: #404040;
+    font-size: 4em;
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
-  }*/
+  }
 }
 
 /* Medium screens - standard */
@@ -4838,6 +4839,28 @@ ul.nostyle i {
    line-height: normal;
    text-decoration: underline;
   }
+  #get-in-touch #icons {
+   text-align: center;
+  }
+  #get-in-touch #icons i {
+   margin: 10px;
+   font-size: 2em;
+   color: #fff;
+   transition: background-color 400ms, background-color 400ms;
+   position: relative;
+   -webkit-transition: all 0.5s ease;
+   -moz-transition: all 0.5s ease;
+   -o-transition: all 0.5s ease;
+   transition: all 0.5s ease;
+  }
+  #get-in-touch i:hover {
+   color: #404040;
+   font-size: 4em;
+   -webkit-transition: all 0.5s ease;
+   -moz-transition: all 0.5s ease;
+   -o-transition: all 0.5s ease;
+   transition: all 0.5s ease;
+  }
 }
 
 /* Small screens - landscape mode */
@@ -4870,12 +4893,34 @@ ul.nostyle i {
    line-height: normal;
    text-decoration: underline;
   }
+  #get-in-touch #icons {
+   text-align: center;
+  }
+  #get-in-touch #icons i {
+   margin: 10px;
+   font-size: 2em;
+   color: #fff;
+   transition: background-color 400ms, background-color 400ms;
+   position: relative;
+   -webkit-transition: all 0.5s ease;
+   -moz-transition: all 0.5s ease;
+   -o-transition: all 0.5s ease;
+   transition: all 0.5s ease;
+  }
+  #get-in-touch i:hover {
+   color: #404040;
+   font-size: 4em;
+   -webkit-transition: all 0.5s ease;
+   -moz-transition: all 0.5s ease;
+   -o-transition: all 0.5s ease;
+   transition: all 0.5s ease;
+  }
 }
 
 /* Ipad - Portrait */
 @media (min-width: 767px) and (max-width: 770px){
   #get-in-touch {
-    padding-top: 340px;
+    padding-top: 320px;
     padding-bottom: 0px;
     height: 1024px;
     background: url(../img/but-piensa-05.jpg);
@@ -4905,12 +4950,34 @@ ul.nostyle i {
     line-height: normal;
     text-decoration: underline;
    }
+   #get-in-touch #icons {
+   text-align: center;
+  }
+   #get-in-touch #icons i {
+    margin: 10px;
+    font-size: 2.500em;
+    color: #fff;
+    transition: background-color 400ms, background-color 400ms;
+    position: relative;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+   }
+   #get-in-touch i:hover {
+    color: #404040;
+    font-size: 4em;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+   }
 }
 
 /* Iphone 6 plus - landscape mode */
 @media (min-width: 735px) and (max-width: 766px){
   #get-in-touch {
-    padding-top: 125px;
+    padding-top: 105px;
     padding-bottom: 0px;
     height: 414px;
     background-color: #f68b39;
@@ -4937,12 +5004,26 @@ ul.nostyle i {
    line-height: normal;
    text-decoration: underline;
   }
+  #get-in-touch #icons {
+  text-align: center;
+ }
+  #get-in-touch #icons i {
+   margin: 10px;
+   font-size: 2.500em;
+   color: #fff;
+   transition: background-color 400ms, background-color 400ms;
+   position: relative;
+   -webkit-transition: all 0.5s ease;
+   -moz-transition: all 0.5s ease;
+   -o-transition: all 0.5s ease;
+   transition: all 0.5s ease;
+  }
 }
 
 /* Iphone 6 - Landscape mode */
 @media (min-width: 666px) and (max-width: 734px) {
   #get-in-touch {
-    padding-top: 115px;
+    padding-top: 95px;
     padding-bottom: 0px;
     height: 375px;
     background-color: #f68b39;
@@ -4969,12 +5050,26 @@ ul.nostyle i {
    line-height: normal;
    text-decoration: underline;
   }
+  #get-in-touch #icons {
+  text-align: center;
+ }
+  #get-in-touch #icons i {
+   margin: 10px;
+   font-size: 2.500em;
+   color: #fff;
+   transition: background-color 400ms, background-color 400ms;
+   position: relative;
+   -webkit-transition: all 0.5s ease;
+   -moz-transition: all 0.5s ease;
+   -o-transition: all 0.5s ease;
+   transition: all 0.5s ease;
+  }
 }
 
 /* S5 - Landscape mode */
 @media (min-width: 569px) and (max-width: 665px) {
   #get-in-touch {
-    padding-top: 120px;
+    padding-top: 110px;
     padding-bottom: 0px;
     height: 360px;
     background-color: #f68b39;
@@ -4997,12 +5092,26 @@ ul.nostyle i {
    line-height: normal;
    text-decoration: underline;
   }
+  #get-in-touch #icons {
+  text-align: center;
+ }
+  #get-in-touch #icons i {
+   margin: 10px;
+   font-size: 2.250em;
+   color: #fff;
+   transition: background-color 400ms, background-color 400ms;
+   position: relative;
+   -webkit-transition: all 0.5s ease;
+   -moz-transition: all 0.5s ease;
+   -o-transition: all 0.5s ease;
+   transition: all 0.5s ease;
+  }
 }
 
 /* Iphone 5 - Landscape mode */
 @media (min-width: 440px) and (max-width: 568px) {
  #get-in-touch {
-   padding-top: 105px;
+   padding-top: 85px;
    padding-bottom: 0px;
    height: 320px;
    background-color: #f68b39;
@@ -5024,6 +5133,20 @@ ul.nostyle i {
  font-size: 0.800em;
  line-height: normal;
  text-decoration: underline;
+ }
+ #get-in-touch #icons {
+ text-align: center;
+ }
+ #get-in-touch #icons i {
+  margin: 7px;
+  font-size: 2.250em;
+  color: #fff;
+  transition: background-color 400ms, background-color 400ms;
+  position: relative;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
  }
 }
 
@@ -5057,6 +5180,21 @@ ul.nostyle i {
     line-height: normal;
     text-decoration: underline;
    }
+   #get-in-touch #icons {
+   text-align: center;
+   width:300px;
+  }
+   #get-in-touch #icons i {
+    margin: 10px;
+    font-size: 2.250em;
+    color: #fff;
+    transition: background-color 400ms, background-color 400ms;
+    position: relative;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+   }
 }
 
 /* Medium Phones - Portrait */
@@ -5089,12 +5227,27 @@ ul.nostyle i {
     line-height: normal;
     text-decoration: underline;
    }
+   #get-in-touch #icons {
+   text-align: center;
+   width:250px;
+  }
+   #get-in-touch #icons i {
+    margin: 10px;
+    font-size: 2.250em;
+    color: #fff;
+    transition: background-color 400ms, background-color 400ms;
+    position: relative;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+   }
 }
 
 /* Small Phones - Portrait */
 @media (max-width: 350px) {
   #get-in-touch {
-    padding-top: 180px;
+    padding-top: 160px;
     padding-bottom: 0px;
     height: 570px;
     background-color: #f68b39;
@@ -5120,6 +5273,21 @@ ul.nostyle i {
     font-size: 0.850em;
     line-height: normal;
     text-decoration: underline;
+   }
+   #get-in-touch #icons {
+   text-align: center;
+   width:250px;
+  }
+   #get-in-touch #icons i {
+    margin: 10px;
+    font-size: 2.250em;
+    color: #fff;
+    transition: background-color 400ms, background-color 400ms;
+    position: relative;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
    }
 }
 
