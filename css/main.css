@@ -1651,7 +1651,6 @@ ul.nostyle i {
       font-weight: 400;
       color: #404040;
       margin-bottom: 5px;
-      border-bottom: 1px solid #404040;
     }
     #blog #entrie #author-name a:hover {
       font-size: 1.100em;
@@ -1677,7 +1676,7 @@ ul.nostyle i {
       -webkit-transition-duration: .4s; /* Safari */
       transition-duration: .4s;
     }
-    #blog #entrie #post #read-more {
+    #blog #entrie #post #read-more a {
       font-family: 'Lato', sans-serif;
       font-size: 1.000em;
       font-weight: 400;
@@ -1704,6 +1703,12 @@ ul.nostyle i {
       font-size: 0.938em;
       color: #404040;
       background-color: #D9D9D8;
+    }
+    #blog #entrie #post #tag .btn-xs:hover {
+      margin-top: 20px;
+      font-size: 0.938em;
+      color: #fff;
+      background-color: #FF6D00;
     }
     #blog #post-img img {
       width: 100%;
