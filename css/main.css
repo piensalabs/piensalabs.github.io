@@ -1835,6 +1835,12 @@ ul.nostyle i {
      color: #404040;
      background-color: #D9D9D8;
    }
+   #post-body #post-header .btn-xs:hover {
+     margin-top: 20px;
+     font-size: 0.938em;
+     color: #fff;
+     background-color: #FF6D00;
+   }
    #post-body #share-btn {
      margin-bottom: 80px;
    }
