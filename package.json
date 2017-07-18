@@ -1,0 +1,22 @@
+{
+  "name": "piensa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "grunt build",
+    "watch": "grunt dev-watch",
+    "start": "http-server -p 3001"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-clean": "^1.1.0",
+    "grunt-contrib-less": "^1.4.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "http-server": "^0.10.0",
+    "less-plugin-clean-css": "^1.5.1"
+  }
+}
