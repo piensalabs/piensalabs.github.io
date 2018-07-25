@@ -147,11 +147,11 @@ hr {
     }
     .navbar.navbar-default .navbar-brand {
         height: auto;
-        padding: 22px 15px 21px;
+        padding: 17px 15px 21px;
         margin-bottom: 0;
     }
     .navbar.navbar-default .navbar-brand img {
-        height: 50px;
+        height: 45px;
     }
     #main-menu.navbar-default {
         border-bottom: 4px rgba(255, 255, 255, 0.7);;
@@ -160,8 +160,8 @@ hr {
         box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0);
         }
     #main-menu.navbar-default .navbar-nav {
-        margin-top: 20px;
-        margin-bottom: 20px;
+        margin-top: 15px;
+        margin-bottom: 15px;
     }
     #main-menu.navbar-default .navbar-nav > li > a {
         font-family: 'Montserrat', sans-serif;
@@ -261,19 +261,20 @@ hr {
 
 @media (min-width: 992px) and (max-width: 1200px) {
     #home-page {
-        height: 450px;
+        height: 550px;
     }
     #home-page .home-inner {
         position: relative;
-        top: 140px;
+        top: 210px;
         left: 0;
     }
     #home-page #left-pic {
-       background-color: #FFF;
-       height: auto;
+        max-width: 400px;
+        background-color: #FFF;
+        height: auto;
     }
     #home-page #intro {
-        top: 70px;
+        top: 57px;
         padding: 5px 0 60px 0;
         font-size: 0.938em;
         font-family: 'Asap', sans-serif;
@@ -291,13 +292,13 @@ hr {
 
 @media (min-width: 768px) and (max-width: 992px) {
     #home-page {
-        height: 550px;
+        height: 400px;
         left: 0;
         margin-top: 0px;
     }
     #home-page .home-inner {
         position: relative;
-        top: 200px;
+        top: 150px;
         left: 0;
         width: 100%;
         height: auto;
@@ -305,7 +306,7 @@ hr {
     }
     #home-page #left-pic {
        background-color: #FFF;
-       height: auto;
+       max-height: 200px;
     }
     #home-page #intro {
         top: 50px;
@@ -357,7 +358,6 @@ hr {
         color: #3c3c3d;
     }
     #home-page #intro img {
-        max-width: 170px;
         margin-bottom: 10px;
         display: none;
     }
@@ -442,18 +442,19 @@ hr {
 @media (min-width: 992px) and (max-width: 1200px) {
     #landing {
         margin-top: 10px;
-        height: 120px;
+        height: 220px;
         background-color: #3c3c3d;
         text-align: center;
     }
     #landing .cta {
-        padding-top: 38px;
+        padding-top: 90px;
+        text-transform: uppercase;
+        font-size: 0.838em;    
     }
     #landing .cta .btn-primary, .btn-primary:focus, {
         text-align: center;
         color: #3C3C3C;
         background-color: #ff6d00;
-        font-size: 0.938em;
         letter-spacing: .1px;
         line-height: 46px;
         margin: 0 5px;
@@ -477,18 +478,20 @@ hr {
 @media (min-width: 768px) and (max-width: 992px) {
     #landing {
         margin-top: 10px;
-        height: 90px;
+        height: 200px;
         background-color: #3c3c3d;
         text-align: center;
     }
     #landing .cta {
-        padding-top: 20px;
+        padding-top: 80px;
+        text-transform: uppercase;
+        font-size: 0.638em;    
     }
     #landing .cta .btn-primary, .btn-primary:focus, {
         padding: 4px 8px;
         text-align: center;
-        color: #3C3C3C;
         background-color: #ff6d00;
+        color: #3C3C3C;
         font-size: 0.750em;
         letter-spacing: .1px;
         line-height: 46px;
@@ -610,15 +613,15 @@ hr {
        background-color: #fbc69c;
     }
     #phrase_1 .text {
-       padding-top: 100px;
-       padding-bottom: 100px;
+       padding-top: 110px;
+       padding-bottom: 110px;
     }
     #phrase_1 .text p {
        font-size: 2.250em;
        font-family: 'Montserrat', sans-serif;
        color: #3c3c3d;
        font-weight: 700;
-       line-height: normal;
+       line-height: 1.5;
        text-align: center;
     }
 }
@@ -637,7 +640,7 @@ hr {
        font-family: 'Montserrat', sans-serif;
        color: #3c3c3d;
        font-weight: 700;
-       line-height: normal;
+       line-height: 1.4;
        text-align: center;
    }
 }
@@ -728,17 +731,17 @@ hr {
     #pillars {
         background-color: #fff;
         height: 700px;
-        padding-top: 70px;
+        padding-top: 90px;
         margin-bottom: 110px;
     }
     #pillars .leftside {
         margin-top: 255px;
-        text-align: right;
+        text-align: center;
     }
     #pillars .leftside p {
         font-family: 'Montserrat', sans-serif;
         color: #3c3c3d;
-        font-size: 1.750em;
+        font-size: 1.650em;
         line-height: normal;
         font-weight: 800;
         margin-right: 30px;
@@ -752,7 +755,7 @@ hr {
         font-weight: 400;
         color: #3c3c3d;
         font-size: 1.125em;
-        line-height: 1.4;
+        line-height: 1.6;
     }
     #pillars .statement {
         margin-top: 35px;
@@ -1497,7 +1500,7 @@ hr {
     }
 }
 
-/* ------- ABOUT ------- */
+/* ------- PHRASE 2 ------- */
 
 @media (min-width: 1200px) {
     #phrase_2 {
@@ -1524,15 +1527,15 @@ hr {
        background-color: #676767;
     }
     #phrase_2 .text {
-       padding-top: 100px;
-       padding-bottom: 100px;
+       padding-top: 110px;
+       padding-bottom: 110px;
     }
     #phrase_2 .text p {
        font-size: 2.250em;
        font-family: 'Montserrat', sans-serif;
        color: #fff;
        font-weight: 700;
-       line-height: normal;
+       line-height: 1.5;
        text-align: center;
     }
 }
@@ -1551,7 +1554,7 @@ hr {
        font-family: 'Montserrat', sans-serif;
        color: #fff;
        font-weight: 700;
-       line-height: normal;
+       line-height: 1.4;
        text-align: center;
    }
 }
@@ -1640,8 +1643,8 @@ hr {
     #team {
         color: #8c8c8c;
         height: auto;
-        padding-top: 120px;
-        padding-bottom: 20px;
+        padding-top: 170px;
+        padding-bottom: 100px;
         background-color: #FFF;
     }
     #team h1 {
@@ -1654,7 +1657,7 @@ hr {
         margin-bottom: 20px;
     }
     #team #profile img {
-        margin-top: 20px;
+        margin-top: 10px;
         margin-bottom: 30px;
         border-radius: 100%;
     }
@@ -1683,7 +1686,7 @@ hr {
         color: #8c8c8c;
         height: auto;
         padding-top: 100px;
-        padding-bottom: 0px;
+        padding-bottom: 70px;
         background-color: #FFF;
     }
     #team h1 {
@@ -1696,12 +1699,12 @@ hr {
         margin-bottom: 20px;
     }
     #team #profile img {
-        margin-top: 20px;
+        margin-top: 10px;
         margin-bottom: 30px;
         border-radius: 100%;
     }
     #team h3 {
-        font-size: 1.063em;
+        font-size: .963em;
         color: #3c3c3d;
         text-transform: uppercase;
         margin-bottom: -5px;
@@ -1808,9 +1811,9 @@ hr {
 
 @media (min-width: 1400px) {
     #get-in-touch {
-        padding-top: 400px;
+        padding-top: 350px;
         padding-bottom: 0px;
-        height: 1200px;
+        height: 980px;
         background-image: url('../img/background-contact.png');
         background-position: center, center;
         background-size: cover;
@@ -1861,9 +1864,9 @@ hr {
 
 @media (min-width: 1200px) and (max-width: 1400px) {
     #get-in-touch {
-        padding-top: 210px;
+        padding-top: 300px;
         padding-bottom: 0px;
-        height: 700px;
+        height: 900px;
         background-image: url('../img/background-contact.png');
         background-position: center, center;
         background-size: cover;
@@ -1873,14 +1876,14 @@ hr {
         color: #fff;
     }
     #get-in-touch .contact-text {
-        margin-bottom: 20px;
+        margin-bottom: 30px;
     }
     #get-in-touch .contact-text h3 {
         color: #fff;
         font-family: 'Montserrat', sans-serif;
     }
     #get-in-touch .contact-mail {
-        margin-bottom: 20px;
+        margin-bottom: 120px;
     }
     #get-in-touch .contact-mail a, .contact-mail a:focus  {
         color: #fff;
@@ -1898,6 +1901,9 @@ hr {
        -webkit-transition: .3s ease-in-out;
        transition: .3s ease-in-out;
     }
+    #get-in-touch .contact .contact-cta .btn-primary {
+        text-transform: uppercase;    
+    }  
     #get-in-touch .contact .contact-cta .btn-primary, .btn-primary:focus, .btn-primary:visited, .btn-primary:active  {
         text-align: center;
         color: #ff6d00;
@@ -1921,26 +1927,26 @@ hr {
 
 @media (min-width: 992px) and (max-width: 1200px) {
     #get-in-touch {
-        padding-top: 140px;
+        padding-top: 250px;
         padding-bottom: 0px;
-        height: 500px;
+        height: 770px;
         background-image: url('../img/background-contact.png');
         background-position: center, center;
-        background-size: contain;
+        background-size: cover;
     }
     #get-in-touch .contact {
         text-align: center;
         color: #fff;
     }
     #get-in-touch .contact-text {
-        margin-bottom: 20px;
+        margin-bottom: 30px;
     }
     #get-in-touch .contact-text h3 {
         color: #fff;
         font-family: 'Montserrat', sans-serif;
     }
     #get-in-touch .contact-mail {
-        margin-bottom: 20px;
+        margin-bottom: 90px;
     }
     #get-in-touch .contact-mail a, .contact-mail a:focus  {
         color: #fff;
@@ -1957,6 +1963,9 @@ hr {
        font-family: 'Montserrat', sans-serif;
        -webkit-transition: .3s ease-in-out;
        transition: .3s ease-in-out;
+    }
+    #get-in-touch .contact .contact-cta .btn-primary {
+        text-transform: uppercase;    
     }
     #get-in-touch .contact .contact-cta .btn-primary, .btn-primary:focus, .btn-primary:visited, .btn-primary:active {
         text-align: center;
@@ -1984,7 +1993,7 @@ hr {
     #get-in-touch {
         padding-top: 150px;
         padding-bottom: 0px;
-        height: 650px;
+        height: 780px;
         background-image: url('../img/background-contact.png');
         background-position: center, center;
         background-size: cover;
