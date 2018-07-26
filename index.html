@@ -19,7 +19,7 @@
     <nav id="main-menu" class="navbar navbar-default navbar-fixed-top" role="banner">
         <div class="container">
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse" onclick="openNav()">
                     <span class="sr-only">Toggle</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
@@ -27,8 +27,9 @@
                 </button>
                 <a class="navbar-brand" id="logo-small-dev" href="#"><img src="img/nav-icon.png"></a>
             </div>
-            <div class="collapse navbar-collapse navbar-right">
-                <ul class="nav navbar-nav">
+            <div id="closeMenu" class="collapse navbar-collapse navbar-right">
+                <ul class="nav navbar-nav" id="navbarMenu">
+                	<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
                     <li class="scroll"><a href="#home">Home</a></li>
                     <li class="scroll"><a href="#">Areas</a></li>
                     <li class="scroll"><a href="#">Projects</a></li>
@@ -343,6 +344,11 @@
 
 <script src="./js/jquery.js"></script>
 <script src="./js/bootstrap.min.js"></script>
+<script>
+function closeNav() {
+    $("#closeMenu").removeClass("in");
+}
+</script>
 
 </body>
 </html>
