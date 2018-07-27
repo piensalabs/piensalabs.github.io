@@ -107,7 +107,7 @@ hr {
         background-color: #5e5e5e;
     }
     #main-menu .navbar-header {
-        background: rgba(255, 255, 255, 0.8);
+        background: transparent;
     }
     #main-menu .navbar-nav {
         margin: 0;
@@ -405,7 +405,7 @@ hr {
     }
     #home-page .home-inner {
         position: relative;
-        top: 90px;
+        top: 110px;
         left: 0;
         width: 100%;
         height: auto;
@@ -422,7 +422,7 @@ hr {
         font-family: 'Asap', sans-serif;
         text-transform: initial;
         text-align: center;
-        line-height: 1.4;
+        line-height: 1.5;
         font-weight: 400;
         color: #3c3c3d;
     }
@@ -568,12 +568,6 @@ hr {
         font-weight: 400;
         border: 1px solid #FF6D00;
     }
-    #landing .cta .btn-primary:hover {
-        background: #3C3C3C;
-        color: #FF6D00;
-        border: 1px solid #FF6D00;
-        transition: 0.3s ease-in-out;
-    }
     #landing .cta .btn-primary:active {
         background: #3C3C3C;
         color: #FF6D00;
@@ -585,12 +579,14 @@ hr {
 @media (min-width: 300px) and (max-width: 420px) {
     #landing {
         margin-top: 10px;
-        height: 85px;
+        height: 150px;
         background-color: #3c3c3d;
         text-align: center;
     }
     #landing .cta {
-        padding-top: 20px;
+        padding-top: 62px;
+        text-transform: uppercase;
+        font-size: 0.750em;
     }
     #landing .cta .btn-primary, .btn-primary:focus, {
         text-align: center;
@@ -602,12 +598,6 @@ hr {
         margin: 0 5px;
         font-weight: 400;
         border: 1px solid #FF6D00;
-    }
-    #landing .cta .btn-primary:hover {
-        background: #3C3C3C;
-        color: #FF6D00;
-        border: 1px solid #FF6D00;
-        transition: 0.3s ease-in-out;
     }
     #landing .cta .btn-primary:active {
         background: #3C3C3C;
@@ -710,7 +700,7 @@ hr {
        font-family: 'Montserrat', sans-serif;
        color: #3c3c3d;
        font-weight: 700;
-       line-height: normal;
+       line-height: 1.5;
        text-align: center;
    }
 }
@@ -902,14 +892,16 @@ hr {
         font-family: 'Asap', sans-serif;
         font-weight: 400;
         color: #3c3c3d;
-        font-size: 0.750em;
-        line-height: 1.4;
+        font-size: 0.938em;
+        line-height: 1.5;
+        margin-bottom: 50px;
     }
     #pillars .statement {
         margin-top: 15px;
     }
     #pillars .statement-img {
-        margin-bottom: 40px;
+        max-width: 25%;
+        margin-bottom: 100px;
         margin-right: 10px;
     }
 }
@@ -1625,7 +1617,7 @@ hr {
        font-family: 'Montserrat', sans-serif;
        color: #fff;
        font-weight: 700;
-       line-height: normal;
+       line-height: 1.5;
        text-align: center;
    }
 }
@@ -1803,7 +1795,7 @@ hr {
         color: #8c8c8c;
         height: auto;
         padding-top: 100px;
-        padding-bottom: 10px;
+        padding-bottom: 70px;
         background-color: #FFF;
     }
     #team h1 {
@@ -1828,14 +1820,14 @@ hr {
         font-family: 'Montserrat', sans-serif;
     }
     #team h4 {
-        font-size: 0.875em;
+        font-size: .938em;
         color: #3c3c3d;
         font-family: 'Montserrat', sans-serif;
     }
     #team p {
-        font-size: 0.750em;
+        font-size: 0.938em;
         font-family: 'Asap',sans-serif;
-        line-height: 1.4;
+        line-height: 1.5;
         color: #3c3c3d;
     }
 }
@@ -2139,9 +2131,9 @@ hr {
 
 @media (min-width: 300px) and (max-width: 420px) {
     #get-in-touch {
-        padding-top: 140px;
+        padding-top: 220px;
         padding-bottom: 0px;
-        height: 500px;
+        height: 635px;
         background-image: url('../img/background-contact.png');
         background-position: center, center;
         background-size: cover;
@@ -2159,7 +2151,7 @@ hr {
         font-family: 'Montserrat', sans-serif;
     }
     #get-in-touch .contact-mail {
-        margin-bottom: 20px;
+        margin-bottom: 80px;
     }
     #get-in-touch .contact-mail a, .contact-mail a:focus  {
         color: #fff;
@@ -2182,9 +2174,12 @@ hr {
         -webkit-transition: .3s ease-in-out;
         transition: .3s ease-in-out;
     }
+    #get-in-touch .contact .contact-cta .btn-primary {
+        text-transform: uppercase;
+        font-weight: 700;
+    }
     #get-in-touch .contact .contact-cta .btn-primary:hover, .btn-primary:focus, .btn-primary:visited, .btn-primary:active {
         background: transparent;
-        color: #fff;
         border: 1px solid #fff;
         -webkit-transition: .3s ease-in-out;
         transition: .3s ease-in-out;
