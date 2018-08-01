@@ -906,16 +906,16 @@ hr {
     }
 }
 
-/* ------- PROJECTS ------- */
+/* ------- AREAS ------- */
 
 @media (min-width: 1200px) {
     #areas {
         height: auto;
         margin-top: 180px;
+        margin-bottom: 280px; 
     }
     #areas .area-item {
-        background-color: #ffe2cc;
-        background-image: url( '../img/data-image.jpg.');
+        background-color: #fff;  
         background-size: cover;
         background-position: center center;
         height: auto;
@@ -924,16 +924,34 @@ hr {
     #areas .area-1 {
         margin-bottom: 100px;
     }
-    #areas .area-item h1{
+    #areas .area-item .area-title {
+        margin-bottom: 0px;
+    } 
+    #areas .area-item .area-title h1 {
         font-size: 5em;
+        color: #FF6D00;
         text-align: left;
         text-transform: uppercase;
         margin-top: 110px;
+        margin-bottom: 30px;
+    }
+    #areas .item-text {
+        margin-top: 0;
     }
     #areas .item-text p {
         font-size: 1.5em;
         line-height: 1.5;
-        margin-bottom: 150px;
+        margin-bottom: 30px;
+    }
+    #areas .area-item .area-icon {
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    #areas .area-item ul {
+        margin-left: 30px;
+        list-style: square;
+        font-size: 1.5em;
+        line-height: 1.5;
     }
 }
 
