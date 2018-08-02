@@ -183,7 +183,7 @@ hr {
     }
     #main-menu.navbar-default {
         border-bottom: 4px rgba(255, 255, 255, 0.7);;
-        background: rgba(255, 255, 255, 0.7);
+        background: rgba(255, 255, 255, 0.9 );
         -webkit-box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.1);
         box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0);
         }
@@ -911,14 +911,17 @@ hr {
 @media (min-width: 1200px) {
     #areas {
         height: auto;
-        margin-top: 180px;
-        margin-bottom: 280px; 
+        background-color: #f1f1f1;
+        padding-top: 180px;
+        padding-bottom: 180px;
     }
     #areas .area-item {
         background-color: #fff;  
         background-size: cover;
         background-position: center center;
         height: auto;
+        border-radius: 5px;
+        padding-bottom: 30px;
         margin-bottom: 150px;
     }
     #areas .area-1 {
@@ -928,7 +931,7 @@ hr {
         margin-bottom: 0px;
     } 
     #areas .area-item .area-title h1 {
-        font-size: 5em;
+        font-size: 3.5em;
         color: #FF6D00;
         text-align: left;
         text-transform: uppercase;
