@@ -964,6 +964,62 @@ hr {
     }
 }
 
+@media (min-width: 992px) and (max-width: 1200px) {
+    #areas {
+        height: auto;
+        background-color: #f1f1f1;
+        padding-top: 120px;
+        padding-bottom: 80px;
+    }
+    #areas .field-title h1 {
+        margin: 0px 0 20px 0;
+        text-align: center;
+        font-size: 3em;
+        line-height: 1.5;
+    }
+    #areas .area-item {
+        background-color: #fff;  
+        background-size: cover;
+        background-position: center center;
+        height: auto;
+        border-radius: 5px;
+        padding-bottom: 30px;
+        margin-bottom: 150px;
+    }
+    #areas .area-1 {
+        margin-bottom: 10px;
+    }
+    #areas .area-item .area-title {
+        margin-bottom: 0px;
+    } 
+    #areas .area-item .area-title h1 {
+        font-size: 3em;
+        color: #FF6D00;
+        text-align: left;
+        text-transform: uppercase;
+        margin-top: 60px;
+        margin-bottom: 20px;
+    }
+    #areas .item-text {
+        margin-top: 0;
+    }
+    #areas .item-text p {
+        font-size: 1.2em;
+        line-height: 1.5;
+        margin-bottom: 30px;
+    }
+    #areas .area-item .area-icon {
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    #areas .area-item ul {
+        margin-left: 30px;
+        list-style: square;
+        font-size: 1.2em;
+        line-height: 1.5;
+    }
+}
+
 /* ------- PROJECTS ------- */
 
 @media (min-width: 1200px) {
