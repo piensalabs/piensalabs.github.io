@@ -36,7 +36,7 @@ a:focus {
     color: darken(#FF6D00, 10%);
 }
 hr {
-    border-top: 1px solid #3C3C3C;
+    border-top: 1px solid #b3b3b3;
     border-bottom: 1px solid #fff;
 }
 .container-fluid {
@@ -913,7 +913,6 @@ hr {
         height: auto;
         background-color: #fff;
         padding-top: 120px;
-        padding-bottom: 180px;
     }
     #areas .field-title h1 {
         margin: 10px 0 50px 0;
@@ -969,7 +968,6 @@ hr {
         height: auto;
         background-color: #fff;
         padding-top: 120px;
-        padding-bottom: 180px;
     }
     #areas .field-title h1 {
         margin: 10px 0 20px 0;
@@ -1024,7 +1022,6 @@ hr {
         height: auto;
         background-color: #fff;
         padding-top: 100px;
-        padding-bottom: 180px;
     }
     #areas .field-title h1 {
         margin: 10px 0 20px 0;
@@ -1067,7 +1064,7 @@ hr {
         margin-bottom: 120px;
     }
     #areas .area-item ul {
-        margin-left: 30px;
+        margin-left: 20px;
         list-style: square;
         font-size: .95em;
         line-height: 1.5;
@@ -1079,7 +1076,6 @@ hr {
         height: auto;
         background-color: #fff;
         padding-top: 50px;
-        padding-bottom: 180px;
     }
     #areas .field-title h1 {
         margin: 10px 0 20px 0;
@@ -1120,9 +1116,9 @@ hr {
         margin-bottom: 0px;
     }
     #areas .area-item ul {
-        margin-left: 30px;
+        margin-left: 10px;
         list-style: square;
-        font-size: .95em;
+        font-size: 1.1em;
         line-height: 1.5;
     }
 }
@@ -1170,9 +1166,9 @@ hr {
         margin-bottom: 0px;
     }
     #areas .area-item ul {
-        margin-left: 30px;
+        margin-left: 0;
         list-style: square;
-        font-size: .75em;
+        font-size: .95em;
         line-height: 1.5;
     }
 }
