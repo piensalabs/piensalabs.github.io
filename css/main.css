@@ -30,7 +30,7 @@ a {
     -o-transition:  color 400ms, background-color 400ms;
     transition:  color 400ms, background-color 400ms;
 }
-a:hover, 
+a:hover,
 a:focus {
     text-decoration: none;
     color: darken(#FF6D00, 10%);
@@ -97,7 +97,7 @@ hr {
     }
     .navbar-default {
         border-color: transparent;
-        background-color: transparent; 
+        background-color: transparent;
     }
     .navbar-toggle {
         float: left;
@@ -133,7 +133,7 @@ hr {
         padding-top: 7px;
         padding-bottom: 7px;
         margin-bottom: 0px;
-        
+
         /*---*/
 
         padding: 8px 32px 48px 32px;
@@ -480,7 +480,7 @@ hr {
     #landing .cta {
         padding-top: 90px;
         text-transform: uppercase;
-        font-size: 0.838em;    
+        font-size: 0.838em;
     }
     #landing .cta .btn-primary, .btn-primary:focus, {
         text-align: center;
@@ -516,7 +516,7 @@ hr {
     #landing .cta {
         padding-top: 80px;
         text-transform: uppercase;
-        font-size: 0.638em;    
+        font-size: 0.638em;
     }
     #landing .cta .btn-primary, .btn-primary:focus, {
         padding: 4px 8px;
@@ -921,7 +921,7 @@ hr {
         line-height: 1.5;
     }
     #areas .area-item {
-        background-color: #fff;  
+        background-color: #fff;
         background-size: cover;
         background-position: center center;
         height: auto;
@@ -934,7 +934,7 @@ hr {
     }
     #areas .area-item .area-title {
         margin-bottom: 0px;
-    } 
+    }
     #areas .area-item .area-title h1 {
         font-size: 3.5em;
         color: #FF6D00;
@@ -970,13 +970,13 @@ hr {
         padding-top: 120px;
     }
     #areas .field-title h1 {
-        margin: 10px 0 20px 0;
+        margin: 0 0 20px 0;
         text-align: center;
         font-size: 3em;
         line-height: 1.5;
     }
     #areas .area-item {
-        background-color: #fff;  
+        background-color: #fff;
         background-size: cover;
         background-position: center center;
         height: auto;
@@ -988,7 +988,7 @@ hr {
     }
     #areas .area-item .area-title {
         margin-bottom: 0px;
-    } 
+    }
     #areas .area-item .area-title h1 {
         font-size: 3em;
         color: #FF6D00;
@@ -1021,16 +1021,16 @@ hr {
     #areas {
         height: auto;
         background-color: #fff;
-        padding-top: 100px;
+        padding-top: 120px;
     }
     #areas .field-title h1 {
-        margin: 10px 0 20px 0;
+        margin: 0px 0 20px 0;
         text-align: center;
         font-size: 2.5em;
         line-height: 1.5;
     }
     #areas .area-item {
-        background-color: #fff;  
+        background-color: #fff;
         background-size: cover;
         background-position: center center;
         height: auto;
@@ -1042,9 +1042,9 @@ hr {
     }
     #areas .area-item .area-title {
         margin-bottom: 0px;
-    } 
+    }
     #areas .area-item .area-title h1 {
-        font-size: 2.5em;
+        font-size: 2em;
         color: #FF6D00;
         text-align: left;
         text-transform: uppercase;
@@ -1084,7 +1084,7 @@ hr {
         line-height: 1.5;
     }
     #areas .area-item {
-        background-color: #fff;  
+        background-color: #fff;
         background-size: cover;
         background-position: center center;
         height: auto;
@@ -1096,7 +1096,7 @@ hr {
     }
     #areas .area-item .area-title {
         margin-bottom: 0px;
-    } 
+    }
     #areas .area-item .area-title h1 {
         font-size: 2em;
         color: #FF6D00;
@@ -1136,7 +1136,7 @@ hr {
         line-height: 1.5;
     }
     #areas .area-item {
-        background-color: #fff;  
+        background-color: #fff;
         background-size: cover;
         background-position: center center;
         height: auto;
@@ -1147,7 +1147,7 @@ hr {
     }
     #areas .area-item .area-title {
         margin-bottom: 0px;
-    } 
+    }
     #areas .area-item .area-title h1 {
         font-size: 1.5em;
         color: #FF6D00;
@@ -1190,7 +1190,7 @@ hr {
         line-height: 1.5;
     }
     #projects .project-item {
-        background-color: #fff;  
+        background-color: #fff;
         background-size: cover;
         background-position: center center;
         height: auto;
@@ -1203,7 +1203,7 @@ hr {
     }
     #projects .project-item .project-title {
         margin-bottom: 0px;
-    } 
+    }
     #projects .project-item .project-title h1 {
         font-size: 3em;
         color: #FF6D00;
@@ -1234,7 +1234,7 @@ hr {
         height: 400px;
         background-image: url(../img/bop.png);
         background-position: top center;
-        background-size: 100%; 
+        background-size: 100%;
         background-repeat: none;
         background-color: #FF6D00;
         border-radius: 5px 5px 0 0;
@@ -1287,7 +1287,7 @@ hr {
         line-height: 1.5;
     }
     #projects .project-item {
-        background-color: #fff;  
+        background-color: #fff;
         background-size: cover;
         background-position: center center;
         height: auto;
@@ -1300,7 +1300,7 @@ hr {
     }
     #projects .project-item .project-title {
         margin-bottom: 0px;
-    } 
+    }
     #projects .project-item .project-title h1 {
         font-size: 2.5em;
         color: #FF6D00;
@@ -1331,7 +1331,7 @@ hr {
         height: 336px;
         background-image: url(../img/bop.png);
         background-position: top center;
-        background-size: 100%; 
+        background-size: 100%;
         background-repeat: none;
         background-color: #FF6D00;
         border-radius: 5px 5px 0 0;
@@ -1643,7 +1643,7 @@ hr {
         line-height: 1.3;
     }
     #projects .project-item .project-title h3 {
-        font-size: 1.250em;
+        font-size: 1.125em;
         color: #FF6D00;
     }
     #projects .project-item .project-title a {
@@ -2014,8 +2014,8 @@ hr {
        transition: .3s ease-in-out;
     }
     #get-in-touch .contact .contact-cta .btn-primary {
-        text-transform: uppercase;    
-    }    
+        text-transform: uppercase;
+    }
     #get-in-touch .contact .contact-cta .btn-primary:hover {
         background: transparent;
         color: #fff;
@@ -2065,8 +2065,8 @@ hr {
        transition: .3s ease-in-out;
     }
     #get-in-touch .contact .contact-cta .btn-primary {
-        text-transform: uppercase;    
-    }  
+        text-transform: uppercase;
+    }
     #get-in-touch .contact .contact-cta .btn-primary, .btn-primary:focus, .btn-primary:visited, .btn-primary:active  {
         text-align: center;
         color: #ff6d00;
@@ -2128,7 +2128,7 @@ hr {
        transition: .3s ease-in-out;
     }
     #get-in-touch .contact .contact-cta .btn-primary {
-        text-transform: uppercase;    
+        text-transform: uppercase;
     }
     #get-in-touch .contact .contact-cta .btn-primary, .btn-primary:focus, .btn-primary:visited, .btn-primary:active {
         text-align: center;
@@ -2193,7 +2193,7 @@ hr {
        transition: .3s ease-in-out;
     }
     #get-in-touch .contact .contact-cta .btn-primary {
-        text-transform: uppercase;    
+        text-transform: uppercase;
     }
     #get-in-touch .contact .contact-cta .btn-primary, .btn-primary:focus, .btn-primary:visited, .btn-primary:active {
         text-align: center;
