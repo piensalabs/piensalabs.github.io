@@ -1230,9 +1230,18 @@ hr {
         text-align: center;
         margin-bottom: 30px;
     }
-    #projects .project-item .project-icon {
+    #projects .project-item .project-1 .project-icon {
         height: 400px;
         background-image: url(../img/bop.png);
+        background-position: top center;
+        background-size: 100%;
+        background-repeat: none;
+        background-color: #FF6D00;
+        border-radius: 5px 5px 0 0;
+    }
+    #projects .project-item .project-2 .project-icon {
+        height: 400px;
+        background-image: url(../img/kaust-annotation.png);
         background-position: top center;
         background-size: 100%;
         background-repeat: none;
@@ -1327,9 +1336,18 @@ hr {
         text-align: center;
         margin-bottom: 30px;
     }
-    #projects .project-item .project-icon {
+    #projects .project-item .project-1 .project-icon {
         height: 336px;
         background-image: url(../img/bop.png);
+        background-position: top center;
+        background-size: 100%;
+        background-repeat: none;
+        background-color: #FF6D00;
+        border-radius: 5px 5px 0 0;
+    }
+    #projects .project-item .project-2 .project-icon {
+        height: 336px;
+        background-image: url(../img/kaust-annotation.png);
         background-position: top center;
         background-size: 100%;
         background-repeat: none;
@@ -1426,9 +1444,18 @@ hr {
         text-align: center;
         margin-bottom: 30px;
     }
-    #projects .project-item .project-icon {
+    #projects .project-item .project-1 .project-icon {
         height: 263px;
         background-image: url(../img/bop.png);
+        background-position: top center;
+        background-size: 100%; 
+        background-repeat: none;
+        background-color: #FF6D00;
+        border-radius: 5px 5px 0 0;
+    }
+    #projects .project-item .project-2 .project-icon {
+        height: 263px;
+        background-image: url(../img/kaust-annotation.png);
         background-position: top center;
         background-size: 100%; 
         background-repeat: none;
@@ -1523,9 +1550,19 @@ hr {
         text-align: center;
         margin-bottom: 30px;
     }
-    #projects .project-item .project-icon {
+    #projects .project-item .project-1 .project-icon {
         height: 263px;
         background-image: url(../img/bop.png);
+        background-position: top center;
+        background-size: 100%;
+        background-size: cover;
+        background-repeat: none;
+        background-color: #FF6D00;
+        border-radius: 0;
+    }
+    #projects .project-item .project-2 .project-icon {
+        height: 263px;
+        background-image: url(../img/kaust-annotation.png);
         background-position: top center;
         background-size: 100%;
         background-size: cover;
@@ -1620,9 +1657,19 @@ hr {
         text-align: center;
         margin-bottom: 30px;
     }
-    #projects .project-item .project-icon {
+    #projects .project-item .project-1 .project-icon {
         height: 200px;
         background-image: url(../img/bop.png);
+        background-position: top center;
+        background-size: 100%;
+        background-size: cover;
+        background-repeat: none;
+        background-color: #FF6D00;
+        border-radius: 0;
+    }
+    #projects .project-item .project-2 .project-icon {
+        height: 200px;
+        background-image: url(../img/kaust-annotation.png);
         background-position: top center;
         background-size: 100%;
         background-size: cover;
