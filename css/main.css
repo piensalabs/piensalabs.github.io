@@ -123,7 +123,16 @@ hr {
         padding-top: 60px;
 
     }
-    #main-menu .navbar-nav > li > a {
+
+    .navbar-default .navbar-nav>.active>a, 
+    .navbar-default .navbar-nav>.active>a:focus, 
+    .navbar-default .navbar-nav>.active>a:hover {
+        background-color: transparent;
+    }
+
+    #main-menu .navbar-nav > li > a,
+    #main-menu .navbar-nav > li > a:active
+    #main-menu .navbar-nav > li > a:focus  {
         text-align: left;
         font-weight: bold;
         font-family: 'Montserrat', sans-serif;
@@ -153,8 +162,8 @@ hr {
         border: none;
     }
 
-    #main-menu.navbar-default .navbar-nav > li.active > a,
-    #main-menu.navbar-default .navbar-nav > li.open > a,
+    #main-menu.navbar-default .navbar-nav > li:active > a,
+    #main-menu.navbar-default .navbar-nav > li:open > a,
     #main-menu.navbar-default .navbar-nav > li:hover > a {
         background:rgba(255, 255, 255, 0);
         color: #FF6D00;
@@ -183,7 +192,7 @@ hr {
     }
     #main-menu.navbar-default {
         border-bottom: 4px rgba(255, 255, 255, 0.7);;
-        background: rgba(255, 255, 255, 0.9 );
+        background: rgba(64, 64, 64, 1);
         -webkit-box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.1);
         box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0);
         }
@@ -193,11 +202,12 @@ hr {
     }
     #main-menu.navbar-default .navbar-nav > li > a {
         font-family: 'Montserrat', sans-serif;
-        font-weight: 800;
+        font-weight: 400;
         margin-top: 0px;
         border-bottom: 3px solid transparent;
         margin-bottom: 0px;
-        color: #404040;
+        padding-bottom: 10px;
+        color: #FFF;
     }
     #main-menu.navbar-default .navbar-nav > li.active > a,
     #main-menu.navbar-default .navbar-nav > li.open > a,
@@ -206,7 +216,7 @@ hr {
         padding-top: 10px;
         border-radius: 0px;
         border-top: 5px solid transparent;
-        border-bottom: 3px solid #404040;
+        border-bottom: 1px solid #FFF;
         transition: border-bottom 50ms;
     }
     .closebtn {
@@ -236,19 +246,20 @@ hr {
        height: auto;
     }
     #home-page #intro {
-        top: 80px;
+        top: 40px;
         padding: 0 0 60px 0;
-        font-size: 1.5em;
-        font-family: 'Asap', sans-serif;
+        font-size: 2em;
+        font-family: 'Montserrat', sans-serif;
         text-transform: initial;
-        text-align: left;
-        line-height: 2;
-        font-weight: 200;
-        color: #3c3c3d;
+        text-align: center;
+        line-height: 1.3;
+        letter-spacing: 1px;
+        font-weight: 400;
+        color: #FF6D00;
+        font-style: italic;
     }
-    #home-page #intro img {
-        max-width: 250px;
-        margin-bottom: 20px;
+   #home-page #left-pic img {
+        margin-bottom: 0px;
     }
 }
 
@@ -256,14 +267,14 @@ hr {
     #home-page {
         overflow: hidden;
         width: 100%;
-        height: 550px;
+        height: 650px;
         left: 0;
         background-color: #FFF;
         margin-top: 0px;
     }
     #home-page .home-inner {
         position: relative;
-        top: 160px;
+        top: 200px;
         left: 0;
         width: 100%;
         height: auto;
@@ -274,19 +285,20 @@ hr {
        height: auto;
     }
     #home-page #intro {
-        top: 90px;
-        padding: 3px 0 60px 0;
-        font-size: 1.125em;
-        font-family: 'Asap', sans-serif;
+        top: 50px;
+        padding: 3px 0 30px 0;
+        font-size: 2.2em;
+        font-family: 'Montserrat', sans-serif;
         text-transform: initial;
-        text-align: left;
+        text-align: center;
         line-height: 1.4;
         font-weight: 400;
-        color: #3c3c3d;
+        color: #FF6D00;
+        font-style: italic;
     }
     #home-page #intro img {
         max-width: 250px;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
     }
 }
 
@@ -300,20 +312,20 @@ hr {
         left: 0;
     }
     #home-page #left-pic {
-        max-width: 400px;
         background-color: #FFF;
         height: auto;
     }
     #home-page #intro {
-        top: 57px;
+        top: 30px;
         padding: 5px 0 60px 0;
-        font-size: 0.938em;
-        font-family: 'Asap', sans-serif;
+        font-size: 1.6em;
+        font-family: 'Montserrat', sans-serif;
         text-transform: initial;
-        text-align: left;
+        text-align: center;
         line-height: 1.4;
         font-weight: 400;
-        color: #3c3c3d;
+        color: #FF6D00;
+        font-style: italic;
     }
     #home-page #intro img {
         max-width: 210px;
@@ -323,13 +335,13 @@ hr {
 
 @media (min-width: 768px) and (max-width: 992px) {
     #home-page {
-        height: 400px;
+        height: 550px;
         left: 0;
         margin-top: 0px;
     }
     #home-page .home-inner {
         position: relative;
-        top: 150px;
+        top: 220px;
         left: 0;
         width: 100%;
         height: auto;
@@ -340,15 +352,16 @@ hr {
        max-height: 200px;
     }
     #home-page #intro {
-        top: 50px;
+        top: 20px;
         padding: 5px 0 30px 0;
-        font-size: 0.688em;
-        font-family: 'Asap', sans-serif;
+        font-size: 1.35em;
+        font-family: 'Montserrat', sans-serif;
         text-transform: initial;
-        text-align: left;
+        text-align: center;
+        font-style: italic;
         line-height: 1.4;
         font-weight: 400;
-        color: #3c3c3d;
+        color: #FF6D00;
     }
     #home-page #intro img {
         max-width: 170px;
@@ -380,13 +393,14 @@ hr {
     #home-page #intro {
         top: 30px;
         padding: 0px 0 30px 0;
-        font-size: 1.125em;
-        font-family: 'Asap', sans-serif;
+        font-size: 1.5em;
+        font-family: 'Montserrat', sans-serif;
         text-transform: initial;
+        font-style: italic;
         text-align: center;
         line-height: 1.6;
         font-weight: 400;
-        color: #3c3c3d;
+        color: #FF6D00;
     }
     #home-page #intro img {
         margin-bottom: 10px;
@@ -416,15 +430,16 @@ hr {
        height: auto;
     }
     #home-page #intro {
-        top: 30px;
+        top: 20px;
         padding: 0px 0 30px 0;
-        font-size: 0.938em;
-        font-family: 'Asap', sans-serif;
+        font-size: 1.3em;
+        font-family: 'Montserrat', sans-serif;
         text-transform: initial;
         text-align: center;
+        font-style: italic;
         line-height: 1.5;
         font-weight: 400;
-        color: #3c3c3d;
+        color: #FF6D00;
     }
     #home-page #intro img {
         max-width: 170px;
@@ -438,12 +453,13 @@ hr {
 @media (min-width: 1200px) {
     #landing {
         margin-top: 10px;
-        height: 300px;
-        background-color: #3c3c3d;
+        height: 200px;
+        background-color: #FF6D00;
+        /*background-color: #3c3c3d;*/
         text-align: center;
     }
     #landing .cta {
-        padding-top: 125px;
+        padding-top: 90px;
         text-transform: uppercase;
     }
     #landing .cta .btn-primary, .btn-primary:focus, {
@@ -473,12 +489,12 @@ hr {
 @media (min-width: 992px) and (max-width: 1200px) {
     #landing {
         margin-top: 10px;
-        height: 220px;
-        background-color: #3c3c3d;
+        height: 180px;
+        background-color: #FF6D00;
         text-align: center;
     }
     #landing .cta {
-        padding-top: 90px;
+        padding-top: 80px;
         text-transform: uppercase;
         font-size: 0.838em;
     }
@@ -509,12 +525,12 @@ hr {
 @media (min-width: 768px) and (max-width: 992px) {
     #landing {
         margin-top: 10px;
-        height: 200px;
-        background-color: #3c3c3d;
+        height: 120px;
+        background-color: #FF6D00;
         text-align: center;
     }
     #landing .cta {
-        padding-top: 80px;
+        padding-top: 50px;
         text-transform: uppercase;
         font-size: 0.638em;
     }
@@ -550,7 +566,7 @@ hr {
     #landing {
         margin-top: 10px;
         height: 150px;
-        background-color: #3c3c3d;
+        background-color: #FF6D00;
         text-align: center;
     }
     #landing .cta {
@@ -580,7 +596,7 @@ hr {
     #landing {
         margin-top: 10px;
         height: 150px;
-        background-color: #3c3c3d;
+        background-color: #FF6D00;
         text-align: center;
     }
     #landing .cta {
@@ -621,8 +637,9 @@ hr {
     #phrase_1 .text p {
        font-size: 2.750em;
        font-family: 'Montserrat', sans-serif;
+       font-style: italic;
        color: #3c3c3d;
-       font-weight: 700;
+       font-weight: 400;
        line-height: normal;
        text-align: center;
        line-height: 1.5;
@@ -642,7 +659,8 @@ hr {
        font-size: 2.250em;
        font-family: 'Montserrat', sans-serif;
        color: #3c3c3d;
-       font-weight: 700;
+       font-weight: 400;
+       font-style: italic;
        line-height: 1.5;
        text-align: center;
     }
@@ -661,7 +679,8 @@ hr {
        font-size: 1.875em;
        font-family: 'Montserrat', sans-serif;
        color: #3c3c3d;
-       font-weight: 700;
+       font-weight: 400;
+       font-style: italic;
        line-height: 1.4;
        text-align: center;
    }
@@ -680,7 +699,8 @@ hr {
        font-size: 1.875em;
        font-family: 'Montserrat', sans-serif;
        color: #3c3c3d;
-       font-weight: 700;
+       font-weight: 400;
+       font-style: italic;
        line-height: 1.5;
        text-align: center;
    }
@@ -699,7 +719,8 @@ hr {
        font-size: 1.500em;
        font-family: 'Montserrat', sans-serif;
        color: #3c3c3d;
-       font-weight: 700;
+       font-weight: 400;
+       font-style: italic;
        line-height: 1.5;
        text-align: center;
    }
@@ -915,9 +936,12 @@ hr {
         padding-top: 120px;
     }
     #areas .field-title h1 {
+        display: none;
         margin: 0 0 50px 0;
         text-align: center;
-        font-size: 3em;
+        font-size: 2em;
+        font-weight: 400;
+        font-style: italic;
         line-height: 1.5;
     }
     #areas .area-item {
@@ -947,18 +971,19 @@ hr {
         margin-top: 0;
     }
     #areas .item-text p {
-        font-size: 1.5em;
+        font-size: 1.35em;
         line-height: 1.5;
         margin-bottom: 30px;
     }
     #areas .area-item .area-icon {
+        max-width: 300px;
         margin-top: 50px;
         margin-bottom: 50px;
     }
     #areas .area-item ul {
         margin-left: 30px;
         list-style: square;
-        font-size: 1.5em;
+        font-size: 1.35em;
         line-height: 1.5;
     }
 }
@@ -970,6 +995,7 @@ hr {
         padding-top: 120px;
     }
     #areas .field-title h1 {
+        display: none;
         margin: 0 0 20px 0;
         text-align: center;
         font-size: 3em;
@@ -1001,7 +1027,7 @@ hr {
         margin-top: 0;
     }
     #areas .item-text p {
-        font-size: 1.3em;
+        font-size: 1.1em;
         line-height: 1.5;
         margin-bottom: 30px;
     }
@@ -1024,6 +1050,7 @@ hr {
         padding-top: 120px;
     }
     #areas .field-title h1 {
+        display: none;
         margin: 0px 0 20px 0;
         text-align: center;
         font-size: 2.5em;
@@ -1055,7 +1082,7 @@ hr {
         margin-top: 0;
     }
     #areas .item-text p {
-        font-size: 1.1em;
+        font-size: 1em;
         line-height: 1.5;
         margin-bottom: 30px;
     }
@@ -1183,6 +1210,7 @@ hr {
         padding-bottom: 80px;
     }
     #projects .projects-title h1 {
+        display: none;
         margin: 0px 0 20px 0;
         text-align: center;
         text-transform: capitalize;
@@ -1216,7 +1244,7 @@ hr {
         margin-top: 0;
     }
     #projects .item-text p:first-child {
-        font-size: 1.7em;
+        font-size: 1.5em;
         line-height: 1.6;
         font-weight: 200;
         margin-bottom: 30px;
@@ -1289,6 +1317,7 @@ hr {
         padding-bottom: 80px;
     }
     #projects .projects-title h1 {
+        display: none;
         margin: 0px 0 20px 0;
         text-align: center;
         text-transform: capitalize;
@@ -1429,7 +1458,7 @@ hr {
         margin-top: 0;
     }
     #projects .item-text p:first-child {
-        font-size: 1.3em;
+        font-size: 1.2em;
         line-height: 1.6;
         font-weight: 200;
         margin-bottom: 30px;
@@ -1535,7 +1564,7 @@ hr {
         margin-top: 0;
     }
     #projects .item-text p:first-child {
-        font-size: 1.4em;
+        font-size: 1.2em;
         line-height: 1.6;
         font-weight: 200;
         margin-bottom: 30px;
@@ -1608,7 +1637,6 @@ hr {
         height: auto;
         background-color: #fff;
         padding-top: 50px;
-        padding-bottom: 80px;
     }
     #projects .projects-title h1 {
         margin: 10px 0 20px 0;
@@ -1642,13 +1670,13 @@ hr {
         margin-top: 0;
     }
     #projects .item-text p:first-child {
-        font-size: 1.2em;
+        font-size: 1em;
         line-height: 1.6;
         font-weight: 200;
         margin-bottom: 30px;
     }
     #projects .item-text p {
-        font-size: 0.95em;
+        font-size: 0.85em;
         line-height: 1.6;
         margin-bottom: 30px;
     }
@@ -1725,7 +1753,8 @@ hr {
         font-size: 2.750em;
         font-family: 'Montserrat', sans-serif;
         color: #fff;
-        font-weight: 700;
+        font-weight: 400;
+        font-style: italic;
         line-height: 1.5;
         text-align: center;
     }
@@ -1744,7 +1773,8 @@ hr {
        font-size: 2.250em;
        font-family: 'Montserrat', sans-serif;
        color: #fff;
-       font-weight: 700;
+       font-weight: 400;
+       font-style: italic;
        line-height: 1.5;
        text-align: center;
     }
@@ -1763,7 +1793,8 @@ hr {
        font-size: 1.875em;
        font-family: 'Montserrat', sans-serif;
        color: #fff;
-       font-weight: 700;
+       font-weight: 400;
+       font-style: italic;
        line-height: 1.4;
        text-align: center;
    }
@@ -1782,7 +1813,8 @@ hr {
        font-size: 1.875em;
        font-family: 'Montserrat', sans-serif;
        color: #fff;
-       font-weight: 700;
+       font-style: italic;
+       font-weight: 400;
        line-height: 1.5;
        text-align: center;
    }
@@ -1801,7 +1833,8 @@ hr {
        font-size: 1.500em;
        font-family: 'Montserrat', sans-serif;
        color: #fff;
-       font-weight: 700;
+       font-style: italic;
+       font-weight: 400;
        line-height: 1.5;
        text-align: center;
    }
@@ -2038,6 +2071,8 @@ hr {
     #get-in-touch .contact-text h3 {
         color: #fff;
         font-family: 'Montserrat', sans-serif;
+        font-style: italic;
+        font-weight: 400;
     }
     #get-in-touch .contact-mail {
         margin-bottom: 120px;
@@ -2154,6 +2189,8 @@ hr {
     #get-in-touch .contact-text h3 {
         color: #fff;
         font-family: 'Montserrat', sans-serif;
+        font-style: italic;
+        font-weight: 400;
     }
     #get-in-touch .contact-mail {
         margin-bottom: 90px;
@@ -2218,6 +2255,8 @@ hr {
     #get-in-touch .contact-text h3 {
         font-size: 1.063em;
         color: #fff;
+        font-style: italic;
+        font-weight: 400;
         font-family: 'Montserrat', sans-serif;
     }
     #get-in-touch .contact-mail {
@@ -2284,6 +2323,8 @@ hr {
         font-size: 1.063em;
         color: #fff;
         font-family: 'Montserrat', sans-serif;
+        font-style: italic;
+        font-weight: 400;
     }
     #get-in-touch .contact-mail {
         margin-bottom: 80px;
@@ -2334,6 +2375,8 @@ hr {
         font-size: 1.063em;
         color: #fff;
         font-family: 'Montserrat', sans-serif;
+        font-style: italic;
+        font-weight: 400;
     }
     #get-in-touch .contact-mail {
         margin-bottom: 80px;
